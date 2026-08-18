@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Farming Ecosystem - Title Slide</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Arial', sans-serif;
+    }
+    .slide {
+      width: 1440px;
+      height: 810px;
+      background: #000;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810"><rect width="1440" height="810" fill="black"/><path d="M0,0 L1440,0 L1440,810 L0,810 Z" fill="black"/><path d="M200,200 Q400,50 600,200 T1000,200" stroke="rgba(128,0,255,0.2)" stroke-width="5" fill="none"/><path d="M300,300 Q500,150 700,300 T1100,300" stroke="rgba(128,0,255,0.15)" stroke-width="5" fill="none"/><path d="M100,400 Q300,250 500,400 T900,400" stroke="rgba(128,0,255,0.1)" stroke-width="5" fill="none"/></svg>');
+      position: relative;
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+      height: 80px;
+      background-color: rgba(0,0,0,0.7);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      border-bottom: 1px solid rgba(128,0,255,0.3);
+    }
+    .footer {
+      height: 80px;
+      background-color: rgba(0,0,0,0.7);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      border-top: 1px solid rgba(128,0,255,0.3);
+      margin-top: auto;
+    }
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      position: relative;
+      z-index: 1;
+    }
+    .logo {
+      height: 60px;
+      margin: 0 10px;
+    }
+    .title {
+      font-size: 80px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+      background: linear-gradient(45deg, #ffffff, #a64dff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 10px rgba(166, 77, 255, 0.3);
+    }
+    .subtitle {
+      font-size: 36px;
+      margin-bottom: 60px;
+      text-align: center;
+      color: #a64dff;
+    }
+    .team-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      width: 80%;
+      margin-top: 40px;
+    }
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .info-label {
+      font-size: 24px;
+      color: #a64dff;
+      margin-right: 10px;
+      min-width: 200px;
+    }
+    .info-value {
+      font-size: 24px;
+      color: white;
+    }
+    .decoration {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      opacity: 0.5;
+    }
+    .decoration.top-right {
+      top: 100px;
+      right: 100px;
+      transform: rotate(45deg);
+    }
+    .decoration.bottom-left {
+      bottom: 100px;
+      left: 100px;
+      transform: rotate(-45deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="slide">
+    <div class="header">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgODAiPjxyZWN0IHdpZHRoPSIyNDAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAiLz48dGV4dCB4PSIxMCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+Q0hBTkRJR0FSSDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+VU5JVkVSU0lUWTwvdGV4dD48L3N2Zz4=" alt="University Logo" class="logo">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0NSIgZmlsbD0iIzAwMCIgc3Ryb2tlPSIjYTY0ZGZmIiBzdHJva2Utd2lkdGg9IjMiLz48dGV4dCB4PSIyMCIgeT0iNjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+SEFDPC90ZXh0Pjwvc3ZnPg==" alt="Hack Logo" class="logo">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNTAgODAiPjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAiLz48dGV4dCB4PSIxMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2ZmZiI+SUVFRTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2ZmZiI+Q29tU29jPC90ZXh0Pjwvc3ZnPg==" alt="IEEE ComSoc Logo" class="logo">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNTAgODAiPjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAiLz48dGV4dCB4PSIxMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2ZmZiI+SUVFRTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2ZmZiI+Q1RTb2M8L3RleHQ+PC9zdmc+" alt="IEEE CTSoc Logo" class="logo">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgODAiPjxyZWN0IHdpZHRoPSIyNDAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAiLz48dGV4dCB4PSIxMCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+Q0hBTkRJR0FSSDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+VU5JVkVSU0lUWTwvdGV4dD48L3N2Zz4=" alt="University Logo" class="logo">
+    </div>
+    
+    <div class="content">
+      <h1 class="title">COMSOC HACKX</h1>
+      <h2 class="subtitle">CODE | INNOVATE | BUILD</h2>
+      
+      <div class="team-info">
+        <div>
+          <div class="info-item">
+            <div class="info-label">TEAM NAME:</div>
+            <div class="info-value">GrowWise Tech</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">TEAM LEADER NAME:</div>
+            <div class="info-value">[Team Leader Name]</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">INSTITUTE NAME:</div>
+            <div class="info-value">[Institute Name]</div>
+          </div>
+        </div>
+        <div>
+          <div class="info-item">
+            <div class="info-label">THEME NAME:</div>
+            <div class="info-value">Smart Farming Ecosystem</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">TEAM LEADER EMAIL ID:</div>
+            <div class="info-value">[Email ID]</div>
+          </div>
+        </div>
+      </div>
+      
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cG9seWdvbiBwb2ludHM9IjUwLDEwIDkwLDUwIDUwLDkwIDEwLDUwIiBmaWxsPSJub25lIiBzdHJva2U9IiNhNjRkZmYiIHN0cm9rZS13aWR0aD0iMyIvPjwvc3ZnPg==" alt="Decoration" class="decoration top-right">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cG9seWdvbiBwb2ludHM9IjUwLDEwIDkwLDUwIDUwLDkwIDEwLDUwIiBmaWxsPSJub25lIiBzdHJva2U9IiNhNjRkZmYiIHN0cm9rZS13aWR0aD0iMyIvPjwvc3ZnPg==" alt="Decoration" class="decoration bottom-left">
+    </div>
+    
+    <div class="footer">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgODAiPjxyZWN0IHdpZHRoPSIyNDAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAiLz48dGV4dCB4PSIxMCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+Q0hBTkRJR0FSSDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+VU5JVkVSU0lUWTwvdGV4dD48L3N2Zz4=" alt="University Logo" class="logo">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0NSIgZmlsbD0iIzAwMCIgc3Ryb2tlPSIjYTY0ZGZmIiBzdHJva2Utd2lkdGg9IjMiLz48dGV4dCB4PSIyMCIgeT0iNjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+SEFDPC90ZXh0Pjwvc3ZnPg==" alt="Hack Logo" class="logo">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNTAgODAiPjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAiLz48dGV4dCB4PSIxMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2ZmZiI+SUVFRTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2ZmZiI+Q29tU29jPC90ZXh0Pjwvc3ZnPg==" alt="IEEE ComSoc Logo" class="logo">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNTAgODAiPjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAiLz48dGV4dCB4PSIxMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2ZmZiI+SUVFRTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2ZmZiI+Q1RTb2M8L3RleHQ+PC9zdmc+" alt="IEEE CTSoc Logo" class="logo">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgODAiPjxyZWN0IHdpZHRoPSIyNDAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDAiLz48dGV4dCB4PSIxMCIgeT0iNDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+Q0hBTkRJR0FSSDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2ZmZiI+VU5JVkVSU0lUWTwvdGV4dD48L3N2Zz4=" alt="University Logo" class="logo">
+    </div>
+  </div>
+</body>
+</html>

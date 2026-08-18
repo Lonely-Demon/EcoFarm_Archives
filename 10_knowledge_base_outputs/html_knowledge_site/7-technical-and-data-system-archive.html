@@ -1,0 +1,223 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>7. Technical and data-system archive — EcoFarm Knowledge Base</title><link rel="stylesheet" href="styles.css"></head><body><div class="shell"><aside><p class="brand">EcoFarm</p><p class="sub">Master Knowledge Base<br>Human-readable HTML edition</p><input id="knowledge-search" class="search" placeholder="Search concepts, features, evidence…" oninput="searchKnowledge()"><div id="search-results" class="search-results"></div><p class="nav-title">Navigate</p><nav><a href="index.html" class="">Knowledge Base Home</a>
+<a class="" href="table-of-contents.html">Table of Contents</a>
+<a class="" href="1-how-to-use-this-knowledge-base.html">1. How to use this knowledge base</a>
+<a class="" href="2-ecofarm-s-mental-universe.html">2. EcoFarm’s mental universe</a>
+<a class="" href="3-historical-evolution-of-the-ecofarm-thesis.html">3. Historical evolution of the EcoFarm thesis</a>
+<a class="" href="4-problem-landscape-and-research-knowledge.html">4. Problem landscape and research knowledge</a>
+<a class="" href="5-conceptual-system-models.html">5. Conceptual system models</a>
+<a class="" href="6-feature-and-capability-dossiers.html">6. Feature and capability dossiers</a>
+<a class="active" href="7-technical-and-data-system-archive.html">7. Technical and data-system archive</a>
+<a class="" href="8-trust-safety-consent-and-governance.html">8. Trust, safety, consent, and governance</a>
+<a class="" href="9-field-validation-and-operating-memory.html">9. Field validation and operating memory</a>
+<a class="" href="10-current-working-map-without-forced-finality.html">10. Current working map without forced finality</a>
+<a class="" href="11-commercial-and-investor-material-as-secondary-archive.html">11. Commercial and investor material as secondary archive</a>
+<a class="" href="12-knowledge-registers-and-appendices.html">12. Knowledge registers and appendices</a>
+<a class="" href="reference-sources-for-the-current-field-p0-evidence.html">Reference sources for the current field/P0 evidence</a>
+<a class="" href="sources.html">Source Catalogue</a></nav><p class="nav-title">Reading rule</p><p class="sub">Treat historical visions, plans, and test artifacts according to their stated evidence status. Do not mistake a proposal for validation.</p></aside><main><p class="breadcrumb">EcoFarm Master Knowledge Base</p><h1 id="7-technical-and-data-system-archive">7. Technical and data-system archive</h1>
+<h3 id="71-historical-architecture-intent">7.1 Historical architecture intent</h3>
+<p>Historical EcoFarm designs proposed an interconnected mobile, backend, cloud, IoT, analytics, and hardware stack. The named technologies changed across documents, but the responsibilities were relatively stable: mobile/assisted interaction; application services; data storage; device/gateway connection; external-source adapters; analytics/AI; notifications; and hardware control. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-001__tech_stack_alternatives.md" title="Technology stack alternatives and trade-offs; legacy SRC-0008">EF-TEC-001</a>–<a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-004__tech_stack_research_hosting.md" title="Cloud hosting and scalability research; legacy SRC-0015">EF-TEC-004</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p>This should be preserved as an <strong>architecture of responsibilities</strong>, not as a frozen technical stack. A current implementation may use different frameworks, databases, or managed services without abandoning the original conceptual model.</p>
+<table>
+<thead>
+<tr>
+<th>Architectural layer</th>
+<th>Historical intended responsibility</th>
+<th>Relevance to current knowledge base</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Farmer-facing interface</td>
+<td>Show context, field state, sensor readings, choices, alerts, tasks, market/knowledge views, and controls.</td>
+<td>Current P0 requires only an assisted, transparent decision packet and safe source states.</td>
+</tr>
+<tr>
+<td>Core application/service layer</td>
+<td>Manage identities, farm/crop records, decisions, logs, permissions, source adapters, notifications, and workflows.</td>
+<td>Decision records, consent, source metadata, and immutable logging remain central.</td>
+</tr>
+<tr>
+<td>Data layer</td>
+<td>Store user/farm records, observations, sensor data, source records, actions, and outcomes.</td>
+<td>Must distinguish personal/farm data from public source data; retain deletion and provenance policies.</td>
+</tr>
+<tr>
+<td>Integration layer</td>
+<td>Connect weather, market, advisory, map, satellite, device, and institutional sources.</td>
+<td>Every integration must pass rights, locality, freshness, semantics, provenance, and failure-behaviour gates.</td>
+</tr>
+<tr>
+<td>IoT/gateway layer</td>
+<td>Relay sensor readings and device commands across field connectivity constraints.</td>
+<td>Long-term; needs command acknowledgement, offline behaviour, calibration, and physical safety.</td>
+</tr>
+<tr>
+<td>Intelligence layer</td>
+<td>Apply deterministic rules, analysis, future ML, or image models.</td>
+<td>Begin with documented conservative rules; preserve inputs/rule version; no unexplained high-stakes automation.</td>
+</tr>
+<tr>
+<td>Audit/observability layer</td>
+<td>Track source state, data flow, output, user action, errors, overrides, and escalation.</td>
+<td>A current non-negotiable P0 control.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="72-the-minimum-technical-contract-for-a-decision-packet">7.2 The minimum technical contract for a decision packet</h3>
+<p>The current data-feasibility and P0 documents converge on a small but rigorous technical contract. A decision-support system should not start with a model. It should start with a record that can be inspected after the event.</p>
+<table>
+<thead>
+<tr>
+<th>Record / component</th>
+<th>Required conceptual contents</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Farmer context record</strong></td>
+<td>Purpose-specific consent, language, location/block, crop, stage, intended timing, water category, constraints, and objective.</td>
+<td>Establishes relevance and protects against overbroad data collection.</td>
+</tr>
+<tr>
+<td><strong>Source record</strong></td>
+<td>Publisher, URL/ID, retrieval time, issue/validity time, geography, raw/source reference, version, rights state, freshness and completeness state.</td>
+<td>Allows a reader to see what the system relied on.</td>
+</tr>
+<tr>
+<td><strong>Transformation record</strong></td>
+<td>Deterministic rule/version that converted source/context into an informational, caution, or referral state.</td>
+<td>Prevents opaque leap from data to advice.</td>
+</tr>
+<tr>
+<td><strong>Packet/output record</strong></td>
+<td>Options, assumptions, unknowns, display state, source references, explanation, and any escalation trigger.</td>
+<td>Makes the output reviewable.</td>
+</tr>
+<tr>
+<td><strong>Decision/action record</strong></td>
+<td>Farmer acceptance, rejection, modification, reason, timing, and any human consultation.</td>
+<td>Separates viewed content from actual behaviour.</td>
+</tr>
+<tr>
+<td><strong>Follow-up/outcome record</strong></td>
+<td>Later observation, unresolved issue, or outcome context.</td>
+<td>Supports learning without pretending to establish causality.</td>
+</tr>
+<tr>
+<td><strong>Observability record</strong></td>
+<td>Source failure, parser/error state, suppression, logs, and recovery status.</td>
+<td>Ensures a failure is visible rather than silently converted into bad advice.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="73-source-adapter-gate">7.3 Source-adapter gate</h3>
+<p>An external source must not be treated as usable merely because it has a public webpage, a logo, an HTTP success, or a data-looking response. The P0 work defines a more stringent gate:</p>
+<ol>
+<li><strong>Access:</strong> Can the intended system legally and technically retrieve the source?</li>
+<li><strong>Rights:</strong> Are automated retrieval, caching, transformation, translation, storage, and farmer-facing redistribution permitted?</li>
+<li><strong>Freshness:</strong> Are source time and validity period sufficient for the decision moment?</li>
+<li><strong>Locality:</strong> Does the source explicitly cover the farmer’s relevant geography and condition?</li>
+<li><strong>Semantics:</strong> Do the source fields mean what the workflow assumes—commodity/variety/unit, forecast period, crop stage, and so on?</li>
+<li><strong>Provenance:</strong> Can the raw/source record and version be retained and shown?</li>
+<li><strong>Failure behaviour:</strong> Can the system recognize and safely handle empty, stale, malformed, unauthorized, conflicting, or out-of-area responses?</li>
+</ol>
+<p>Only then can a source become a candidate for a specific farmer-facing transformation. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md" title="P0 operational test results memo; legacy SRC-0370">EF-DAT-007</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-010__ecofarmsource_failureandprovenanceobservabilityplan.md" title="Source-failure and provenance observability plan; legacy SRC-0377">EF-DAT-010</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-013__ecofarmweatherandadvisorysourcehierarchy.md" title="Weather and advisory source hierarchy; legacy SRC-0380">EF-DAT-013</a></p>
+<h3 id="74-the-tnau-weather-path-test-as-a-design-lesson">7.4 The TNAU weather-path test as a design lesson</h3>
+<p>The P0 operational test is important because it demonstrates the difference between <em>technical availability</em> and <em>decision readiness</em>. The selected TNAU public district Agro-Met Advisory Bulletin page returned public HTTP responses and had a visible publication period. However, the tested page stated that Namakkal district weather details were unavailable, and the page showed an “All Rights” notice without identified permission for EcoFarm’s proposed automated reuse, transformation, storage, or redistribution. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md" title="P0 operational test results memo; legacy SRC-0370">EF-DAT-007</a></p>
+<p>The result is not “TNAU is bad” or “weather support is impossible.” The precise result is that the <strong>tested automated path was rejected for the first P0 workflow</strong> because it failed target-locality and rights checks. The appropriate user state is not a substitute forecast. It is: <em>no current Namakkal decision-ready weather advisory is available from this source; EcoFarm is not using an older, general, or substitute value.</em> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md" title="P0 operational test results memo; legacy SRC-0370">EF-DAT-007</a></p>
+<p>This is a core EcoFarm mental model: a system earns trust by refusing to fill an evidence gap with confidence.</p>
+<h3 id="75-data-source-hierarchy-for-weatheradvisory-material">7.5 Data-source hierarchy for weather/advisory material</h3>
+<p>The intended hierarchy for a weather/advisory decision packet is as follows. It is a proposed operating model, not a claim that each source is currently approved. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-013__ecofarmweatherandadvisorysourcehierarchy.md" title="Weather and advisory source hierarchy; legacy SRC-0380">EF-DAT-013</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Priority</th>
+<th>Source class</th>
+<th>Permitted conceptual role</th>
+<th>Core restriction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>Target-relevant official warning/forecast via approved API or current official page</td>
+<td>Raw warning/forecast and cautious source-labelled prompt.</td>
+<td>Must identify target geography and valid period.</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>Target-covered current IMD/TNAU agromet bulletin</td>
+<td>Human-reviewed advisory reference; later automated display only after rights test.</td>
+<td>Never label district/block guidance as plot-specific.</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Target-block local weather record</td>
+<td>Corroboration/local context after validation.</td>
+<td>Must retain timestamp and expected update interval.</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>Secondary public provider</td>
+<td>Internal comparison or outage diagnostic.</td>
+<td>Not a first-P0 farmer-facing authority without separate approval.</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>Farmer/local observation</td>
+<td>Explicitly labelled context or clarifying input.</td>
+<td>Never replace official warning/forecast.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="76-historical-iot-and-hardware-control-implications">7.6 Historical IoT and hardware control implications</h3>
+<p>The original architecture imagined STM32-class microcontrollers, gateways, LoRaWAN or Wi-Fi/GSM connectivity, sensor nodes, relays, motor starters, and valves. These choices encode several operational concerns: field range, power consumption, intermittent connectivity, low-level device integration, and remote-control needs. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p>A future hardware system would need to preserve at least the following distinctions:</p>
+<ul>
+<li><strong>Measurement versus state.</strong> A sensor reading may be stale, noisy, or uncalibrated; a device’s commanded state may differ from actual state.</li>
+<li><strong>Request versus acknowledgement.</strong> “Turn on” is not proof that a pump switched; the system needs command, acknowledgement, confirmation, timeout, and override events.</li>
+<li><strong>Automation suggestion versus automation execution.</strong> An irrigation schedule based on a general rule is not a safe actuation authority without hardware safeguards, owner permission, and local constraint checks.</li>
+<li><strong>Device ownership versus user access.</strong> Household or farm ownership, operator authorization, shared infrastructure, and emergency overrides are distinct.</li>
+<li><strong>Remote availability versus safe fallback.</strong> Connectivity loss must leave physical systems in a predictable, locally controllable state.</li>
+</ul>
+<h3 id="77-ai-rules-and-explainability">7.7 AI, rules, and explainability</h3>
+<p>EcoFarm’s historical vision includes AI for crop choice, crop management, yield estimation, disease detection, image analysis, market insight, and predictive analytics. The current P0 work introduces a more disciplined ordering: first establish source quality, local relevance, consent, safe failure states, and decision recording; then use documented deterministic transformations; only later consider higher-complexity models where validation and accountability support them. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md" title="Ecosystem, data feasibility, alternatives, and delivery handoff; legacy SRC-0354">EF-DAT-001</a></p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Intended role</th>
+<th>Evidence/accountability requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Reference retrieval</strong></td>
+<td>Show official guidance, public source, or farmer-entered record with attribution.</td>
+<td>Source, date/version, scope, and rights.</td>
+</tr>
+<tr>
+<td><strong>Deterministic rule</strong></td>
+<td>Map explicit conditions to informational/caution/refer output.</td>
+<td>Rule version, required inputs, exceptions, and testable failure handling.</td>
+</tr>
+<tr>
+<td><strong>Analytical comparison</strong></td>
+<td>Compare options against explicit constraints.</td>
+<td>Assumptions, missing data, trade-offs, and human review trigger.</td>
+</tr>
+<tr>
+<td><strong>Predictive/ML system</strong></td>
+<td>Estimate future condition or recognize a pattern.</td>
+<td>Local validation, input quality, uncertainty calibration, monitoring, override, and non-harm boundaries.</td>
+</tr>
+<tr>
+<td><strong>Autonomous action</strong></td>
+<td>Trigger an operation or high-stakes recommendation.</td>
+<td>Strongest controls: authorization, physical safety, real-world validation, audits, and emergency fallback.</td>
+</tr>
+</tbody>
+</table>
+<p>No level should impersonate the authority of a higher one. A market observation is not a price forecast; a weather forecast is not a crop outcome; an image similarity is not a diagnosis; a suggestion is not a command; an automation proposal is not a safe actuator state.</p>
+<hr /><p class="meta">EcoFarm Master Knowledge Base · Generated from the editable Markdown source · Internal source IDs resolve through the preserved corpus manifest and LLM retrieval files.</p></main></div><script src="search.js?v=20260818c"></script></body></html>

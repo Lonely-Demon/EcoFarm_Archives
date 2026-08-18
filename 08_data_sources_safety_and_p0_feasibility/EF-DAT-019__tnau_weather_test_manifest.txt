@@ -1,0 +1,7 @@
+retrieved_utc=2026-08-13T15:00:47Z
+source=https://agritech.tnau.ac.in/agrometeorologicaladvisory/agro_meteorological_advisory_tnau_district.html
+forecast_period=2026-08-12_to_2026-08-16
+target_district=Namakkal
+locality_result=unavailable_per_source_page
+conditional_request_status=304
+nonexistent_request_status=404

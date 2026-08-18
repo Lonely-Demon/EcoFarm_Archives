@@ -1,0 +1,961 @@
+{
+  "SRC-0134": {
+    "curated_id": "EF-GOV-001",
+    "title": "Current main conversation canonical capture",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-001__ecofarm_current_main_conversation_canonical_capture_2026_08_18.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-001__ecofarm_current_main_conversation_canonical_capture_2026_08_18.md",
+    "canonical_source_id": "SRC-0134"
+  },
+  "SRC-0135": {
+    "curated_id": "EF-GOV-002",
+    "title": "Current session approvals and requirements",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-002__ecofarm_current_session_approvals_and_requirements_2026_08_18.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-002__ecofarm_current_session_approvals_and_requirements_2026_08_18.md",
+    "canonical_source_id": "SRC-0135"
+  },
+  "SRC-0289": {
+    "curated_id": "EF-GOV-003",
+    "title": "Master document reworked architecture",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-003__ecofarm_master_document_reworked_architecture.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-003__ecofarm_master_document_reworked_architecture.md",
+    "canonical_source_id": "SRC-0289"
+  },
+  "SRC-0130": {
+    "curated_id": "EF-GOV-004",
+    "title": "Historical EcoFarm 1 conversation trace",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl",
+    "canonical_source_id": "SRC-0130"
+  },
+  "SRC-0039": {
+    "curated_id": "EF-VSN-001",
+    "title": "Extended EcoFarm onboarding document",
+    "github_relative_path": "01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md",
+    "canonical_source_id": "SRC-0039"
+  },
+  "SRC-0040": {
+    "curated_id": "EF-VSN-002",
+    "title": "Later concise EcoFarm onboarding document",
+    "github_relative_path": "01_founder_vision_and_evolution/EF-VSN-002__project_onboarding_document_final.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-002__project_onboarding_document_final.md",
+    "canonical_source_id": "SRC-0040"
+  },
+  "SRC-0037": {
+    "curated_id": "EF-VSN-003",
+    "title": "EcoFarm onboarding document outline",
+    "github_relative_path": "01_founder_vision_and_evolution/EF-VSN-003__document_outline.md (title: \"project onboarding document: ecofarm\")",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-003__document_outline.md (title: \"project onboarding document: ecofarm\")",
+    "canonical_source_id": "SRC-0037"
+  },
+  "SRC-0006": {
+    "curated_id": "EF-PRD-001",
+    "title": "Historical product requirements document",
+    "github_relative_path": "02_product_concept_and_feature_mechanics/EF-PRD-001__prd_draft.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-001__prd_draft.md",
+    "canonical_source_id": "SRC-0006"
+  },
+  "SRC-0005": {
+    "curated_id": "EF-PRD-002",
+    "title": "MVP user flows and key screens outline",
+    "github_relative_path": "02_product_concept_and_feature_mechanics/EF-PRD-002__mvp_screens_flows.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-002__mvp_screens_flows.md",
+    "canonical_source_id": "SRC-0005"
+  },
+  "SRC-0023": {
+    "curated_id": "EF-PRD-003",
+    "title": "Low-fidelity wireframes part 1",
+    "github_relative_path": "02_product_concept_and_feature_mechanics/EF-PRD-003__wireframes_part1.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-003__wireframes_part1.md",
+    "canonical_source_id": "SRC-0023"
+  },
+  "SRC-0024": {
+    "curated_id": "EF-PRD-004",
+    "title": "Low-fidelity wireframes part 2",
+    "github_relative_path": "02_product_concept_and_feature_mechanics/EF-PRD-004__wireframes_part2.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-004__wireframes_part2.md",
+    "canonical_source_id": "SRC-0024"
+  },
+  "SRC-0027": {
+    "curated_id": "EF-PRD-005",
+    "title": "AI farming application content",
+    "github_relative_path": "02_product_concept_and_feature_mechanics/EF-PRD-005__ai_farming_app_content.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-005__ai_farming_app_content.txt",
+    "canonical_source_id": "SRC-0027"
+  },
+  "SRC-0304": {
+    "curated_id": "EF-PRD-006",
+    "title": "MVP considerations and trade-offs",
+    "github_relative_path": "02_product_concept_and_feature_mechanics/EF-PRD-006__mvp_considerations_trade_offs.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-006__mvp_considerations_trade_offs.pdf",
+    "canonical_source_id": "SRC-0304"
+  },
+  "SRC-0312": {
+    "curated_id": "EF-PRD-007",
+    "title": "Proposed API and software-focused MVP feature list",
+    "github_relative_path": "02_product_concept_and_feature_mechanics/EF-PRD-007__proposed_mvp_feature_list_api_software_focused.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-007__proposed_mvp_feature_list_api_software_focused.pdf",
+    "canonical_source_id": "SRC-0312"
+  },
+  "SRC-0008": {
+    "curated_id": "EF-TEC-001",
+    "title": "Technology stack alternatives and trade-offs",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-001__tech_stack_alternatives.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-001__tech_stack_alternatives.md",
+    "canonical_source_id": "SRC-0008"
+  },
+  "SRC-0010": {
+    "curated_id": "EF-TEC-002",
+    "title": "Proposed technology stack",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-002__tech_stack_proposal.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-002__tech_stack_proposal.md",
+    "canonical_source_id": "SRC-0010"
+  },
+  "SRC-0011": {
+    "curated_id": "EF-TEC-003",
+    "title": "AI integration and data-source capabilities",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-003__tech_stack_research_ai_data.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-003__tech_stack_research_ai_data.md",
+    "canonical_source_id": "SRC-0011"
+  },
+  "SRC-0015": {
+    "curated_id": "EF-TEC-004",
+    "title": "Cloud hosting and scalability research",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-004__tech_stack_research_hosting.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-004__tech_stack_research_hosting.md",
+    "canonical_source_id": "SRC-0015"
+  },
+  "SRC-0025": {
+    "curated_id": "EF-TEC-005",
+    "title": "Sensor research source capture",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "canonical_source_id": "SRC-0025"
+  },
+  "SRC-0026": {
+    "curated_id": "EF-TEC-005",
+    "title": "Sensor research source capture",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "canonical_source_id": "SRC-0025"
+  },
+  "SRC-0029": {
+    "curated_id": "EF-TEC-005",
+    "title": "Sensor research source capture",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "canonical_source_id": "SRC-0025"
+  },
+  "SRC-0036": {
+    "curated_id": "EF-TEC-005",
+    "title": "Sensor research source capture",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "canonical_source_id": "SRC-0025"
+  },
+  "SRC-0277": {
+    "curated_id": "EF-AGR-001",
+    "title": "Unified agricultural crisis document with citations",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-001__complete_unified_master_with_citations.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-001__complete_unified_master_with_citations.md",
+    "canonical_source_id": "SRC-0277"
+  },
+  "SRC-0288": {
+    "curated_id": "EF-AGR-002",
+    "title": "EcoFarm-relevant agricultural crisis analysis",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-002__ecofarm_strategic_analysis.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-002__ecofarm_strategic_analysis.md",
+    "canonical_source_id": "SRC-0288"
+  },
+  "SRC-0291": {
+    "curated_id": "EF-AGR-003",
+    "title": "Farmer suicides and deepening distress",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-003__farmer_suicides_and_deepening_distress.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-003__farmer_suicides_and_deepening_distress.pdf",
+    "canonical_source_id": "SRC-0291"
+  },
+  "SRC-0298": {
+    "curated_id": "EF-AGR-004",
+    "title": "India national agriculture crisis",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-004__india_national_agriculture_crisis.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-004__india_national_agriculture_crisis.md",
+    "canonical_source_id": "SRC-0298"
+  },
+  "SRC-0299": {
+    "curated_id": "EF-AGR-005",
+    "title": "Indian agriculture comprehensive report",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-005__indian_agriculture_comprehensive_report.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-005__indian_agriculture_comprehensive_report.pdf",
+    "canonical_source_id": "SRC-0299"
+  },
+  "SRC-0311": {
+    "curated_id": "EF-AGR-006",
+    "title": "Global farmer problems with India focus",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-006__problems_faced_by_farmers_global_overview_with_india_focus.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-006__problems_faced_by_farmers_global_overview_with_india_focus.pdf",
+    "canonical_source_id": "SRC-0311"
+  },
+  "SRC-0274": {
+    "curated_id": "EF-REG-001",
+    "title": "All agricultural microcosms detailed profiles",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-001__all_microcosms_detailed_profiles.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-001__all_microcosms_detailed_profiles.md",
+    "canonical_source_id": "SRC-0274"
+  },
+  "SRC-0285": {
+    "curated_id": "EF-REG-002",
+    "title": "Kongu versus Punjab operational difficulties",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-002__comparative_difficulties_kongu_vs_punjab.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-002__comparative_difficulties_kongu_vs_punjab.md",
+    "canonical_source_id": "SRC-0285"
+  },
+  "SRC-0286": {
+    "curated_id": "EF-REG-003",
+    "title": "Comparative microcosm analysis and recommendation",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-003__comparative_microcosm_analysis_recommendation.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-003__comparative_microcosm_analysis_recommendation.md",
+    "canonical_source_id": "SRC-0286"
+  },
+  "SRC-0300": {
+    "curated_id": "EF-REG-004",
+    "title": "Kongu Belt operational difficulties",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-004__kongu_belt_operational_difficulties_detailed.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-004__kongu_belt_operational_difficulties_detailed.md",
+    "canonical_source_id": "SRC-0300"
+  },
+  "SRC-0301": {
+    "curated_id": "EF-REG-005",
+    "title": "Kongu Belt regional analysis",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-005__kongu_belt_regional_analysis.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-005__kongu_belt_regional_analysis.md",
+    "canonical_source_id": "SRC-0301"
+  },
+  "SRC-0305": {
+    "curated_id": "EF-REG-006",
+    "title": "Microcosm research plan",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-006__microcosm_research_plan.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-006__microcosm_research_plan.md",
+    "canonical_source_id": "SRC-0305"
+  },
+  "SRC-0309": {
+    "curated_id": "EF-REG-007",
+    "title": "Namakkal and Kongu Belt agricultural problems",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-007__namakkal_kongu_belt_agricultural_problems.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-007__namakkal_kongu_belt_agricultural_problems.md",
+    "canonical_source_id": "SRC-0309"
+  },
+  "SRC-0310": {
+    "curated_id": "EF-REG-008",
+    "title": "Operational difficulties research plan",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-008__operational_difficulties_research_plan.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-008__operational_difficulties_research_plan.md",
+    "canonical_source_id": "SRC-0310"
+  },
+  "SRC-0314": {
+    "curated_id": "EF-REG-009",
+    "title": "Punjab operational difficulties",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-009__punjab_operational_difficulties_detailed.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-009__punjab_operational_difficulties_detailed.md",
+    "canonical_source_id": "SRC-0314"
+  },
+  "SRC-0315": {
+    "curated_id": "EF-REG-010",
+    "title": "Tamil Nadu agriculture-specific analysis",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-010__tamil_nadu_agriculture_specific_analysis.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-010__tamil_nadu_agriculture_specific_analysis.md",
+    "canonical_source_id": "SRC-0315"
+  },
+  "SRC-0382": {
+    "curated_id": "EF-MKT-001",
+    "title": "Market research conversation export",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-001__ecofarm_market_research_export.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-001__ecofarm_market_research_export.md",
+    "canonical_source_id": "SRC-0382"
+  },
+  "SRC-0103": {
+    "curated_id": "EF-MKT-002",
+    "title": "Alternatives behavioural verification addendum",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-002__ecofarmalternativesbehaviouralverificationaddendum.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-002__ecofarmalternativesbehaviouralverificationaddendum.md",
+    "canonical_source_id": "SRC-0340"
+  },
+  "SRC-0340": {
+    "curated_id": "EF-MKT-002",
+    "title": "Alternatives behavioural verification addendum",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-002__ecofarmalternativesbehaviouralverificationaddendum.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-002__ecofarmalternativesbehaviouralverificationaddendum.md",
+    "canonical_source_id": "SRC-0340"
+  },
+  "SRC-0114": {
+    "curated_id": "EF-MKT-003",
+    "title": "Alternatives matrix",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-003__ecofarmalternativesmatrix.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-003__ecofarmalternativesmatrix.md",
+    "canonical_source_id": "SRC-0341"
+  },
+  "SRC-0341": {
+    "curated_id": "EF-MKT-003",
+    "title": "Alternatives matrix",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-003__ecofarmalternativesmatrix.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-003__ecofarmalternativesmatrix.md",
+    "canonical_source_id": "SRC-0341"
+  },
+  "SRC-0117": {
+    "curated_id": "EF-MKT-004",
+    "title": "Ecosystem register",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-004__ecofarmecosystemregister.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-004__ecofarmecosystemregister.md",
+    "canonical_source_id": "SRC-0355"
+  },
+  "SRC-0355": {
+    "curated_id": "EF-MKT-004",
+    "title": "Ecosystem register",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-004__ecofarmecosystemregister.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-004__ecofarmecosystemregister.md",
+    "canonical_source_id": "SRC-0355"
+  },
+  "SRC-0098": {
+    "curated_id": "EF-MKT-005",
+    "title": "Market and risk infrastructure notes",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-005__research_notes_market_insurance.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-005__research_notes_market_insurance.md",
+    "canonical_source_id": "SRC-0098"
+  },
+  "SRC-0099": {
+    "curated_id": "EF-MKT-006",
+    "title": "Price, market, and weather-linked decision evidence",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-006__research_notes_price_market_weather.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-006__research_notes_price_market_weather.md",
+    "canonical_source_id": "SRC-0099"
+  },
+  "SRC-0123": {
+    "curated_id": "EF-MKT-007",
+    "title": "Data feasibility and alternatives findings",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-007__research_findings_data_alternatives.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-007__research_findings_data_alternatives.md",
+    "canonical_source_id": "SRC-0123"
+  },
+  "SRC-0124": {
+    "curated_id": "EF-MKT-008",
+    "title": "Local ecosystem findings",
+    "github_relative_path": "06_market_commercial_and_ecosystem_research/EF-MKT-008__research_findings_local_ecosystem.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-008__research_findings_local_ecosystem.md",
+    "canonical_source_id": "SRC-0124"
+  },
+  "SRC-0073": {
+    "curated_id": "EF-FLD-001",
+    "title": "Farmer problem research report",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-001__ecofarmfarmer_problemresearchreport.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-001__ecofarmfarmer_problemresearchreport.md",
+    "canonical_source_id": "SRC-0357"
+  },
+  "SRC-0357": {
+    "curated_id": "EF-FLD-001",
+    "title": "Farmer problem research report",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-001__ecofarmfarmer_problemresearchreport.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-001__ecofarmfarmer_problemresearchreport.md",
+    "canonical_source_id": "SRC-0357"
+  },
+  "SRC-0087": {
+    "curated_id": "EF-FLD-002",
+    "title": "Candidate decision scoring",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-002__ecofarmcandidatedecisionscoring_analyticaljudgments.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-002__ecofarmcandidatedecisionscoring_analyticaljudgments.md",
+    "canonical_source_id": "SRC-0383"
+  },
+  "SRC-0383": {
+    "curated_id": "EF-FLD-002",
+    "title": "Candidate decision scoring",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-002__ecofarmcandidatedecisionscoring_analyticaljudgments.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-002__ecofarmcandidatedecisionscoring_analyticaljudgments.md",
+    "canonical_source_id": "SRC-0383"
+  },
+  "SRC-0086": {
+    "curated_id": "EF-FLD-003",
+    "title": "Decision journey tables",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-003__ecofarmdecision_journeytables.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-003__ecofarmdecision_journeytables.md",
+    "canonical_source_id": "SRC-0351"
+  },
+  "SRC-0351": {
+    "curated_id": "EF-FLD-003",
+    "title": "Decision journey tables",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-003__ecofarmdecision_journeytables.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-003__ecofarmdecision_journeytables.md",
+    "canonical_source_id": "SRC-0351"
+  },
+  "SRC-0070": {
+    "curated_id": "EF-FLD-004",
+    "title": "Decision operationalization sheets",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-004__ecofarmdecisionoperationalizationsheets.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-004__ecofarmdecisionoperationalizationsheets.md",
+    "canonical_source_id": "SRC-0352"
+  },
+  "SRC-0352": {
+    "curated_id": "EF-FLD-004",
+    "title": "Decision operationalization sheets",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-004__ecofarmdecisionoperationalizationsheets.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-004__ecofarmdecisionoperationalizationsheets.md",
+    "canonical_source_id": "SRC-0352"
+  },
+  "SRC-0064": {
+    "curated_id": "EF-FLD-005",
+    "title": "Revised field-programme claim ledger",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-005__ecofarmclaimledger_revisedfield_programmeversion.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-005__ecofarmclaimledger_revisedfield_programmeversion.md",
+    "canonical_source_id": "SRC-0347"
+  },
+  "SRC-0347": {
+    "curated_id": "EF-FLD-005",
+    "title": "Revised field-programme claim ledger",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-005__ecofarmclaimledger_revisedfield_programmeversion.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-005__ecofarmclaimledger_revisedfield_programmeversion.md",
+    "canonical_source_id": "SRC-0347"
+  },
+  "SRC-0066": {
+    "curated_id": "EF-FLD-006",
+    "title": "Attribution and field-data quality protocol",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-006__ecofarmattributionandfield_dataqualityprotocol.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-006__ecofarmattributionandfield_dataqualityprotocol.md",
+    "canonical_source_id": "SRC-0342"
+  },
+  "SRC-0342": {
+    "curated_id": "EF-FLD-006",
+    "title": "Attribution and field-data quality protocol",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-006__ecofarmattributionandfield_dataqualityprotocol.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-006__ecofarmattributionandfield_dataqualityprotocol.md",
+    "canonical_source_id": "SRC-0342"
+  },
+  "SRC-0065": {
+    "curated_id": "EF-FLD-007",
+    "title": "Revised field interview guide",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-007__ecofarmfieldinterviewguide_revised.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-007__ecofarmfieldinterviewguide_revised.md",
+    "canonical_source_id": "SRC-0359"
+  },
+  "SRC-0359": {
+    "curated_id": "EF-FLD-007",
+    "title": "Revised field interview guide",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-007__ecofarmfieldinterviewguide_revised.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-007__ecofarmfieldinterviewguide_revised.md",
+    "canonical_source_id": "SRC-0359"
+  },
+  "SRC-0074": {
+    "curated_id": "EF-FLD-008",
+    "title": "Field launch governance index",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-008__ecofarmfieldlaunchkit_governanceindex.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-008__ecofarmfieldlaunchkit_governanceindex.md",
+    "canonical_source_id": "SRC-0360"
+  },
+  "SRC-0360": {
+    "curated_id": "EF-FLD-008",
+    "title": "Field launch governance index",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-008__ecofarmfieldlaunchkit_governanceindex.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-008__ecofarmfieldlaunchkit_governanceindex.md",
+    "canonical_source_id": "SRC-0360"
+  },
+  "SRC-0075": {
+    "curated_id": "EF-FLD-009",
+    "title": "Field safety card",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-009__ecofarmfieldsafetycard.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-009__ecofarmfieldsafetycard.md",
+    "canonical_source_id": "SRC-0361"
+  },
+  "SRC-0361": {
+    "curated_id": "EF-FLD-009",
+    "title": "Field safety card",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-009__ecofarmfieldsafetycard.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-009__ecofarmfieldsafetycard.md",
+    "canonical_source_id": "SRC-0361"
+  },
+  "SRC-0076": {
+    "curated_id": "EF-FLD-010",
+    "title": "Field selection memo",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-010__ecofarmfieldselectionmemo.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-010__ecofarmfieldselectionmemo.md",
+    "canonical_source_id": "SRC-0362"
+  },
+  "SRC-0362": {
+    "curated_id": "EF-FLD-010",
+    "title": "Field selection memo",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-010__ecofarmfieldselectionmemo.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-010__ecofarmfieldselectionmemo.md",
+    "canonical_source_id": "SRC-0362"
+  },
+  "SRC-0118": {
+    "curated_id": "EF-FLD-011",
+    "title": "Field and partner verification questions",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-011__ecofarmfieldandpartnerverificationquestions.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-011__ecofarmfieldandpartnerverificationquestions.md",
+    "canonical_source_id": "SRC-0363"
+  },
+  "SRC-0363": {
+    "curated_id": "EF-FLD-011",
+    "title": "Field and partner verification questions",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-011__ecofarmfieldandpartnerverificationquestions.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-011__ecofarmfieldandpartnerverificationquestions.md",
+    "canonical_source_id": "SRC-0363"
+  },
+  "SRC-0077": {
+    "curated_id": "EF-FLD-012",
+    "title": "Household-authority follow-up",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-012__ecofarmhousehold_authorityfollow_up.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-012__ecofarmhousehold_authorityfollow_up.md",
+    "canonical_source_id": "SRC-0364"
+  },
+  "SRC-0364": {
+    "curated_id": "EF-FLD-012",
+    "title": "Household-authority follow-up",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-012__ecofarmhousehold_authorityfollow_up.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-012__ecofarmhousehold_authorityfollow_up.md",
+    "canonical_source_id": "SRC-0364"
+  },
+  "SRC-0079": {
+    "curated_id": "EF-FLD-013",
+    "title": "Primary pilot cohort and decision authority protocol",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-013__ecofarmprimarypilotcohortanddecision_authorityprotocol.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-013__ecofarmprimarypilotcohortanddecision_authorityprotocol.md",
+    "canonical_source_id": "SRC-0372"
+  },
+  "SRC-0372": {
+    "curated_id": "EF-FLD-013",
+    "title": "Primary pilot cohort and decision authority protocol",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-013__ecofarmprimarypilotcohortanddecision_authorityprotocol.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-013__ecofarmprimarypilotcohortanddecision_authorityprotocol.md",
+    "canonical_source_id": "SRC-0372"
+  },
+  "SRC-0080": {
+    "curated_id": "EF-FLD-014",
+    "title": "Recruitment and consent pack",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-014__ecofarmrecruitmentandconsentpack.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-014__ecofarmrecruitmentandconsentpack.md",
+    "canonical_source_id": "SRC-0373"
+  },
+  "SRC-0373": {
+    "curated_id": "EF-FLD-014",
+    "title": "Recruitment and consent pack",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-014__ecofarmrecruitmentandconsentpack.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-014__ecofarmrecruitmentandconsentpack.md",
+    "canonical_source_id": "SRC-0373"
+  },
+  "SRC-0081": {
+    "curated_id": "EF-FLD-015",
+    "title": "Seasonal event and observation map",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-015__ecofarmseasonaleventandobservationmap.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-015__ecofarmseasonaleventandobservationmap.md",
+    "canonical_source_id": "SRC-0375"
+  },
+  "SRC-0375": {
+    "curated_id": "EF-FLD-015",
+    "title": "Seasonal event and observation map",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-015__ecofarmseasonaleventandobservationmap.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-015__ecofarmseasonaleventandobservationmap.md",
+    "canonical_source_id": "SRC-0375"
+  },
+  "SRC-0078": {
+    "curated_id": "EF-FLD-016",
+    "title": "Post-event follow-up",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-016__ecofarmshortpost_eventfollow_up.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-016__ecofarmshortpost_eventfollow_up.md",
+    "canonical_source_id": "SRC-0376"
+  },
+  "SRC-0376": {
+    "curated_id": "EF-FLD-016",
+    "title": "Post-event follow-up",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-016__ecofarmshortpost_eventfollow_up.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-016__ecofarmshortpost_eventfollow_up.md",
+    "canonical_source_id": "SRC-0376"
+  },
+  "SRC-0082": {
+    "curated_id": "EF-FLD-017",
+    "title": "Weekly event register and evidence dashboard",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-017__ecofarmweeklyeventregisterandevidencedashboard.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-017__ecofarmweeklyeventregisterandevidencedashboard.md",
+    "canonical_source_id": "SRC-0381"
+  },
+  "SRC-0381": {
+    "curated_id": "EF-FLD-017",
+    "title": "Weekly event register and evidence dashboard",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-017__ecofarmweeklyeventregisterandevidencedashboard.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-017__ecofarmweeklyeventregisterandevidencedashboard.md",
+    "canonical_source_id": "SRC-0381"
+  },
+  "SRC-0104": {
+    "curated_id": "EF-DAT-001",
+    "title": "Ecosystem, data feasibility, alternatives, and delivery handoff",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md",
+    "canonical_source_id": "SRC-0354"
+  },
+  "SRC-0354": {
+    "curated_id": "EF-DAT-001",
+    "title": "Ecosystem, data feasibility, alternatives, and delivery handoff",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md",
+    "canonical_source_id": "SRC-0354"
+  },
+  "SRC-0101": {
+    "curated_id": "EF-DAT-002",
+    "title": "P0 data-source register operational revision",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-002__ecofarmp0data_sourceregister_operationalrevision.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-002__ecofarmp0data_sourceregister_operationalrevision.md",
+    "canonical_source_id": "SRC-0365"
+  },
+  "SRC-0365": {
+    "curated_id": "EF-DAT-002",
+    "title": "P0 data-source register operational revision",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-002__ecofarmp0data_sourceregister_operationalrevision.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-002__ecofarmp0data_sourceregister_operationalrevision.md",
+    "canonical_source_id": "SRC-0365"
+  },
+  "SRC-0105": {
+    "curated_id": "EF-DAT-003",
+    "title": "P0 decision-packet data dictionary and consent map",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-003__ecofarmp0decision_packetdatadictionaryandconsentmap.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-003__ecofarmp0decision_packetdatadictionaryandconsentmap.md",
+    "canonical_source_id": "SRC-0366"
+  },
+  "SRC-0366": {
+    "curated_id": "EF-DAT-003",
+    "title": "P0 decision-packet data dictionary and consent map",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-003__ecofarmp0decision_packetdatadictionaryandconsentmap.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-003__ecofarmp0decision_packetdatadictionaryandconsentmap.md",
+    "canonical_source_id": "SRC-0366"
+  },
+  "SRC-0102": {
+    "curated_id": "EF-DAT-004",
+    "title": "P0 ecosystem register operational revision",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-004__ecofarmp0ecosystemregister_operationalrevision.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-004__ecofarmp0ecosystemregister_operationalrevision.md",
+    "canonical_source_id": "SRC-0367"
+  },
+  "SRC-0367": {
+    "curated_id": "EF-DAT-004",
+    "title": "P0 ecosystem register operational revision",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-004__ecofarmp0ecosystemregister_operationalrevision.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-004__ecofarmp0ecosystemregister_operationalrevision.md",
+    "canonical_source_id": "SRC-0367"
+  },
+  "SRC-0106": {
+    "curated_id": "EF-DAT-005",
+    "title": "P0 feasibility decision memo",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-005__ecofarmp0feasibilitydecisionmemo.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-005__ecofarmp0feasibilitydecisionmemo.md",
+    "canonical_source_id": "SRC-0368"
+  },
+  "SRC-0368": {
+    "curated_id": "EF-DAT-005",
+    "title": "P0 feasibility decision memo",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-005__ecofarmp0feasibilitydecisionmemo.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-005__ecofarmp0feasibilitydecisionmemo.md",
+    "canonical_source_id": "SRC-0368"
+  },
+  "SRC-0107": {
+    "curated_id": "EF-DAT-006",
+    "title": "P0 implementation-ready checklist",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-006__ecofarmp0implementation_readychecklist.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-006__ecofarmp0implementation_readychecklist.md",
+    "canonical_source_id": "SRC-0369"
+  },
+  "SRC-0369": {
+    "curated_id": "EF-DAT-006",
+    "title": "P0 implementation-ready checklist",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-006__ecofarmp0implementation_readychecklist.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-006__ecofarmp0implementation_readychecklist.md",
+    "canonical_source_id": "SRC-0369"
+  },
+  "SRC-0108": {
+    "curated_id": "EF-DAT-007",
+    "title": "P0 operational test results memo",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md",
+    "canonical_source_id": "SRC-0370"
+  },
+  "SRC-0370": {
+    "curated_id": "EF-DAT-007",
+    "title": "P0 operational test results memo",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md",
+    "canonical_source_id": "SRC-0370"
+  },
+  "SRC-0109": {
+    "curated_id": "EF-DAT-008",
+    "title": "P0 source operational-test plan",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-008__ecofarmp0sourceoperational_testplan.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-008__ecofarmp0sourceoperational_testplan.md",
+    "canonical_source_id": "SRC-0371"
+  },
+  "SRC-0371": {
+    "curated_id": "EF-DAT-008",
+    "title": "P0 source operational-test plan",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-008__ecofarmp0sourceoperational_testplan.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-008__ecofarmp0sourceoperational_testplan.md",
+    "canonical_source_id": "SRC-0371"
+  },
+  "SRC-0110": {
+    "curated_id": "EF-DAT-009",
+    "title": "Safe referral and escalation design",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-009__ecofarmsafereferralandescalationdesign.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-009__ecofarmsafereferralandescalationdesign.md",
+    "canonical_source_id": "SRC-0374"
+  },
+  "SRC-0374": {
+    "curated_id": "EF-DAT-009",
+    "title": "Safe referral and escalation design",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-009__ecofarmsafereferralandescalationdesign.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-009__ecofarmsafereferralandescalationdesign.md",
+    "canonical_source_id": "SRC-0374"
+  },
+  "SRC-0111": {
+    "curated_id": "EF-DAT-010",
+    "title": "Source-failure and provenance observability plan",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-010__ecofarmsource_failureandprovenanceobservabilityplan.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-010__ecofarmsource_failureandprovenanceobservabilityplan.md",
+    "canonical_source_id": "SRC-0377"
+  },
+  "SRC-0377": {
+    "curated_id": "EF-DAT-010",
+    "title": "Source-failure and provenance observability plan",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-010__ecofarmsource_failureandprovenanceobservabilityplan.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-010__ecofarmsource_failureandprovenanceobservabilityplan.md",
+    "canonical_source_id": "SRC-0377"
+  },
+  "SRC-0100": {
+    "curated_id": "EF-DAT-011",
+    "title": "Source register",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-011__ecofarmsourceregister.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-011__ecofarmsourceregister.md",
+    "canonical_source_id": "SRC-0378"
+  },
+  "SRC-0378": {
+    "curated_id": "EF-DAT-011",
+    "title": "Source register",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-011__ecofarmsourceregister.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-011__ecofarmsourceregister.md",
+    "canonical_source_id": "SRC-0378"
+  },
+  "SRC-0112": {
+    "curated_id": "EF-DAT-012",
+    "title": "Target-market semantics verification plan",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-012__ecofarmtarget_marketsemanticsverificationplan.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-012__ecofarmtarget_marketsemanticsverificationplan.md",
+    "canonical_source_id": "SRC-0379"
+  },
+  "SRC-0379": {
+    "curated_id": "EF-DAT-012",
+    "title": "Target-market semantics verification plan",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-012__ecofarmtarget_marketsemanticsverificationplan.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-012__ecofarmtarget_marketsemanticsverificationplan.md",
+    "canonical_source_id": "SRC-0379"
+  },
+  "SRC-0113": {
+    "curated_id": "EF-DAT-013",
+    "title": "Weather and advisory source hierarchy",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-013__ecofarmweatherandadvisorysourcehierarchy.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-013__ecofarmweatherandadvisorysourcehierarchy.md",
+    "canonical_source_id": "SRC-0380"
+  },
+  "SRC-0380": {
+    "curated_id": "EF-DAT-013",
+    "title": "Weather and advisory source hierarchy",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-013__ecofarmweatherandadvisorysourcehierarchy.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-013__ecofarmweatherandadvisorysourcehierarchy.md",
+    "canonical_source_id": "SRC-0380"
+  },
+  "SRC-0384": {
+    "curated_id": "EF-DAT-014",
+    "title": "IMD agricultural meteorology capture",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-014__imdagrimet_gov_in.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-014__imdagrimet_gov_in.md",
+    "canonical_source_id": "SRC-0384"
+  },
+  "SRC-0385": {
+    "curated_id": "EF-DAT-015",
+    "title": "Namakkal Agriculture Department capture",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-015__namakkal_nic_in_departments_agriculture.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-015__namakkal_nic_in_departments_agriculture.md",
+    "canonical_source_id": "SRC-0385"
+  },
+  "SRC-0119": {
+    "curated_id": "EF-DAT-016",
+    "title": "Observability simulated failure records",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-016__observability_simulated_failure_records.jsonl",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-016__observability_simulated_failure_records.jsonl",
+    "canonical_source_id": "SRC-0386"
+  },
+  "SRC-0386": {
+    "curated_id": "EF-DAT-016",
+    "title": "Observability simulated failure records",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-016__observability_simulated_failure_records.jsonl",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-016__observability_simulated_failure_records.jsonl",
+    "canonical_source_id": "SRC-0386"
+  },
+  "SRC-0122": {
+    "curated_id": "EF-DAT-017",
+    "title": "Referral directory verification",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-017__referral_directory_verification.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-017__referral_directory_verification.txt",
+    "canonical_source_id": "SRC-0388"
+  },
+  "SRC-0388": {
+    "curated_id": "EF-DAT-017",
+    "title": "Referral directory verification",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-017__referral_directory_verification.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-017__referral_directory_verification.txt",
+    "canonical_source_id": "SRC-0388"
+  },
+  "SRC-0125": {
+    "curated_id": "EF-DAT-018",
+    "title": "TNAU Agro-Met headers",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-018__tnau_agromet_headers.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-018__tnau_agromet_headers.txt",
+    "canonical_source_id": "SRC-0389"
+  },
+  "SRC-0389": {
+    "curated_id": "EF-DAT-018",
+    "title": "TNAU Agro-Met headers",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-018__tnau_agromet_headers.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-018__tnau_agromet_headers.txt",
+    "canonical_source_id": "SRC-0389"
+  },
+  "SRC-0126": {
+    "curated_id": "EF-DAT-019",
+    "title": "TNAU weather test manifest",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt",
+    "canonical_source_id": "SRC-0390"
+  },
+  "SRC-0390": {
+    "curated_id": "EF-DAT-019",
+    "title": "TNAU weather test manifest",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt",
+    "canonical_source_id": "SRC-0390"
+  },
+  "SRC-0003": {
+    "curated_id": "EF-DSN-001",
+    "title": "Field overview high-fidelity mockup",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-001__mockup_fields_overview_hf.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-001__mockup_fields_overview_hf.png",
+    "canonical_source_id": "SRC-0003"
+  },
+  "SRC-0004": {
+    "curated_id": "EF-DSN-002",
+    "title": "Home dashboard high-fidelity mockup",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-002__mockup_home_dashboard_hf.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-002__mockup_home_dashboard_hf.png",
+    "canonical_source_id": "SRC-0004"
+  },
+  "SRC-0001": {
+    "curated_id": "EF-DSN-003",
+    "title": "Early AI farming UI video",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-003__aifarmingui3_2.mov",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-003__aifarmingui3_2.mov",
+    "canonical_source_id": "SRC-0001"
+  },
+  "SRC-0020": {
+    "curated_id": "EF-DSN-004",
+    "title": "Field overview wireframe",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-004__wireframe_fields_overview.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-004__wireframe_fields_overview.png",
+    "canonical_source_id": "SRC-0020"
+  },
+  "SRC-0021": {
+    "curated_id": "EF-DSN-005",
+    "title": "Home dashboard wireframe",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-005__wireframe_home_dashboard.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-005__wireframe_home_dashboard.png",
+    "canonical_source_id": "SRC-0021"
+  },
+  "SRC-0022": {
+    "curated_id": "EF-DSN-006",
+    "title": "Marketplace feed wireframe",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-006__wireframe_marketplace_feed.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-006__wireframe_marketplace_feed.png",
+    "canonical_source_id": "SRC-0022"
+  },
+  "SRC-0043": {
+    "curated_id": "EF-DSN-007",
+    "title": "SkyLabs TechPreneur pitch",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-007__skylabstechpreneurpitch.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-007__skylabstechpreneurpitch.pdf",
+    "canonical_source_id": "SRC-0043"
+  },
+  "SRC-0044": {
+    "curated_id": "EF-DSN-008",
+    "title": "Smart Farming Ecosystem master document",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-008__smartfarmingecosystem_amasterdocumentforcom.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-008__smartfarmingecosystem_amasterdocumentforcom.pdf",
+    "canonical_source_id": "SRC-0044"
+  },
+  "SRC-0048": {
+    "curated_id": "EF-DSN-009",
+    "title": "ComSoc HackX content plan",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-009__content_plan.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-009__content_plan.md",
+    "canonical_source_id": "SRC-0048"
+  },
+  "SRC-0055": {
+    "curated_id": "EF-DSN-010",
+    "title": "ComSoc HackX presentation",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-010__sfe_comsoc_hackx_presentation_title_smart_farming_ecosystem_proposal_com[none]",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-010__sfe_comsoc_hackx_presentation_title_smart_farming_ecosystem_proposal_com[none]",
+    "canonical_source_id": "SRC-0055"
+  },
+  "SRC-0062": {
+    "curated_id": "EF-DSN-011",
+    "title": "Historical title-slide artifact",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-011__title_slide.html",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-011__title_slide.html",
+    "canonical_source_id": "SRC-0062"
+  },
+  "SRC-0319": {
+    "curated_id": "EF-DSN-012",
+    "title": "Agricultural R&D spending chart",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-012__ag_rd_spending.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-012__ag_rd_spending.png",
+    "canonical_source_id": "SRC-0319"
+  },
+  "SRC-0324": {
+    "curated_id": "EF-DSN-013",
+    "title": "Farmer income squeeze chart",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-013__farmer_income_squeeze.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-013__farmer_income_squeeze.png",
+    "canonical_source_id": "SRC-0324"
+  },
+  "SRC-0325": {
+    "curated_id": "EF-DSN-014",
+    "title": "Farmer suicides chart",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-014__farmer_suicides_2022.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-014__farmer_suicides_2022.png",
+    "canonical_source_id": "SRC-0325"
+  },
+  "SRC-0332": {
+    "curated_id": "EF-DSN-015",
+    "title": "Groundwater depletion chart",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-015__groundwater_depletion.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-015__groundwater_depletion.png",
+    "canonical_source_id": "SRC-0332"
+  },
+  "SRC-0335": {
+    "curated_id": "EF-DSN-016",
+    "title": "Regional cluster radar chart",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-016__radar_chart.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-016__radar_chart.png",
+    "canonical_source_id": "SRC-0335"
+  },
+  "SRC-0336": {
+    "curated_id": "EF-DSN-017",
+    "title": "Regional clusters chart",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-017__regional_clusters.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-017__regional_clusters.png",
+    "canonical_source_id": "SRC-0336"
+  },
+  "SRC-0338": {
+    "curated_id": "EF-DSN-018",
+    "title": "Water disputes chart",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-018__water_disputes.png",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-018__water_disputes.png",
+    "canonical_source_id": "SRC-0338"
+  }
+}

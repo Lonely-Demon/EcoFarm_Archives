@@ -1,0 +1,221 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>6. Feature and capability dossiers — EcoFarm Knowledge Base</title><link rel="stylesheet" href="styles.css"></head><body><div class="shell"><aside><p class="brand">EcoFarm</p><p class="sub">Master Knowledge Base<br>Human-readable HTML edition</p><input id="knowledge-search" class="search" placeholder="Search concepts, features, evidence…" oninput="searchKnowledge()"><div id="search-results" class="search-results"></div><p class="nav-title">Navigate</p><nav><a href="index.html" class="">Knowledge Base Home</a>
+<a class="" href="table-of-contents.html">Table of Contents</a>
+<a class="" href="1-how-to-use-this-knowledge-base.html">1. How to use this knowledge base</a>
+<a class="" href="2-ecofarm-s-mental-universe.html">2. EcoFarm’s mental universe</a>
+<a class="" href="3-historical-evolution-of-the-ecofarm-thesis.html">3. Historical evolution of the EcoFarm thesis</a>
+<a class="" href="4-problem-landscape-and-research-knowledge.html">4. Problem landscape and research knowledge</a>
+<a class="" href="5-conceptual-system-models.html">5. Conceptual system models</a>
+<a class="active" href="6-feature-and-capability-dossiers.html">6. Feature and capability dossiers</a>
+<a class="" href="7-technical-and-data-system-archive.html">7. Technical and data-system archive</a>
+<a class="" href="8-trust-safety-consent-and-governance.html">8. Trust, safety, consent, and governance</a>
+<a class="" href="9-field-validation-and-operating-memory.html">9. Field validation and operating memory</a>
+<a class="" href="10-current-working-map-without-forced-finality.html">10. Current working map without forced finality</a>
+<a class="" href="11-commercial-and-investor-material-as-secondary-archive.html">11. Commercial and investor material as secondary archive</a>
+<a class="" href="12-knowledge-registers-and-appendices.html">12. Knowledge registers and appendices</a>
+<a class="" href="reference-sources-for-the-current-field-p0-evidence.html">Reference sources for the current field/P0 evidence</a>
+<a class="" href="sources.html">Source Catalogue</a></nav><p class="nav-title">Reading rule</p><p class="sub">Treat historical visions, plans, and test artifacts according to their stated evidence status. Do not mistake a proposal for validation.</p></aside><main><p class="breadcrumb">EcoFarm Master Knowledge Base</p><h1 id="6-feature-and-capability-dossiers">6. Feature and capability dossiers</h1>
+<p>Each dossier records a concept’s original intention, its intended mechanics, dependencies, current interpretation, and unanswered questions. Status labels are deliberately reversible.</p>
+<h3 id="61-crop-option-comparison-and-crop-recommendation">6.1 Crop-option comparison and crop recommendation</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Knowledge record</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Historical intent</strong></td>
+<td>Help a farmer decide what crop to plant using soil conditions, weather until harvest, market demand, budget, and preference. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl" title="Historical EcoFarm 1 conversation trace; legacy SRC-0130">EF-GOV-004</a></td>
+</tr>
+<tr>
+<td><strong>Underlying intuition</strong></td>
+<td>Crop choice is a consequential decision made under multiple constraints; an answer should not be based on a single factor such as price or weather.</td>
+</tr>
+<tr>
+<td><strong>Conceptual working</strong></td>
+<td>Collect season, location, water reliability, crop history, available inputs/labour, soil-test availability, farmer objective, and constraints. Compare a small set of feasible crop options against explicit assumptions, source-labelled context, trade-offs, and unknowns. Present questions for a human adviser when information is insufficient.</td>
+</tr>
+<tr>
+<td><strong>Required data</strong></td>
+<td>Location, season, water category, crop/land context, labour/input/cash constraint, farmer objective, and ideally current soil/test evidence.</td>
+</tr>
+<tr>
+<td><strong>Trust mechanism</strong></td>
+<td>Explain why an option is shown, which inputs matter, which are missing, and why it is not a profitability guarantee.</td>
+</tr>
+<tr>
+<td><strong>Failure behaviour</strong></td>
+<td>No ranking when critical facts are missing; do not silently substitute district averages; refer when local agronomic conditions cannot be supported.</td>
+</tr>
+<tr>
+<td><strong>Current interpretation</strong></td>
+<td><code>RH</code> / <code>PD</code>. A candidate workflow for field validation, not an approved autonomous recommendation engine. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md" title="Ecosystem, data feasibility, alternatives, and delivery handoff; legacy SRC-0354">EF-DAT-001</a></td>
+</tr>
+<tr>
+<td><strong>Open questions</strong></td>
+<td>Which crop decision recurs often enough? Are the relevant constraints recordable? Does a transparent comparison outperform existing human advice or merely add complexity?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="62-weather-linked-decision-support">6.2 Weather-linked decision support</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Knowledge record</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Historical intent</strong></td>
+<td>Provide accurate weather data, localized forecasts, adverse-weather alerts, and weather-informed planting, irrigation, and crop-care guidance. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl" title="Historical EcoFarm 1 conversation trace; legacy SRC-0130">EF-GOV-004</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></td>
+</tr>
+<tr>
+<td><strong>Underlying intuition</strong></td>
+<td>Weather alters the timing and risk of farm operations; a farmer needs actionable context rather than a raw number.</td>
+</tr>
+<tr>
+<td><strong>Conceptual working</strong></td>
+<td>Match a target-location forecast/advisory and validity period to a named crop-stage decision. Preserve source, time, location, freshness, forecast/observation distinction, and transformation rule. Produce only information, caution, or referral states.</td>
+</tr>
+<tr>
+<td><strong>Required data</strong></td>
+<td>Approved target-relevant source, rights/terms status, issue/retrieval/validity time, location scope, crop stage, intended action window.</td>
+</tr>
+<tr>
+<td><strong>Trust mechanism</strong></td>
+<td>Show publisher, source type, geographic scope, time, period, caveat, and original link/reference.</td>
+</tr>
+<tr>
+<td><strong>Failure behaviour</strong></td>
+<td>Suppress output if stale, absent, mismatched, malformed, conflicting, rate-limited, or transformation-unverified.</td>
+</tr>
+<tr>
+<td><strong>Current interpretation</strong></td>
+<td><code>DA</code> for the tested automated TNAU district bulletin path in first P0; <code>PD</code> / <code>UQ</code> for the wider concept pending separate source approval. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md" title="P0 operational test results memo; legacy SRC-0370">EF-DAT-007</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-013__ecofarmweatherandadvisorysourcehierarchy.md" title="Weather and advisory source hierarchy; legacy SRC-0380">EF-DAT-013</a></td>
+</tr>
+<tr>
+<td><strong>Open questions</strong></td>
+<td>What official target-local source has usable rights, stable coverage, action relevance, and failure semantics? How should farmers interpret forecast uncertainty in a local decision?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="63-market-observation-price-context-and-sale-decision-support">6.3 Market observation, price context, and sale decision support</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Knowledge record</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Historical intent</strong></td>
+<td>Show market prices near the farm, help farmers negotiate or decide where/when to sell, connect to buyers, and later reduce intermediary dependence. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl" title="Historical EcoFarm 1 conversation trace; legacy SRC-0130">EF-GOV-004</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></td>
+</tr>
+<tr>
+<td><strong>Underlying intuition</strong></td>
+<td>Farmers may make sales under asymmetric information and may benefit from clearer observations, comparisons, and memory of prior decisions.</td>
+</tr>
+<tr>
+<td><strong>Conceptual working</strong></td>
+<td>Capture commodity, variety, grade where available, market, date, unit, observed min/max/modal price, and farmer constraints such as transport, storage, cash needs, quality, and buyer relationship. Display only comparable observations and log the actual route/decision/outcome.</td>
+</tr>
+<tr>
+<td><strong>Required data</strong></td>
+<td>Decision-relevant crop/market selection, source rights, freshness, unit/variety/grade semantics, transport/storage/liquidity context.</td>
+</tr>
+<tr>
+<td><strong>Trust mechanism</strong></td>
+<td>Label prices as observed, show market/date/unit/variety, disclose gaps, and never represent an observation as a forecast.</td>
+</tr>
+<tr>
+<td><strong>Failure behaviour</strong></td>
+<td>Hide non-comparable, missing, stale, or semantically mismatched records; do not interpolate or promise a buyer.</td>
+</tr>
+<tr>
+<td><strong>Current interpretation</strong></td>
+<td><code>RH</code> / <code>PD</code>; market context is excluded from the presently constrained P0 until a specific crop/market semantic test exists. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md" title="P0 operational test results memo; legacy SRC-0370">EF-DAT-007</a></td>
+</tr>
+<tr>
+<td><strong>Open questions</strong></td>
+<td>Does information change action once liquidity, debt, quality, and buyer relations are accounted for? Which local crops and markets are meaningful?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="64-farm-mapping-field-sectors-satellite-context-and-land-observation">6.4 Farm mapping, field sectors, satellite context, and land observation</h3>
+<p><strong>Historical intent.</strong> Let a farmer map farmland, divide it into crop sectors, obtain satellite views, and later identify stressed areas or overall field performance. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl" title="Historical EcoFarm 1 conversation trace; legacy SRC-0130">EF-GOV-004</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-002__mvp_screens_flows.md" title="MVP user flows and key screens outline; legacy SRC-0005">EF-PRD-002</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p><strong>Conceptual working.</strong> A field map would associate a physical area with crop cycle, sensor placement, water zone, activity history, and observations. Satellite imagery or remote sensing could later provide a coarse contextual signal. The map is valuable when it helps link observations and actions to the correct field, rather than being a decorative visualization.</p>
+<p><strong>Boundary.</strong> Satellite or remote signals cannot by themselves reliably diagnose crop health, disease, yield, irrigation need, or farmer intent in a small pilot. They are therefore historical/future context or a later validation signal, not a primary early recommendation input. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md" title="Ecosystem, data feasibility, alternatives, and delivery handoff; legacy SRC-0354">EF-DAT-001</a></p>
+<h3 id="65-soil-water-sensor-and-field-condition-intelligence">6.5 Soil, water, sensor, and field-condition intelligence</h3>
+<p><strong>Historical intent.</strong> Provide continuous awareness of soil moisture, pH, nutrient context, temperature, humidity, and other relevant conditions so that irrigation, fertilizer, and crop-management decisions can be less blind. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p><strong>Conceptual working.</strong> Sensors or farmer-held test records produce observations. Those observations must be timestamped, associated with a field/zone, checked for calibration and plausibility, and interpreted in relation to crop stage, soil type, water source, and weather. Historical system designs connect this context to alerts, trends, irrigation schedules, and nutrient guidance.</p>
+<p><strong>Key mental model.</strong> A reading is not a recommendation. Soil moisture, pH, EC, or an estimated NPK-related value becomes useful only after questions of calibration, sensor placement, maintenance, environmental conditions, local baseline, and decision relevance are answered.</p>
+<table>
+<thead>
+<tr>
+<th>Sub-capability</th>
+<th>Historical conceptual mechanism</th>
+<th>Key limitation to preserve</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Soil moisture</td>
+<td>Capacitance/FDR/TDR/resistance approaches signal water content or related condition for irrigation decisions.</td>
+<td>Soil-specific calibration, salinity/temperature effects, installation, durability, and the difference between signal and crop need.</td>
+</tr>
+<tr>
+<td>Soil pH</td>
+<td>Glass, ISFET, or other probes estimate acidity/alkalinity relevant to nutrient availability.</td>
+<td>Calibration, cleaning, temperature effects, fragility, drift, and representativeness.</td>
+</tr>
+<tr>
+<td>Nutrient context</td>
+<td>EC may provide a proxy for dissolved salts/nutrient context; ISE/optical options were also considered.</td>
+<td>EC does not directly differentiate N, P, and K; it must not be converted into a precise fertilizer prescription without ground-truth and expert context.</td>
+</tr>
+<tr>
+<td>Temperature/humidity</td>
+<td>Ambient or field conditions support crop/alert interpretation.</td>
+<td>Sensor quality, placement, contamination, drift, and whether the reading represents the crop microclimate.</td>
+</tr>
+<tr>
+<td>Farmer-held soil test</td>
+<td>A date-stamped laboratory report can serve as context.</td>
+<td>Consent, age, units, spatial representativeness, and no silent substitution with district averages.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Current interpretation.</strong> <code>HV</code> and <code>PD</code> for the long-term hardware system; <code>UQ</code> / permission-dependent for farmer-specific soil/water data in P0. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md" title="Ecosystem, data feasibility, alternatives, and delivery handoff; legacy SRC-0354">EF-DAT-001</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-003__ecofarmp0decision_packetdatadictionaryandconsentmap.md" title="P0 decision-packet data dictionary and consent map; legacy SRC-0366">EF-DAT-003</a></p>
+<h3 id="66-irrigation-control-automation-and-remote-operation">6.6 Irrigation control, automation, and remote operation</h3>
+<p><strong>Historical intent.</strong> Allow farmers to remotely control motor starters, pumps, valves, irrigation zones, and later automated schedules; connect control to soil and weather information. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl" title="Historical EcoFarm 1 conversation trace; legacy SRC-0130">EF-GOV-004</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p><strong>Conceptual working.</strong> A farmer or authorized operator sees a status, chooses a manual action or approved schedule, and sends a command through a gateway/actuator system. The system should acknowledge command state, report actual device status rather than only desired state, log who acted and when, and surface safety or connectivity failures. Longer-term automation would require conservative rules, overrides, water/resource context, and owner control.</p>
+<p><strong>Mental model.</strong> Remote control is a <em>safety-critical operating interface</em>, not a convenience toggle. The difference between a command sent, command received, and valve/pump actually changed is material.</p>
+<p><strong>Current interpretation.</strong> <code>HV</code> / future hypothesis. Current decision-packet P0 explicitly does not include hardware control. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-001__ecofarmfarmer_problemresearchreport.md" title="Farmer problem research report; legacy SRC-0357">EF-FLD-001</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md" title="Ecosystem, data feasibility, alternatives, and delivery handoff; legacy SRC-0354">EF-DAT-001</a></p>
+<h3 id="67-nutrient-management-and-fertilizer-support">6.7 Nutrient management and fertilizer support</h3>
+<p><strong>Historical intent.</strong> Use soil/nutrient information, crop type, and growth stage to guide fertilizer choice, timing, and quantity. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p><strong>Conceptual working.</strong> A safe version would begin from a documented soil/test context, crop/stage, known constraints, and an authoritative, versioned guideline. It would distinguish a general education reference from a location-specific prescription and surface missing facts or an escalation path.</p>
+<p><strong>Boundary.</strong> Current P0 safety rules prohibit pesticide, fertilizer, or disease-treatment instructions when crop, stage, symptom, product, dose, or local regulatory facts are insufficient. The long-term concept remains preserved, but no automatic nutrient recommendation should be inferred from sensor data alone. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-001__ecofarmfarmer_problemresearchreport.md" title="Farmer problem research report; legacy SRC-0357">EF-FLD-001</a></p>
+<h3 id="68-crop-health-pest-disease-and-image-based-support">6.8 Crop health, pest, disease, and image-based support</h3>
+<p><strong>Historical intent.</strong> Combine user-uploaded photos, AI-enabled cameras, monitoring, early detection, and localized management guidance to help identify disease, pest, and crop-health issues. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl" title="Historical EcoFarm 1 conversation trace; legacy SRC-0130">EF-GOV-004</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p><strong>Conceptual working.</strong> A symptom event would collect crop, stage, location, timing, visible symptoms, recent weather, treatment history, and possibly photographs. The system could classify the evidence as insufficient, suggest basic observation or a safe educational reference, compare possible categories, or route it to human review. A future image model might add an evidence signal, but it must retain confidence, quality, and provenance rather than replace context.</p>
+<p><strong>Boundary.</strong> One photograph, generic symptom description, or weak model output cannot establish a treatment. The current bounded concept is triage and escalation; no autonomous pesticide prescription, product brand recommendation, diagnosis claim, or assurance of safety. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-001__ecofarmfarmer_problemresearchreport.md" title="Farmer problem research report; legacy SRC-0357">EF-FLD-001</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md" title="Ecosystem, data feasibility, alternatives, and delivery handoff; legacy SRC-0354">EF-DAT-001</a></p>
+<h3 id="69-growth-tracking-yield-estimation-and-crop-calendar-support">6.9 Growth tracking, yield estimation, and crop-calendar support</h3>
+<p><strong>Historical intent.</strong> Track crop stages, guide pre-planting through harvest, show timely activities, predict yield, and connect activity timing to weather, sensors, and field observations. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl" title="Historical EcoFarm 1 conversation trace; legacy SRC-0130">EF-GOV-004</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p><strong>Conceptual working.</strong> A crop cycle contains stage and event milestones. A calendar or workflow should identify what activity is relevant, what source/guide supports it, and what variables make timing conditional. Historical yield estimation would combine history, sensors, crop conditions, and models; current thinking recognizes that this is a future hypothesis requiring ground truth and careful communication.</p>
+<p><strong>Boundary.</strong> Calendar guidance is not a guarantee that a crop will perform as planned. Yield estimates are not profit promises and should not be presented as precise without validated local models and data quality controls.</p>
+<h3 id="610-farm-logs-tasks-budget-and-seasonal-planning">6.10 Farm logs, tasks, budget, and seasonal planning</h3>
+<p><strong>Historical intent.</strong> Give farmers a way to record tasks, plan a budget for a season, monitor use of resources, track expenses/revenue, and create operational memory. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl" title="Historical EcoFarm 1 conversation trace; legacy SRC-0130">EF-GOV-004</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p><strong>Conceptual working.</strong> A farmer or assisted operator creates activities, costs, inputs, events, actions, and outcomes. These records may later support budget views, historical patterns, or decision review. In the current narrow model, the most important logging function is not general productivity tracking; it is recording the input, choice, reason, and outcome of a named decision.</p>
+<p><strong>Current interpretation.</strong> The broad farm-management suite is <code>HV</code> / future candidate. Decision and outcome logging is <code>PD</code> / current working candidate because it is necessary to test whether EcoFarm changes behavior. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md" title="Ecosystem, data feasibility, alternatives, and delivery handoff; legacy SRC-0354">EF-DAT-001</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-001__ecofarmfarmer_problemresearchreport.md" title="Farmer problem research report; legacy SRC-0357">EF-FLD-001</a></p>
+<h3 id="611-community-peer-exchange-labour-equipment-rental-and-marketplace-concepts">6.11 Community, peer exchange, labour, equipment rental, and marketplace concepts</h3>
+<p><strong>Historical intent.</strong> Enable farmer communities, peer knowledge sharing, equipment rental, labour/harvesting access, fertilizer-shop discovery, direct retail/wholesale sale, and marketplace relationships. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl" title="Historical EcoFarm 1 conversation trace; legacy SRC-0130">EF-GOV-004</a> <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p><strong>Underlying intuition.</strong> Many farm constraints are social and operational, not merely informational. Farmers may need trusted people, tools, labour, markets, and exchange channels as much as they need a forecast.</p>
+<p><strong>Conceptual working.</strong> A future community/resource system would need identity, listing, availability, location, permissions, pricing/terms, reputation or verification, dispute boundaries, logistics, and safety controls. A marketplace would need quality, grade, inventory, transport, payment, buyer eligibility, and regulatory/legal design. These mechanisms are substantially more complex than an information feature.</p>
+<p><strong>Current interpretation.</strong> Preserve as <code>HV</code> / long-term ecosystem concepts. They are explicitly outside the narrow current P0 because no local need, trust model, transaction process, safety approach, or business logic has yet been validated. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md" title="Ecosystem, data feasibility, alternatives, and delivery handoff; legacy SRC-0354">EF-DAT-001</a></p>
+<h3 id="612-financial-insurance-buyer-access-and-supply-chain-concepts">6.12 Financial, insurance, buyer-access, and supply-chain concepts</h3>
+<p>Historical documents include budget planning, expense/revenue tracking, market access, direct buyer connection, financial services, insurance context, and later possible supply-chain transparency. These ideas share a common intuition: crop decisions are financial decisions, and a farmer’s ability to act depends on cash, credit, risk, quality, logistics, and buyer power. <a href="https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md" title="Extended EcoFarm onboarding document; legacy SRC-0039">EF-VSN-001</a></p>
+<p>The current research preserves them as context but warns that neither a price display nor a digital record solves liquidity, debt, storage, grading, transport, or relationship constraints. These capabilities require future evidence and, in several cases, regulated partnerships or transaction infrastructure. They should remain visible in the long-term map without being smuggled into the first product wedge.</p>
+<hr /><p class="meta">EcoFarm Master Knowledge Base · Generated from the editable Markdown source · Internal source IDs resolve through the preserved corpus manifest and LLM retrieval files.</p></main></div><script src="search.js?v=20260818c"></script></body></html>
