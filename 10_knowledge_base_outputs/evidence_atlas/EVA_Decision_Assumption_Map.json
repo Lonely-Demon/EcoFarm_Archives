@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "decision_id": "DEC-001",
+      "decision_or_intent": "Preserve EcoFarm as a non-final knowledge base and archive, not a polished investor narrative.",
+      "assumptions": [
+        "Historical reasoning, alternatives, and unresolved questions remain valuable."
+      ],
+      "source_ids": [
+        "EF-GOV-001",
+        "EF-GOV-002",
+        "EF-GOV-003"
+      ],
+      "status": "governing archive decision"
+    },
+    {
+      "decision_id": "DEC-002",
+      "decision_or_intent": "Start historical product scope with software/API utility before unavailable proprietary hardware.",
+      "assumptions": [
+        "External sources can provide a usable baseline.",
+        "Farmers will value software-only utility."
+      ],
+      "source_ids": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-006",
+        "EF-PRD-007"
+      ],
+      "status": "historical; requires current validation"
+    },
+    {
+      "decision_id": "DEC-003",
+      "decision_or_intent": "Use regional inputs in early planting guidance.",
+      "assumptions": [
+        "Regional data has sufficient relevance when limitations are disclosed."
+      ],
+      "source_ids": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-DAT-005"
+      ],
+      "status": "historical hypothesis constrained by P0"
+    },
+    {
+      "decision_id": "DEC-004",
+      "decision_or_intent": "Use a confirmation/override step for automated irrigation.",
+      "assumptions": [
+        "Farmer confirmation improves control and trust."
+      ],
+      "source_ids": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-DAT-009"
+      ],
+      "status": "historical safety intent; insufficient as a complete safety case"
+    },
+    {
+      "decision_id": "DEC-005",
+      "decision_or_intent": "Prefer an AI-friendly, spatial/time-series-capable technical stack.",
+      "assumptions": [
+        "The stated stack matches future team, cost, operations, integration, and safety needs."
+      ],
+      "source_ids": [
+        "EF-TEC-001",
+        "EF-TEC-002",
+        "EF-TEC-003",
+        "EF-TEC-004",
+        "EF-VSN-004"
+      ],
+      "status": "historical technical preference"
+    },
+    {
+      "decision_id": "DEC-006",
+      "decision_or_intent": "Treat Namakkal/Kongu as a historically promising research microcosm.",
+      "assumptions": [
+        "Comparative desktop research represents local operational relevance."
+      ],
+      "source_ids": [
+        "EF-REG-001",
+        "EF-REG-003",
+        "EF-REG-011"
+      ],
+      "status": "historical decision logic; no final location decision"
+    },
+    {
+      "decision_id": "DEC-007",
+      "decision_or_intent": "Design field research around real decision authority and seasonal events.",
+      "assumptions": [
+        "The specified cohort and methods can elicit attributable decision evidence."
+      ],
+      "source_ids": [
+        "EF-FLD-010",
+        "EF-FLD-012",
+        "EF-FLD-013",
+        "EF-FLD-015"
+      ],
+      "status": "research design"
+    },
+    {
+      "decision_id": "DEC-008",
+      "decision_or_intent": "Require provenance, semantics checks, safe referral, and observability for source-enabled features.",
+      "assumptions": [
+        "These controls can bound failure and misuse sufficiently for the named stage."
+      ],
+      "source_ids": [
+        "EF-DAT-002",
+        "EF-DAT-003",
+        "EF-DAT-009",
+        "EF-DAT-010",
+        "EF-DAT-012",
+        "EF-DAT-013"
+      ],
+      "status": "governing P0 constraint"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "CQ-001",
+      "type": "contradiction",
+      "statement": "MVP scope differs across historical onboarding and product records, especially on marketplace/community features.",
+      "source_ids": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-007"
+      ],
+      "resolution_status": "unresolved; preserve as version variation"
+    },
+    {
+      "id": "CQ-002",
+      "type": "contradiction",
+      "statement": "Historical full-ecosystem automation ambitions coexist with later P0 limits and source-control requirements.",
+      "source_ids": [
+        "EF-VSN-005",
+        "EF-TEC-006",
+        "EF-DAT-005",
+        "EF-DAT-009",
+        "EF-DAT-010"
+      ],
+      "resolution_status": "current P0 controls qualify any operational interpretation"
+    },
+    {
+      "id": "CQ-003",
+      "type": "contradiction",
+      "statement": "National/global agricultural problem framing is broader than the bounded local and study-specific evidence available for Namakkal/Tamil Nadu.",
+      "source_ids": [
+        "EF-AGR-001",
+        "EF-AGR-008",
+        "EF-REG-012",
+        "EF-REG-013",
+        "EF-FLD-019",
+        "EF-FLD-020"
+      ],
+      "resolution_status": "unresolved; do not extrapolate"
+    },
+    {
+      "id": "CQ-004",
+      "type": "contradiction",
+      "statement": "Historical technical stack preference conflicts with the absence of a current, tested architecture decision record.",
+      "source_ids": [
+        "EF-TEC-002",
+        "EF-VSN-004",
+        "EF-DAT-006"
+      ],
+      "resolution_status": "requires current architecture review"
+    },
+    {
+      "id": "CQ-005",
+      "type": "open_question",
+      "statement": "Which target farmer decision, population, locality, and crop context should be validated first?",
+      "source_ids": [
+        "EF-FLD-002",
+        "EF-FLD-010",
+        "EF-FLD-013",
+        "EF-REG-003"
+      ],
+      "resolution_status": "requires attributable field evidence"
+    },
+    {
+      "id": "CQ-006",
+      "type": "open_question",
+      "statement": "Which weather, advisory, market, and local institutional sources are currently usable for each named decision and under what failure conditions?",
+      "source_ids": [
+        "EF-DAT-007",
+        "EF-DAT-008",
+        "EF-DAT-012",
+        "EF-DAT-013",
+        "EF-DAT-020"
+      ],
+      "resolution_status": "requires periodic source revalidation and tests"
+    },
+    {
+      "id": "CQ-007",
+      "type": "open_question",
+      "statement": "What level of recommendation confidence, uncertainty disclosure, human escalation, and liability boundary is required for agronomic AI features?",
+      "source_ids": [
+        "EF-TEC-003",
+        "EF-DAT-005",
+        "EF-DAT-009"
+      ],
+      "resolution_status": "requires model and safety governance"
+    },
+    {
+      "id": "CQ-008",
+      "type": "open_question",
+      "statement": "What hardware sensing, calibration, power, connectivity, maintenance, and remote-control safety conditions are viable in the target setting?",
+      "source_ids": [
+        "EF-TEC-005",
+        "EF-TEC-006",
+        "EF-DAT-005",
+        "EF-DAT-010"
+      ],
+      "resolution_status": "requires engineering and field testing"
+    },
+    {
+      "id": "CQ-009",
+      "type": "open_question",
+      "statement": "Whether marketplace, community, labour, and equipment-rental features have sufficient local trust, density, governance, and legal support is unresolved.",
+      "source_ids": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-MKT-002",
+        "EF-MKT-004"
+      ],
+      "resolution_status": "requires ecosystem and field validation"
+    },
+    {
+      "id": "CQ-010",
+      "type": "open_question",
+      "statement": "Which historical visuals and charts have recoverable underlying data, source attribution, and methods suitable for current use?",
+      "source_ids": [
+        "EF-DSN-012",
+        "EF-DSN-013",
+        "EF-DSN-014",
+        "EF-DSN-015",
+        "EF-DSN-016",
+        "EF-DSN-017",
+        "EF-DSN-018"
+      ],
+      "resolution_status": "requires original-source recovery"
+    }
+  ]
+}

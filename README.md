@@ -12,6 +12,7 @@ This repository is a **curated, source-traceable knowledge archive** for EcoFarm
 | [`10_knowledge_base_outputs/EcoFarm_Master_Knowledge_Base.md`](10_knowledge_base_outputs/EcoFarm_Master_Knowledge_Base.md) | Hyper-detailed human-readable knowledge base. |
 | [`10_knowledge_base_outputs/html_knowledge_site/`](10_knowledge_base_outputs/html_knowledge_site/) | Static, navigable HTML knowledge base. |
 | [`10_knowledge_base_outputs/llm_knowledge_corpus/`](10_knowledge_base_outputs/llm_knowledge_corpus/) | Retrieval-oriented corpus and external-LLM use guide. |
+| [`10_knowledge_base_outputs/evidence_atlas/`](10_knowledge_base_outputs/evidence_atlas/) | Evidence labels, source-family reconciliation, 113 completed full-file review records, feature/claim/assumption maps, open questions, and bounded primary-source revalidation. |
 | [`archive_metadata/`](archive_metadata/) | Crosswalk, semantic review, inclusion/exclusion record, and public-release audit. |
 
 ## Meaningful source categories
@@ -19,6 +20,8 @@ This repository is a **curated, source-traceable knowledge archive** for EcoFarm
 `EF-GOV` governance/archive · `EF-VSN` founder vision/evolution · `EF-PRD` product/feature mechanics · `EF-TEC` technical architecture/hardware/AI · `EF-AGR` India agriculture problem research · `EF-REG` regional/Namakkal research · `EF-MKT` market/commercial/ecosystem research · `EF-FLD` farmer decision/field validation · `EF-DAT` data sources/safety/P0 feasibility · `EF-DSN` historical design/pitch/media.
 
 The original preservation corpus contained **390** raw artifacts. This curated archive retains **113** canonical substantive records. Exact duplicates, generic app code, dependency/configuration files, generated builds, low-signal items, and raw conversation traces are documented rather than mixed into ordinary evidence browsing. Archive-generation code is kept separately under [`archive_infrastructure/`](archive_infrastructure/).
+
+The Evidence Atlas was created after the mandatory individual full-file review of all 113 curated sources. Its records preserve historical intent, research design, evidence limits, contradictions, and revalidation gaps. The Atlas does not make a product, field-validation, market, or investment conclusion on the archive’s behalf.
 
 ## Public-release policy
 

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "revalidation_id": "RV-001",
+      "topic": "Current official agricultural weather/advisory service role and access conditions",
+      "archive_sources": [
+        "EF-DAT-013",
+        "EF-DAT-014",
+        "EF-DAT-018",
+        "EF-DAT-019",
+        "EF-DAT-020"
+      ],
+      "required_primary_source_type": "Official IMD/TNAU service or documentation page",
+      "reason": "High-impact because weather/advisory data may shape farmer decisions.",
+      "status": "not_started",
+      "allowed_conclusion": "Label a named public service and its stated scope/current access conditions; do not infer recommendation quality."
+    },
+    {
+      "revalidation_id": "RV-002",
+      "topic": "Current Namakkal agriculture department information and district-level local context",
+      "archive_sources": [
+        "EF-REG-012",
+        "EF-REG-013",
+        "EF-DAT-015"
+      ],
+      "required_primary_source_type": "Official Namakkal/Tamil Nadu government publication or department page",
+      "reason": "High-impact local context must not rest on historical research notes.",
+      "status": "not_started",
+      "allowed_conclusion": "Verify only what an official current/dates source states."
+    },
+    {
+      "revalidation_id": "RV-003",
+      "topic": "Current agricultural market-price information service and semantic scope",
+      "archive_sources": [
+        "EF-MKT-006",
+        "EF-DAT-007",
+        "EF-DAT-012"
+      ],
+      "required_primary_source_type": "Official market-information service/documentation page",
+      "reason": "Price data can be misconstrued without commodity, market, grade, unit, timing, and update semantics.",
+      "status": "not_started",
+      "allowed_conclusion": "Confirm source availability and stated fields; do not claim price prediction or farmer benefit."
+    },
+    {
+      "revalidation_id": "RV-004",
+      "topic": "High-impact global/national agricultural statistics retained in historical problem syntheses",
+      "archive_sources": [
+        "EF-AGR-001",
+        "EF-AGR-003",
+        "EF-AGR-004",
+        "EF-AGR-005",
+        "EF-AGR-006",
+        "EF-AGR-008"
+      ],
+      "required_primary_source_type": "Named primary institutional or peer-reviewed source for each statistic",
+      "reason": "Repeated historical synthesis claims must not be source-laundered.",
+      "status": "not_started",
+      "allowed_conclusion": "Revalidate individual claims only with precise scope, year, and method."
+    },
+    {
+      "revalidation_id": "RV-005",
+      "topic": "Historical stack, sensor, AI, and automation claims",
+      "archive_sources": [
+        "EF-TEC-001",
+        "EF-TEC-002",
+        "EF-TEC-003",
+        "EF-TEC-005",
+        "EF-TEC-006"
+      ],
+      "required_primary_source_type": "Current engineering review, vendor documentation, safety analysis, and controlled test evidence",
+      "reason": "Historical technical descriptions are not current feasibility proof.",
+      "status": "not_started",
+      "allowed_conclusion": "State feasibility only at the reviewed component/system/test scope."
+    }
+  ]
+}

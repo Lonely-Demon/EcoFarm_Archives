@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "claim_id": "CLM-001",
+      "claim": "Agriculture faces broad resource, climate, crop-health, market, labour, and information challenges.",
+      "source_ids": [
+        "EF-AGR-001",
+        "EF-AGR-004",
+        "EF-AGR-006",
+        "EF-AGR-008"
+      ],
+      "evidence_label": "secondary_synthesis",
+      "revalidation_priority": "high",
+      "use_boundary": "Context and source discovery only; not target-area proof."
+    },
+    {
+      "claim_id": "CLM-002",
+      "claim": "Regional context may justify a Namakkal/Kongu research focus.",
+      "source_ids": [
+        "EF-REG-001",
+        "EF-REG-003",
+        "EF-REG-007",
+        "EF-REG-012",
+        "EF-REG-013"
+      ],
+      "evidence_label": "needs_revalidation",
+      "revalidation_priority": "high",
+      "use_boundary": "Historical selection logic and local leads only; not a settled entry decision."
+    },
+    {
+      "claim_id": "CLM-003",
+      "claim": "Weather, advisory, and market information can be inputs to named farmer decisions.",
+      "source_ids": [
+        "EF-MKT-006",
+        "EF-DAT-007",
+        "EF-DAT-012",
+        "EF-DAT-013",
+        "EF-DAT-020"
+      ],
+      "evidence_label": "supported_inference",
+      "revalidation_priority": "high",
+      "use_boundary": "Only after source, semantic, freshness, and failure-state checks for the named use case."
+    },
+    {
+      "claim_id": "CLM-004",
+      "claim": "A software-first MVP may offer value before hardware deployment.",
+      "source_ids": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-006",
+        "EF-PRD-007"
+      ],
+      "evidence_label": "historical_intent",
+      "revalidation_priority": "high",
+      "use_boundary": "Historical scope rationale, not demonstrated demand or adoption."
+    },
+    {
+      "claim_id": "CLM-005",
+      "claim": "Farm-specific recommendations require more than regional or manually entered data.",
+      "source_ids": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-DAT-005",
+        "EF-FLD-005"
+      ],
+      "evidence_label": "supported_inference",
+      "revalidation_priority": "high",
+      "use_boundary": "A limitation/control statement, not a performance claim."
+    },
+    {
+      "claim_id": "CLM-006",
+      "claim": "Human confirmation/override is needed around consequential irrigation automation.",
+      "source_ids": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-DAT-009"
+      ],
+      "evidence_label": "historical_intent",
+      "revalidation_priority": "high",
+      "use_boundary": "Historical safety intent; complete hazard analysis still required."
+    },
+    {
+      "claim_id": "CLM-007",
+      "claim": "AI diagnosis, advice, and prediction features need evidence of data quality, model performance, and escalation boundaries.",
+      "source_ids": [
+        "EF-TEC-003",
+        "EF-DAT-009",
+        "EF-DAT-010"
+      ],
+      "evidence_label": "supported_inference",
+      "revalidation_priority": "high",
+      "use_boundary": "Constraint on future evaluation, not evidence of functioning AI."
+    },
+    {
+      "claim_id": "CLM-008",
+      "claim": "Data-source tests are bounded observations rather than universal proof of provider reliability.",
+      "source_ids": [
+        "EF-DAT-007",
+        "EF-DAT-016",
+        "EF-DAT-017",
+        "EF-DAT-018",
+        "EF-DAT-019"
+      ],
+      "evidence_label": "supported_inference",
+      "revalidation_priority": "high",
+      "use_boundary": "Exact tested state only."
+    },
+    {
+      "claim_id": "CLM-009",
+      "claim": "Farmer research needs explicit attribution, consent, decision authority, seasonal timing, and outcome follow-up.",
+      "source_ids": [
+        "EF-FLD-005",
+        "EF-FLD-006",
+        "EF-FLD-013",
+        "EF-FLD-014",
+        "EF-FLD-015",
+        "EF-FLD-016",
+        "EF-FLD-017"
+      ],
+      "evidence_label": "research_design_only",
+      "revalidation_priority": "medium",
+      "use_boundary": "Research-method requirement; does not evidence results."
+    },
+    {
+      "claim_id": "CLM-010",
+      "claim": "Existing alternatives, advisory channels, and ecosystem actors should be studied as part of the farmer decision environment.",
+      "source_ids": [
+        "EF-MKT-002",
+        "EF-MKT-003",
+        "EF-MKT-004",
+        "EF-FLD-018"
+      ],
+      "evidence_label": "secondary_synthesis",
+      "revalidation_priority": "medium",
+      "use_boundary": "Research framing; current actors and behaviour require verification."
+    },
+    {
+      "claim_id": "CLM-011",
+      "claim": "Historical visual assets communicate product and research framing but are not numeric or outcome evidence.",
+      "source_ids": [
+        "EF-DSN-001",
+        "EF-DSN-003",
+        "EF-DSN-012",
+        "EF-DSN-018"
+      ],
+      "evidence_label": "historical_intent",
+      "revalidation_priority": "medium",
+      "use_boundary": "Historical context only."
+    }
+  ]
+}

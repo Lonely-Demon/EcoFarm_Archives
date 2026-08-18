@@ -1,0 +1,246 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "feature_id": "FEAT-001",
+      "feature": "Weather information and alerts",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-007"
+      ],
+      "constraint_sources": [
+        "EF-DAT-002",
+        "EF-DAT-012",
+        "EF-DAT-013",
+        "EF-DAT-020"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-FLD-001",
+        "EF-MKT-006"
+      ],
+      "evidence_status": "Historical feature intent plus source-governance constraints; no current provider or usefulness conclusion.",
+      "current_use": "candidate_input"
+    },
+    {
+      "feature_id": "FEAT-002",
+      "feature": "Farm mapping and sectorization",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-001",
+        "EF-PRD-002"
+      ],
+      "constraint_sources": [
+        "EF-TEC-002",
+        "EF-DAT-003"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-FLD-003",
+        "EF-FLD-004"
+      ],
+      "evidence_status": "Historical workflow and spatial-data intent; local usability and data-quality validation remain open.",
+      "current_use": "historical_context"
+    },
+    {
+      "feature_id": "FEAT-003",
+      "feature": "Regional planting recommendations",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-006"
+      ],
+      "constraint_sources": [
+        "EF-DAT-005",
+        "EF-DAT-013"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-REG-012",
+        "EF-REG-013",
+        "EF-FLD-019"
+      ],
+      "evidence_status": "Product hypothesis constrained by regional-data limitations; must not be represented as farm-specific agronomy.",
+      "current_use": "candidate_input"
+    },
+    {
+      "feature_id": "FEAT-004",
+      "feature": "Crop lifecycle guidance",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-005"
+      ],
+      "constraint_sources": [
+        "EF-DAT-009",
+        "EF-FLD-005"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-FLD-018",
+        "EF-FLD-020"
+      ],
+      "evidence_status": "Historical education/advice concept; source provenance, localization, and human support boundaries remain required.",
+      "current_use": "candidate_input"
+    },
+    {
+      "feature_id": "FEAT-005",
+      "feature": "Disease diagnosis and pest alerts",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-TEC-003"
+      ],
+      "constraint_sources": [
+        "EF-DAT-005",
+        "EF-DAT-009",
+        "EF-DAT-010"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-FLD-011",
+        "EF-FLD-019"
+      ],
+      "evidence_status": "Historical AI hypothesis; dataset, model accuracy, risk escalation, and agronomic validation are not established.",
+      "current_use": "candidate_input"
+    },
+    {
+      "feature_id": "FEAT-006",
+      "feature": "Irrigation monitoring and automation",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-TEC-005",
+        "EF-TEC-006"
+      ],
+      "constraint_sources": [
+        "EF-DAT-005",
+        "EF-DAT-009",
+        "EF-DAT-010"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-FLD-001",
+        "EF-REG-013"
+      ],
+      "evidence_status": "Historical integrated hardware concept; confirmation/override is recorded, but a complete safety and deployment case is absent.",
+      "current_use": "historical_context"
+    },
+    {
+      "feature_id": "FEAT-007",
+      "feature": "Farm records, tasks, calendars, and inventory",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-001",
+        "EF-PRD-007"
+      ],
+      "constraint_sources": [
+        "EF-DAT-003",
+        "EF-FLD-006"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-FLD-003",
+        "EF-FLD-004"
+      ],
+      "evidence_status": "Historical operational-record concept; actual data-entry burden and farmer utility require field testing.",
+      "current_use": "candidate_input"
+    },
+    {
+      "feature_id": "FEAT-008",
+      "feature": "Market price information",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-007"
+      ],
+      "constraint_sources": [
+        "EF-DAT-007",
+        "EF-DAT-012",
+        "EF-DAT-013"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-MKT-005",
+        "EF-MKT-006",
+        "EF-FLD-011"
+      ],
+      "evidence_status": "Historical high-value feature hypothesis; price semantics, source coverage, freshness, and decision relevance are explicit gates.",
+      "current_use": "candidate_input"
+    },
+    {
+      "feature_id": "FEAT-009",
+      "feature": "Financial planning and farm economics tools",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-005"
+      ],
+      "constraint_sources": [
+        "EF-DAT-003",
+        "EF-FLD-006"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-FLD-001",
+        "EF-MKT-001"
+      ],
+      "evidence_status": "Historical utility concept; financial-data permissions, regulatory position, and usefulness remain unvalidated.",
+      "current_use": "historical_context"
+    },
+    {
+      "feature_id": "FEAT-010",
+      "feature": "Marketplace, equipment rental, and labour connections",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-001"
+      ],
+      "constraint_sources": [
+        "EF-DAT-003",
+        "EF-DAT-009"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-MKT-002",
+        "EF-MKT-003",
+        "EF-MKT-004"
+      ],
+      "evidence_status": "Historical ecosystem concept with MVP-scope disagreement and likely network, governance, trust, and compliance dependencies.",
+      "current_use": "historical_context"
+    },
+    {
+      "feature_id": "FEAT-011",
+      "feature": "Farmer community, expert access, and referrals",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-PRD-005"
+      ],
+      "constraint_sources": [
+        "EF-DAT-009",
+        "EF-DAT-017"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-FLD-018",
+        "EF-MKT-004"
+      ],
+      "evidence_status": "Historical connectivity concept; directory quality, moderation, consent, referral safety, and demand remain open.",
+      "current_use": "candidate_input"
+    },
+    {
+      "feature_id": "FEAT-012",
+      "feature": "Sensor, energy, soil-history, drone, sustainability, and blockchain extensions",
+      "historical_intent_sources": [
+        "EF-VSN-004",
+        "EF-VSN-005",
+        "EF-TEC-005",
+        "EF-TEC-006"
+      ],
+      "constraint_sources": [
+        "EF-DAT-005",
+        "EF-DAT-006",
+        "EF-DAT-010"
+      ],
+      "field_or_market_evidence_sources": [
+        "EF-REG-013",
+        "EF-FLD-019"
+      ],
+      "evidence_status": "Historical later-phase concepts; no deployment, calibration, economics, or impact validation is established.",
+      "current_use": "historical_context"
+    }
+  ]
+}

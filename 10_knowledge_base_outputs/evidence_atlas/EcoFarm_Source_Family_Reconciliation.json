@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "EFSR-001",
+  "title": "EcoFarm Source-Family Relationship and Evidence-Treatment Reconciliation",
+  "scope": "Family-level reconciliation after completion of 113 individual full-file reviews; not a claim-level Evidence Atlas.",
+  "completion_precondition": {
+    "ledger_path": "full_file_review/EcoFarm_Full_File_Review_Ledger.json",
+    "sources_in_scope": 113,
+    "sources_completed_individual_full_review": 113,
+    "sources_pending": 0
+  },
+  "families": [
+    {
+      "family_id": "FAM-GOV",
+      "category": "00_governance_and_archive",
+      "source_ids": ["EF-GOV-001", "EF-GOV-002", "EF-GOV-003", "EF-GOV-005", "EF-GOV-006", "EF-GOV-007", "EF-GOV-008"],
+      "relationship_summary": "Current founder instructions and approvals govern archive work; research-agent handoffs and their revisions govern programme method, not domain facts.",
+      "default_evidence_labels": ["historical_intent", "research_design_only"],
+      "default_current_use": "governing",
+      "does_not_establish": ["agricultural facts", "market reality", "technical feasibility", "field validation"]
+    },
+    {
+      "family_id": "FAM-VSN",
+      "category": "01_founder_vision_and_evolution",
+      "source_ids": ["EF-VSN-001", "EF-VSN-002", "EF-VSN-003", "EF-VSN-004", "EF-VSN-005"],
+      "relationship_summary": "Historical onboarding versions, outline, concise derivative, and detailed drafts preserve feature and scope evolution; their MVP differences remain visible rather than collapsed into a final-version assertion.",
+      "default_evidence_labels": ["historical_intent", "product_hypothesis", "needs_revalidation"],
+      "default_current_use": "historical_context",
+      "does_not_establish": ["implemented capability", "current requirement", "validated outcomes", "verified external statistics"]
+    },
+    {
+      "family_id": "FAM-PRD",
+      "category": "02_product_concept_and_feature_mechanics",
+      "source_ids": ["EF-PRD-001", "EF-PRD-002", "EF-PRD-003", "EF-PRD-004", "EF-PRD-005", "EF-PRD-006", "EF-PRD-007"],
+      "relationship_summary": "Historical feature, workflow, screen, and software-first MVP records are conceptual companions to the onboarding family.",
+      "default_evidence_labels": ["historical_intent", "product_hypothesis"],
+      "default_current_use": "historical_context",
+      "depends_on": ["FAM-DAT", "FAM-FLD"],
+      "does_not_establish": ["implementation", "user demand", "data availability", "safety"]
+    },
+    {
+      "family_id": "FAM-TEC",
+      "category": "03_technical_architecture_hardware_ai",
+      "source_ids": ["EF-TEC-001", "EF-TEC-002", "EF-TEC-003", "EF-TEC-004", "EF-TEC-005", "EF-TEC-006"],
+      "relationship_summary": "Alternatives, proposed stack, AI/data, hosting, sensor research, and technical-master records explain historical option space and architecture rationale.",
+      "default_evidence_labels": ["historical_intent", "product_hypothesis", "needs_revalidation"],
+      "default_current_use": "historical_context",
+      "qualified_by": ["FAM-DAT"],
+      "does_not_establish": ["current architecture", "component qualification", "model performance", "security or operational safety"]
+    },
+    {
+      "family_id": "FAM-AGR",
+      "category": "04_india_agriculture_problem_research",
+      "source_ids": ["EF-AGR-001", "EF-AGR-002", "EF-AGR-003", "EF-AGR-004", "EF-AGR-005", "EF-AGR-006", "EF-AGR-007", "EF-AGR-008"],
+      "relationship_summary": "Overlapping national/global problem reports and consolidations preserve context and source leads, but several restate secondary claims or synthesize mixed provenance.",
+      "default_evidence_labels": ["secondary_synthesis", "needs_revalidation", "unknown"],
+      "default_current_use": "candidate_input",
+      "does_not_establish": ["target-area need", "farmer behaviour", "current numerical fact", "product-market fit"]
+    },
+    {
+      "family_id": "FAM-REG",
+      "category": "05_regional_microcosm_and_namakkal_research",
+      "source_ids": ["EF-REG-001", "EF-REG-002", "EF-REG-003", "EF-REG-004", "EF-REG-005", "EF-REG-006", "EF-REG-007", "EF-REG-008", "EF-REG-009", "EF-REG-010", "EF-REG-011", "EF-REG-012", "EF-REG-013"],
+      "relationship_summary": "Comparison methods, historical regional analyses, target-area context, comparator-region material, and local institutional notes must be kept separate as methodology, synthesis, comparator context, and bounded local-source notes.",
+      "default_evidence_labels": ["research_design_only", "secondary_synthesis", "needs_revalidation"],
+      "default_current_use": "candidate_input",
+      "does_not_establish": ["settled entry geography", "current local operations", "farmer-segment validation"]
+    },
+    {
+      "family_id": "FAM-MKT",
+      "category": "06_market_commercial_and_ecosystem_research",
+      "source_ids": ["EF-MKT-001", "EF-MKT-002", "EF-MKT-003", "EF-MKT-004", "EF-MKT-005", "EF-MKT-006", "EF-MKT-007", "EF-MKT-008"],
+      "relationship_summary": "Founder market reasoning, alternative mapping, ecosystem research, and localized price/risk findings provide research questions and revalidation targets rather than a final commercial conclusion.",
+      "default_evidence_labels": ["historical_intent", "secondary_synthesis", "needs_revalidation", "research_design_only"],
+      "default_current_use": "candidate_input",
+      "does_not_establish": ["current market size", "competitor status", "pricing", "behavioural validation"]
+    },
+    {
+      "family_id": "FAM-FLD",
+      "category": "07_farmer_decision_and_field_validation",
+      "source_ids": ["EF-FLD-001", "EF-FLD-002", "EF-FLD-003", "EF-FLD-004", "EF-FLD-005", "EF-FLD-006", "EF-FLD-007", "EF-FLD-008", "EF-FLD-009", "EF-FLD-010", "EF-FLD-011", "EF-FLD-012", "EF-FLD-013", "EF-FLD-014", "EF-FLD-015", "EF-FLD-016", "EF-FLD-017", "EF-FLD-018", "EF-FLD-019", "EF-FLD-020"],
+      "relationship_summary": "Research synthesis and decision models are followed by evidence-governance, interview, consent, cohort, seasonal, and follow-up instruments; bounded external study notes are distinct from the unexecuted research programme.",
+      "default_evidence_labels": ["research_design_only", "supported_inference", "secondary_synthesis"],
+      "default_current_use": "candidate_input",
+      "does_not_establish": ["field outcomes", "adoption", "willingness to pay", "validated pilot results"]
+    },
+    {
+      "family_id": "FAM-DAT",
+      "category": "08_data_sources_safety_and_p0_feasibility",
+      "source_ids": ["EF-DAT-001", "EF-DAT-002", "EF-DAT-003", "EF-DAT-004", "EF-DAT-005", "EF-DAT-006", "EF-DAT-007", "EF-DAT-008", "EF-DAT-009", "EF-DAT-010", "EF-DAT-011", "EF-DAT-012", "EF-DAT-013", "EF-DAT-014", "EF-DAT-015", "EF-DAT-016", "EF-DAT-017", "EF-DAT-018", "EF-DAT-019", "EF-DAT-020"],
+      "relationship_summary": "P0 registers, decision packets, feasibility gates, tests, escalation design, provenance controls, and institutional captures specify the controls that qualify historical data-enabled features.",
+      "default_evidence_labels": ["supported_inference", "research_design_only", "needs_revalidation"],
+      "default_current_use": "governing",
+      "does_not_establish": ["universal source availability", "real-time data correctness", "product readiness", "safety beyond the tested condition"]
+    },
+    {
+      "family_id": "FAM-DSN",
+      "category": "09_historical_design_pitch_and_media",
+      "source_ids": ["EF-DSN-001", "EF-DSN-002", "EF-DSN-003", "EF-DSN-004", "EF-DSN-005", "EF-DSN-006", "EF-DSN-007", "EF-DSN-008", "EF-DSN-009", "EF-DSN-010", "EF-DSN-011", "EF-DSN-012", "EF-DSN-013", "EF-DSN-014", "EF-DSN-015", "EF-DSN-016", "EF-DSN-017", "EF-DSN-018", "EF-DSN-019"],
+      "relationship_summary": "Historical product visuals, narrative decks, pitch material, and research charts preserve communication and design context while often visualizing claims found elsewhere.",
+      "default_evidence_labels": ["historical_intent", "unknown", "needs_revalidation"],
+      "default_current_use": "historical_context",
+      "does_not_establish": ["numeric facts", "delivery", "market validation", "current design direction"]
+    }
+  ],
+  "cross_family_relationships": [
+    {"relationship_id": "REL-001", "type": "governs", "from": ["EF-GOV-001", "EF-GOV-002", "EF-GOV-003"], "to": ["FAM-VSN", "FAM-PRD", "FAM-TEC", "FAM-AGR", "FAM-REG", "FAM-MKT", "FAM-FLD", "FAM-DAT", "FAM-DSN"]},
+    {"relationship_id": "REL-002", "type": "revises_programme_method", "from": ["EF-GOV-006", "EF-GOV-008"], "to": ["EF-GOV-005", "EF-GOV-007"]},
+    {"relationship_id": "REL-003", "type": "historical_version_family", "from": ["EF-VSN-003", "EF-VSN-005", "EF-VSN-004", "EF-VSN-001", "EF-VSN-002"], "to": ["FAM-VSN"]},
+    {"relationship_id": "REL-004", "type": "supports_historical_concept_reconstruction", "from": ["FAM-VSN", "FAM-PRD", "FAM-DSN"], "to": ["historical feature and workflow intent"]},
+    {"relationship_id": "REL-005", "type": "supports_historical_technical_reasoning", "from": ["FAM-VSN", "FAM-PRD", "FAM-TEC"], "to": ["technology and hardware option space"]},
+    {"relationship_id": "REL-006", "type": "does_not_establish", "from": ["FAM-AGR"], "to": ["local target-area need or farmer behaviour"]},
+    {"relationship_id": "REL-007", "type": "tests", "from": ["FAM-REG", "FAM-FLD"], "to": ["regional, farmer-decision, market, and product hypotheses"]},
+    {"relationship_id": "REL-008", "type": "qualifies", "from": ["EF-REG-012", "EF-REG-013", "EF-FLD-018", "EF-FLD-019", "EF-FLD-020"], "to": ["FAM-AGR", "FAM-REG", "FAM-MKT"]},
+    {"relationship_id": "REL-009", "type": "qualifies", "from": ["FAM-DAT"], "to": ["FAM-VSN", "FAM-PRD", "FAM-TEC", "FAM-MKT"]},
+    {"relationship_id": "REL-010", "type": "does_not_establish", "from": ["FAM-DSN"], "to": ["underlying quantitative and factual claims"]}
+  ],
+  "trace_mapping_rule": "Atomic EVA records must cite specific EF source spans and retrieval chunks; family membership cannot substitute for source-level evidence."
+}
+
