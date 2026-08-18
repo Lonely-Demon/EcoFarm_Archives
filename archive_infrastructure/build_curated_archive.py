@@ -196,8 +196,11 @@ for file_name in [
     'EcoFarm_Core_Source_Map.md',
     'EcoFarm_Semantic_Supersession_Review.md',
     'EcoFarm_Content_Based_Version_Comparison.md',
+    'EcoFarm_Content_Based_Curation_Review_Register.md',
     'EcoFarm_Corpus_Coverage_and_Resolution.md',
     'EcoFarm_HTML_Usability_Checks.md',
+    'EcoFarm_Curated_Archive_Verification_Notes.md',
+    'EcoFarm_Master_Knowledge_Base_Legacy_SRC_Reference_Copy.md',
 ]:
     path = ARCHIVE / 'knowledge_mapping' / file_name
     if path.exists():
@@ -216,6 +219,11 @@ for script_name in [
     'build_semantic_supersession_review.py',
     'compare_version_families.py',
     'build_corpus_coverage_register.py',
+    'build_curation_review_register.py',
+    'augment_llm_corpus_with_curated_metadata.py',
+    'sanitize_public_curated_archive.py',
+    'audit_public_curated_archive.py',
+    'migrate_master_citations_to_curated_ids.py',
     'validate_knowledge_deliverables.py',
     'serve_html_knowledge.sh',
 ]:

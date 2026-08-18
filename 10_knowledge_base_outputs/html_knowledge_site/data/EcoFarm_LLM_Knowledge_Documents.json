@@ -7,7 +7,12 @@
     "relative_path": "EcoFarm-1/AIFarmingUI3-2.mov",
     "status_hint": "historical_product_or_technical_artifact",
     "characters": 158,
-    "document_tags": []
+    "document_tags": [],
+    "curated_id": "EF-DSN-003",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-003__aifarmingui3_2.mov",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0003",
@@ -19,7 +24,12 @@
     "characters": 170,
     "document_tags": [
       "validation"
-    ]
+    ],
+    "curated_id": "EF-DSN-001",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-001__mockup_fields_overview_hf.png",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0004",
@@ -29,7 +39,12 @@
     "relative_path": "EcoFarm-1/mockup_home_dashboard_hf.png",
     "status_hint": "historical_product_or_technical_artifact",
     "characters": 169,
-    "document_tags": []
+    "document_tags": [],
+    "curated_id": "EF-DSN-002",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-002__mockup_home_dashboard_hf.png",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0005",
@@ -50,7 +65,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-PRD-002",
+    "curated_category_prefix": "EF-PRD",
+    "curated_category_directory": "02_product_concept_and_feature_mechanics",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-002__mvp_screens_flows.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0006",
@@ -73,7 +93,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-PRD-001",
+    "curated_category_prefix": "EF-PRD",
+    "curated_category_directory": "02_product_concept_and_feature_mechanics",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-001__prd_draft.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0007",
@@ -89,7 +114,12 @@
       "founder_intent",
       "soil_water_and_sensors",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0008",
@@ -105,7 +135,12 @@
       "crop_production",
       "ecosystem_and_partnerships",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": "EF-TEC-001",
+    "curated_category_prefix": "EF-TEC",
+    "curated_category_directory": "03_technical_architecture_hardware_ai",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-001__tech_stack_alternatives.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0009",
@@ -120,7 +155,12 @@
       "ecosystem_and_partnerships",
       "soil_water_and_sensors",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0010",
@@ -138,7 +178,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-TEC-002",
+    "curated_category_prefix": "EF-TEC",
+    "curated_category_directory": "03_technical_architecture_hardware_ai",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-002__tech_stack_proposal.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0011",
@@ -158,7 +203,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-TEC-003",
+    "curated_category_prefix": "EF-TEC",
+    "curated_category_directory": "03_technical_architecture_hardware_ai",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-003__tech_stack_research_ai_data.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0012",
@@ -175,7 +225,12 @@
       "hardware_and_iot",
       "technical_architecture",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0013",
@@ -195,7 +250,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0014",
@@ -213,7 +273,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0015",
@@ -228,7 +293,12 @@
       "data_provenance",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-TEC-004",
+    "curated_category_prefix": "EF-TEC",
+    "curated_category_directory": "03_technical_architecture_hardware_ai",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-004__tech_stack_research_hosting.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0016",
@@ -244,7 +314,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0017",
@@ -260,7 +335,12 @@
       "hardware_and_iot",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0018",
@@ -276,7 +356,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0019",
@@ -292,7 +377,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0020",
@@ -304,7 +394,12 @@
     "characters": 170,
     "document_tags": [
       "validation"
-    ]
+    ],
+    "curated_id": "EF-DSN-004",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-004__wireframe_fields_overview.png",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0021",
@@ -314,7 +409,12 @@
     "relative_path": "EcoFarm-1/wireframe_home_dashboard.png",
     "status_hint": "historical_product_or_technical_artifact",
     "characters": 169,
-    "document_tags": []
+    "document_tags": [],
+    "curated_id": "EF-DSN-005",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-005__wireframe_home_dashboard.png",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0022",
@@ -326,7 +426,12 @@
     "characters": 171,
     "document_tags": [
       "community_and_marketplace"
-    ]
+    ],
+    "curated_id": "EF-DSN-006",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-006__wireframe_marketplace_feed.png",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0023",
@@ -342,7 +447,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-PRD-003",
+    "curated_category_prefix": "EF-PRD",
+    "curated_category_directory": "02_product_concept_and_feature_mechanics",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-003__wireframes_part1.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0024",
@@ -361,7 +471,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-PRD-004",
+    "curated_category_prefix": "EF-PRD",
+    "curated_category_directory": "02_product_concept_and_feature_mechanics",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-004__wireframes_part2.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0025",
@@ -378,7 +493,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-TEC-005",
+    "curated_category_prefix": "EF-TEC",
+    "curated_category_directory": "03_technical_architecture_hardware_ai",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0026",
@@ -395,7 +515,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-TEC-005",
+    "curated_category_prefix": "EF-TEC",
+    "curated_category_directory": "03_technical_architecture_hardware_ai",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0027",
@@ -418,7 +543,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-PRD-005",
+    "curated_category_prefix": "EF-PRD",
+    "curated_category_directory": "02_product_concept_and_feature_mechanics",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-005__ai_farming_app_content.txt",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0029",
@@ -435,7 +565,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-TEC-005",
+    "curated_category_prefix": "EF-TEC",
+    "curated_category_directory": "03_technical_architecture_hardware_ai",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0032",
@@ -461,7 +596,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0033",
@@ -477,7 +617,12 @@
       "founder_intent",
       "soil_water_and_sensors",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0034",
@@ -503,7 +648,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0035",
@@ -529,7 +679,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0036",
@@ -546,7 +701,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-TEC-005",
+    "curated_category_prefix": "EF-TEC",
+    "curated_category_directory": "03_technical_architecture_hardware_ai",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0038",
@@ -572,7 +732,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0039",
@@ -597,7 +762,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-VSN-001",
+    "curated_category_prefix": "EF-VSN",
+    "curated_category_directory": "01_founder_vision_and_evolution",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0040",
@@ -622,7 +792,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-VSN-002",
+    "curated_category_prefix": "EF-VSN",
+    "curated_category_directory": "01_founder_vision_and_evolution",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-002__project_onboarding_document_final.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0041",
@@ -638,7 +813,12 @@
       "founder_intent",
       "soil_water_and_sensors",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0042",
@@ -651,7 +831,12 @@
     "document_tags": [
       "commercial_hypotheses",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0043",
@@ -674,7 +859,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DSN-007",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-007__skylabstechpreneurpitch.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0044",
@@ -701,7 +891,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DSN-008",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-008__smartfarmingecosystem_amasterdocumentforcom.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0045",
@@ -714,7 +909,12 @@
     "document_tags": [
       "ecosystem_and_partnerships",
       "soil_water_and_sensors"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0046",
@@ -732,7 +932,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0048",
@@ -756,7 +961,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DSN-009",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-009__content_plan.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0049",
@@ -776,7 +986,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0051",
@@ -796,7 +1011,12 @@
       "hardware_and_iot",
       "soil_water_and_sensors",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0052",
@@ -811,7 +1031,12 @@
       "hardware_and_iot",
       "soil_water_and_sensors",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0053",
@@ -827,7 +1052,12 @@
       "farmer_reality",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0058",
@@ -845,7 +1075,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0059",
@@ -861,7 +1096,12 @@
       "farmer_reality",
       "hardware_and_iot",
       "soil_water_and_sensors"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0060",
@@ -876,7 +1116,12 @@
       "ecosystem_and_partnerships",
       "farmer_reality",
       "soil_water_and_sensors"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0061",
@@ -889,7 +1134,12 @@
     "document_tags": [
       "commercial_hypotheses",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0062",
@@ -902,7 +1152,12 @@
     "document_tags": [
       "ecosystem_and_partnerships",
       "soil_water_and_sensors"
-    ]
+    ],
+    "curated_id": "EF-DSN-011",
+    "curated_category_prefix": "EF-DSN",
+    "curated_category_directory": "09_historical_design_pitch_and_media",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-011__title_slide.html",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0063",
@@ -917,7 +1172,12 @@
       "founder_intent",
       "soil_water_and_sensors",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0083",
@@ -938,7 +1198,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0085",
@@ -961,7 +1226,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0090",
@@ -988,7 +1258,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0091",
@@ -1008,7 +1283,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0092",
@@ -1023,7 +1303,12 @@
       "farmer_reality",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0093",
@@ -1039,7 +1324,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0094",
@@ -1055,7 +1345,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0095",
@@ -1072,7 +1367,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0096",
@@ -1088,7 +1388,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0097",
@@ -1105,7 +1410,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0098",
@@ -1120,7 +1430,12 @@
       "founder_intent",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-MKT-005",
+    "curated_category_prefix": "EF-MKT",
+    "curated_category_directory": "06_market_commercial_and_ecosystem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-005__research_notes_market_insurance.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0099",
@@ -1139,7 +1454,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-MKT-006",
+    "curated_category_prefix": "EF-MKT",
+    "curated_category_directory": "06_market_commercial_and_ecosystem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-006__research_notes_price_market_weather.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0119",
@@ -1156,7 +1476,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-016",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-016__observability_simulated_failure_records.jsonl",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0120",
@@ -1180,7 +1505,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0121",
@@ -1203,7 +1533,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0123",
@@ -1222,7 +1557,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-MKT-007",
+    "curated_category_prefix": "EF-MKT",
+    "curated_category_directory": "06_market_commercial_and_ecosystem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-007__research_findings_data_alternatives.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0124",
@@ -1241,7 +1581,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-MKT-008",
+    "curated_category_prefix": "EF-MKT",
+    "curated_category_directory": "06_market_commercial_and_ecosystem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-008__research_findings_local_ecosystem.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0125",
@@ -1251,7 +1596,12 @@
     "relative_path": "Research-Agent-2/tnau_agromet_headers.txt",
     "status_hint": "research_agent_output_or_artifact",
     "characters": 245,
-    "document_tags": []
+    "document_tags": [],
+    "curated_id": "EF-DAT-018",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-018__tnau_agromet_headers.txt",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0126",
@@ -1264,7 +1614,12 @@
     "document_tags": [
       "ecosystem_and_partnerships",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-019",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0127",
@@ -1284,7 +1639,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0128",
@@ -1308,7 +1668,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0129",
@@ -1333,7 +1698,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0130",
@@ -1357,7 +1727,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-GOV-004",
+    "curated_category_prefix": "EF-GOV",
+    "curated_category_directory": "00_governance_and_archive",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0131",
@@ -1383,7 +1758,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0132",
@@ -1402,7 +1782,12 @@
       "safety_and_consent",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0133",
@@ -1426,7 +1811,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0134",
@@ -1443,7 +1833,12 @@
       "founder_intent",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-GOV-001",
+    "curated_category_prefix": "EF-GOV",
+    "curated_category_directory": "00_governance_and_archive",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-001__ecofarm_current_main_conversation_canonical_capture_2026_08_18.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0135",
@@ -1460,7 +1855,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-GOV-002",
+    "curated_category_prefix": "EF-GOV",
+    "curated_category_directory": "00_governance_and_archive",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-002__ecofarm_current_session_approvals_and_requirements_2026_08_18.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0274",
@@ -1481,7 +1881,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-REG-001",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-001__all_microcosms_detailed_profiles.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0275",
@@ -1502,7 +1907,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0276",
@@ -1522,7 +1932,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0277",
@@ -1546,7 +1961,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-AGR-001",
+    "curated_category_prefix": "EF-AGR",
+    "curated_category_directory": "04_india_agriculture_problem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-001__complete_unified_master_with_citations.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0278",
@@ -1570,7 +1990,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0279",
@@ -1591,7 +2016,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0280",
@@ -1613,7 +2043,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0281",
@@ -1635,7 +2070,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0282",
@@ -1657,7 +2097,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0283",
@@ -1678,7 +2123,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0284",
@@ -1700,7 +2150,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0285",
@@ -1720,7 +2175,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-REG-002",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-002__comparative_difficulties_kongu_vs_punjab.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0286",
@@ -1740,7 +2200,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-REG-003",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-003__comparative_microcosm_analysis_recommendation.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0287",
@@ -1757,7 +2222,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0288",
@@ -1779,7 +2249,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-AGR-002",
+    "curated_category_prefix": "EF-AGR",
+    "curated_category_directory": "04_india_agriculture_problem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-002__ecofarm_strategic_analysis.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0289",
@@ -1805,7 +2280,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-GOV-003",
+    "curated_category_prefix": "EF-GOV",
+    "curated_category_directory": "00_governance_and_archive",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-003__ecofarm_master_document_reworked_architecture.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0290",
@@ -1824,7 +2304,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0291",
@@ -1846,7 +2331,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-AGR-003",
+    "curated_category_prefix": "EF-AGR",
+    "curated_category_directory": "04_india_agriculture_problem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-003__farmer_suicides_and_deepening_distress.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0292",
@@ -1869,7 +2359,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0293",
@@ -1891,7 +2386,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0294",
@@ -1913,7 +2413,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0295",
@@ -1935,7 +2440,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0296",
@@ -1957,7 +2467,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0297",
@@ -1977,7 +2492,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0298",
@@ -2000,7 +2520,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-AGR-004",
+    "curated_category_prefix": "EF-AGR",
+    "curated_category_directory": "04_india_agriculture_problem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-004__india_national_agriculture_crisis.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0299",
@@ -2022,7 +2547,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-AGR-005",
+    "curated_category_prefix": "EF-AGR",
+    "curated_category_directory": "04_india_agriculture_problem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-005__indian_agriculture_comprehensive_report.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0300",
@@ -2041,7 +2571,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-REG-004",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-004__kongu_belt_operational_difficulties_detailed.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0301",
@@ -2063,7 +2598,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-REG-005",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-005__kongu_belt_regional_analysis.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0302",
@@ -2081,7 +2621,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0303",
@@ -2100,7 +2645,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0304",
@@ -2120,7 +2670,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-PRD-006",
+    "curated_category_prefix": "EF-PRD",
+    "curated_category_directory": "02_product_concept_and_feature_mechanics",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-006__mvp_considerations_trade_offs.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0305",
@@ -2142,7 +2697,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-REG-006",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-006__microcosm_research_plan.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0306",
@@ -2165,7 +2725,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0307",
@@ -2188,7 +2753,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0308",
@@ -2208,7 +2778,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0309",
@@ -2230,7 +2805,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-REG-007",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-007__namakkal_kongu_belt_agricultural_problems.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0310",
@@ -2253,7 +2833,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-REG-008",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-008__operational_difficulties_research_plan.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0311",
@@ -2275,7 +2860,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-AGR-006",
+    "curated_category_prefix": "EF-AGR",
+    "curated_category_directory": "04_india_agriculture_problem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-006__problems_faced_by_farmers_global_overview_with_india_focus.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0312",
@@ -2295,7 +2885,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-PRD-007",
+    "curated_category_prefix": "EF-PRD",
+    "curated_category_directory": "02_product_concept_and_feature_mechanics",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-007__proposed_mvp_feature_list_api_software_focused.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0313",
@@ -2313,7 +2908,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0314",
@@ -2335,7 +2935,12 @@
       "market_and_prices",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-REG-009",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-009__punjab_operational_difficulties_detailed.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0315",
@@ -2357,7 +2962,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-REG-010",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-010__tamil_nadu_agriculture_specific_analysis.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0316",
@@ -2373,7 +2983,12 @@
       "crop_production",
       "ecosystem_and_partnerships",
       "technical_architecture"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0317",
@@ -2390,7 +3005,12 @@
       "hardware_and_iot",
       "technical_architecture",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0318",
@@ -2408,7 +3028,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0329",
@@ -2426,7 +3051,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0330",
@@ -2445,7 +3075,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0331",
@@ -2465,7 +3100,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0333",
@@ -2485,7 +3125,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0334",
@@ -2511,7 +3156,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0339",
@@ -2524,7 +3174,12 @@
     "document_tags": [
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0340",
@@ -2543,7 +3198,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-MKT-002",
+    "curated_category_prefix": "EF-MKT",
+    "curated_category_directory": "06_market_commercial_and_ecosystem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-002__ecofarmalternativesbehaviouralverificationaddendum.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0341",
@@ -2566,7 +3226,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-MKT-003",
+    "curated_category_prefix": "EF-MKT",
+    "curated_category_directory": "06_market_commercial_and_ecosystem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-003__ecofarmalternativesmatrix.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0342",
@@ -2586,7 +3251,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-006",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-006__ecofarmattributionandfield_dataqualityprotocol.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0343",
@@ -2607,7 +3277,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0344",
@@ -2628,7 +3303,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0345",
@@ -2649,7 +3329,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0346",
@@ -2671,7 +3356,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0347",
@@ -2693,7 +3383,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-005",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-005__ecofarmclaimledger_revisedfield_programmeversion.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0348",
@@ -2715,7 +3410,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0349",
@@ -2732,7 +3432,12 @@
       "safety_and_consent",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0350",
@@ -2751,7 +3456,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0351",
@@ -2772,7 +3482,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-003",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-003__ecofarmdecision_journeytables.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0352",
@@ -2795,7 +3510,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-004",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-004__ecofarmdecisionoperationalizationsheets.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0353",
@@ -2816,7 +3536,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0354",
@@ -2841,7 +3566,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-001",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-001__ecofarmecosystem_datafeasibility_alternatives_anddeliveryhandoff.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0355",
@@ -2863,7 +3593,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-MKT-004",
+    "curated_category_prefix": "EF-MKT",
+    "curated_category_directory": "06_market_commercial_and_ecosystem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-004__ecofarmecosystemregister.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0356",
@@ -2883,7 +3618,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0357",
@@ -2906,7 +3646,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-001",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-001__ecofarmfarmer_problemresearchreport.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0358",
@@ -2928,7 +3673,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0359",
@@ -2950,7 +3700,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-007",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-007__ecofarmfieldinterviewguide_revised.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0360",
@@ -2967,7 +3722,12 @@
       "safety_and_consent",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-FLD-008",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-008__ecofarmfieldlaunchkit_governanceindex.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0361",
@@ -2986,7 +3746,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-009",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-009__ecofarmfieldsafetycard.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0362",
@@ -3008,7 +3773,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-010",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-010__ecofarmfieldselectionmemo.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0363",
@@ -3032,7 +3802,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-011",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-011__ecofarmfieldandpartnerverificationquestions.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0364",
@@ -3047,7 +3822,12 @@
       "safety_and_consent",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-FLD-012",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-012__ecofarmhousehold_authorityfollow_up.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0365",
@@ -3068,7 +3848,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-002",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-002__ecofarmp0data_sourceregister_operationalrevision.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0366",
@@ -3089,7 +3874,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-003",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-003__ecofarmp0decision_packetdatadictionaryandconsentmap.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0367",
@@ -3110,7 +3900,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-004",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-004__ecofarmp0ecosystemregister_operationalrevision.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0368",
@@ -3133,7 +3928,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-005",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-005__ecofarmp0feasibilitydecisionmemo.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0369",
@@ -3153,7 +3953,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-006",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-006__ecofarmp0implementation_readychecklist.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0370",
@@ -3174,7 +3979,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-007",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0371",
@@ -3199,7 +4009,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-008",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-008__ecofarmp0sourceoperational_testplan.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0372",
@@ -3220,7 +4035,12 @@
       "soil_water_and_sensors",
       "technical_architecture",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-FLD-013",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-013__ecofarmprimarypilotcohortanddecision_authorityprotocol.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0373",
@@ -3238,7 +4058,12 @@
       "safety_and_consent",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-FLD-014",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-014__ecofarmrecruitmentandconsentpack.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0374",
@@ -3260,7 +4085,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-009",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-009__ecofarmsafereferralandescalationdesign.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0375",
@@ -3282,7 +4112,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-015",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-015__ecofarmseasonaleventandobservationmap.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0376",
@@ -3300,7 +4135,12 @@
       "safety_and_consent",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-016",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-016__ecofarmshortpost_eventfollow_up.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0377",
@@ -3321,7 +4161,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-010",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-010__ecofarmsource_failureandprovenanceobservabilityplan.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0378",
@@ -3342,7 +4187,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-011",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-011__ecofarmsourceregister.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0379",
@@ -3363,7 +4213,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-012",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-012__ecofarmtarget_marketsemanticsverificationplan.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0380",
@@ -3384,7 +4239,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-013",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-013__ecofarmweatherandadvisorysourcehierarchy.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0381",
@@ -3400,7 +4260,12 @@
       "safety_and_consent",
       "soil_water_and_sensors",
       "validation"
-    ]
+    ],
+    "curated_id": "EF-FLD-017",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-017__ecofarmweeklyeventregisterandevidencedashboard.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0382",
@@ -3424,7 +4289,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-MKT-001",
+    "curated_category_prefix": "EF-MKT",
+    "curated_category_directory": "06_market_commercial_and_ecosystem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/06_market_commercial_and_ecosystem_research/EF-MKT-001__ecofarm_market_research_export.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0383",
@@ -3445,7 +4315,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-FLD-002",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-002__ecofarmcandidatedecisionscoring_analyticaljudgments.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0384",
@@ -3463,7 +4338,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-014",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-014__imdagrimet_gov_in.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0385",
@@ -3481,7 +4361,12 @@
       "soil_water_and_sensors",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-015",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-015__namakkal_nic_in_departments_agriculture.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0386",
@@ -3498,7 +4383,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-016",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-016__observability_simulated_failure_records.jsonl",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0387",
@@ -3523,7 +4413,12 @@
       "technical_architecture",
       "validation",
       "weather"
-    ]
+    ],
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0389",
@@ -3533,7 +4428,12 @@
     "relative_path": "uploads/tnau_agromet_headers.txt",
     "status_hint": "research_or_reference_artifact",
     "characters": 245,
-    "document_tags": []
+    "document_tags": [],
+    "curated_id": "EF-DAT-018",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-018__tnau_agromet_headers.txt",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0390",
@@ -3546,6 +4446,11 @@
     "document_tags": [
       "ecosystem_and_partnerships",
       "weather"
-    ]
+    ],
+    "curated_id": "EF-DAT-019",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt",
+    "curation_access": "public_canonical_record"
   }
 ]

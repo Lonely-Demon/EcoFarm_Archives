@@ -2,7 +2,7 @@
 
 > The private preservation corpus remains unchanged. This log applies only to the public GitHub-ready curated copy.
 
-- Files redacted: **11**
+- Files redacted: **12**
 
 | Public archive path | Redactions applied |
 |---|---|
@@ -11,6 +11,7 @@
 | `06_market_commercial_and_ecosystem_research/EF-MKT-008__research_findings_local_ecosystem.md` | email address: 1 |
 | `08_data_sources_safety_and_p0_feasibility/EF-DAT-007__ecofarmp0operationaltestresultsmemo.md` | email address: 2 |
 | `archive_metadata/EcoFarm_Semantic_Supersession_Review.md` | email address: 1 |
+| `archive_metadata/EcoFarm_Content_Based_Curation_Review_Register.md` | email address: 1 |
 | `archive_metadata/EcoFarm_Corpus_Coverage_and_Resolution.md` | email address: 1 |
 | `archive_metadata/legacy_source_manifest.json` | email address: 2, Indian mobile number: 12 |
 | `archive_metadata/legacy_source_manifest.csv` | email address: 2, Indian mobile number: 12 |

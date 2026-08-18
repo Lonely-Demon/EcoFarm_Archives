@@ -8,3 +8,9 @@ async function searchKnowledge() {
   const hits = index.filter(item => terms.every(term => item.search_text.includes(term))).slice(0, 12);
   target.innerHTML = hits.length ? hits.map(h => `<a href="${h.file}">${h.title}<br><small>${h.excerpt}</small></a>`).join('') : '<span>No matching section title or passage found.</span>';
 }
+function filterCuratedSources(prefix) {
+  document.querySelectorAll('.filter-buttons button').forEach(button => button.classList.toggle('active', button.dataset.prefix === prefix));
+  document.querySelectorAll('[data-source-prefix]').forEach(element => {
+    element.style.display = (!prefix || element.dataset.sourcePrefix === prefix) ? '' : 'none';
+  });
+}

@@ -45,7 +45,7 @@ table { display:block; width:100%; overflow:auto; border-collapse:collapse; marg
 code { padding:2px 5px; background:#eef0e9; border-radius:3px; font:12px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace; } pre { background:#1c2e25; color:#ecf2e8; padding:18px; overflow:auto; }
 .hero { background:linear-gradient(135deg,#183d2b,#315e45); color:#f9f6eb; padding:clamp(32px,6vw,74px); border-radius:16px; margin:0 0 40px; } .hero h1 { color:#fffdf4; } .hero p { color:#dce7dc; font-size:19px; }
 .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; margin:28px 0; } .card { background:var(--card); border:1px solid var(--line); padding:20px; border-radius:10px; box-shadow:0 2px 14px rgba(31,54,38,.05); } .card h3 { margin:0 0 8px; font:600 18px Georgia,serif; } .card p { margin:0; color:var(--muted); font-size:14px; }
-.meta { font:13px Arial,sans-serif; color:var(--muted); border-top:1px solid var(--line); margin-top:50px; padding-top:18px; } .search-results { margin-top:12px; font:13px Arial,sans-serif; } .search-results a { display:block; color:#173c2a; background:#ecf2ea; padding:8px; margin:5px 0; border-radius:5px; } .source-entry { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 14px; margin:10px 0; } .source-entry summary { cursor:pointer; font:600 15px/1.4 Arial,sans-serif; color:#173c2a; } .source-entry p { margin:10px 0 0; font-size:14px; }
+.meta { font:13px Arial,sans-serif; color:var(--muted); border-top:1px solid var(--line); margin-top:50px; padding-top:18px; } .search-results { margin-top:12px; font:13px Arial,sans-serif; } .search-results a { display:block; color:#173c2a; background:#ecf2ea; padding:8px; margin:5px 0; border-radius:5px; } .source-entry { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 14px; margin:10px 0; } .source-entry summary { cursor:pointer; font:600 15px/1.4 Arial,sans-serif; color:#173c2a; } .source-entry p { margin:10px 0 0; font-size:14px; } .filter-buttons { display:flex; flex-wrap:wrap; gap:7px; margin:18px 0 30px; } .filter-buttons button { cursor:pointer; border:1px solid #8aa18b; background:#f4f7f1; color:#173c2a; padding:7px 10px; border-radius:999px; font:700 11px/1 Arial,sans-serif; letter-spacing:.03em; } .filter-buttons button:hover,.filter-buttons button.active { background:#23553d; color:#fff; border-color:#23553d; }
 @media (max-width:880px) { .shell { display:block; } aside { position:relative; height:auto; padding:22px; } nav { columns:2; } nav a { break-inside:avoid; } main { padding:36px 24px 70px; } }
 '''
 
@@ -58,6 +58,12 @@ async function searchKnowledge() {
   const terms = query.split(/\s+/).filter(Boolean);
   const hits = index.filter(item => terms.every(term => item.search_text.includes(term))).slice(0, 12);
   target.innerHTML = hits.length ? hits.map(h => `<a href="${h.file}">${h.title}<br><small>${h.excerpt}</small></a>`).join('') : '<span>No matching section title or passage found.</span>';
+}
+function filterCuratedSources(prefix) {
+  document.querySelectorAll('.filter-buttons button').forEach(button => button.classList.toggle('active', button.dataset.prefix === prefix));
+  document.querySelectorAll('[data-source-prefix]').forEach(element => {
+    element.style.display = (!prefix || element.dataset.sourcePrefix === prefix) ? '' : 'none';
+  });
 }
 '''
 
@@ -96,12 +102,15 @@ for record in CURATED_INDEX:
     source_groups.setdefault((record['category_prefix'], record['category_directory']), []).append(record)
 source_entries = []
 for (prefix, directory), entries in sorted(source_groups.items()):
-    source_entries.append(f'<h2>{html.escape(prefix)} — {html.escape(directory.replace("_", " ").title())}</h2>')
+    source_entries.append(f'<h2 data-source-prefix="{prefix}">{html.escape(prefix)} — {html.escape(directory.replace("_", " ").title())}</h2>')
     for record in entries:
         legacy_ids = ', '.join(record['legacy_source_ids'])
         github_url = f'https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/{record["github_relative_path"]}'
-        source_entries.append(f'''<details id="{record['curated_id']}" class="source-entry"><summary><code>{record['curated_id']}</code> — {html.escape(record['title'])}</summary><p><strong>Role:</strong> {html.escape(record['role'])}<br><strong>Category:</strong> <code>{html.escape(record['category_directory'])}</code><br><strong>Legacy trace:</strong> <code>{html.escape(legacy_ids)}</code><br><a href="{github_url}">Open canonical file on GitHub</a></p></details>''')
-sources_body = '''<p class="breadcrumb">EcoFarm Master Knowledge Base / Curated Evidence Catalogue</p><h1>Curated Source Catalogue</h1><p>This catalogue contains only reviewed substantive EcoFarm sources. Workspace code, dependency files, generated builds, generic UI components, exact duplicate aliases, and low-signal archive noise have been excluded from ordinary browsing. Each record uses a category-aware <code>EF-*</code> identifier and links to its canonical file in the GitHub archive.</p><p><a href="data/CURATED_ARCHIVE_INDEX.md">Download curated source index</a> · <a href="data/EcoFarm_LLM_Knowledge_Documents.json">Download LLM document index</a> · <a href="data/EcoFarm_LLM_Topic_Index.json">Download LLM topic index</a></p>''' + ''.join(source_entries)
+        source_entries.append(f'''<details id="{record['curated_id']}" data-source-prefix="{record['category_prefix']}" class="source-entry"><summary><code>{record['curated_id']}</code> — {html.escape(record['title'])}</summary><p><strong>Role:</strong> {html.escape(record['role'])}<br><strong>Category:</strong> <code>{html.escape(record['category_directory'])}</code><br><strong>Legacy trace:</strong> <code>{html.escape(legacy_ids)}</code><br><a href="{github_url}">Open canonical file on GitHub</a></p></details>''')
+filter_buttons = ['<button class="active" data-prefix="" onclick="filterCuratedSources(\'\')">All sources</button>']
+for prefix, _ in sorted(source_groups):
+    filter_buttons.append(f'<button data-prefix="{prefix}" onclick="filterCuratedSources(\'{prefix}\')">{prefix}</button>')
+sources_body = '''<p class="breadcrumb">EcoFarm Master Knowledge Base / Curated Evidence Catalogue</p><h1>Curated Source Catalogue</h1><p>This catalogue contains only reviewed substantive EcoFarm sources. Workspace code, dependency files, generated builds, generic UI components, exact duplicate aliases, and low-signal archive noise have been excluded from ordinary browsing. Each record uses a category-aware <code>EF-*</code> identifier and links to its canonical file in the GitHub archive.</p><p><a href="data/CURATED_ARCHIVE_INDEX.md">Download curated source index</a> · <a href="data/EcoFarm_LLM_Knowledge_Documents.json">Download LLM document index</a> · <a href="data/EcoFarm_LLM_Topic_Index.json">Download LLM topic index</a></p><div class="filter-buttons">''' + ''.join(filter_buttons) + '</div>' + ''.join(source_entries)
 (OUT / 'sources.html').write_text(layout('Source Catalogue', sources_body, 'sources.html'))
 (OUT / 'data').mkdir(exist_ok=True)
 shutil.copy2(ARCHIVE / 'llm_knowledge_corpus' / 'EcoFarm_LLM_Knowledge_Documents.json', OUT / 'data' / 'EcoFarm_LLM_Knowledge_Documents.json')
