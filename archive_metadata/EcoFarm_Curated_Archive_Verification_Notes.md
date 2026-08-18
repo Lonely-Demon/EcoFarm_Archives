@@ -7,5 +7,6 @@
 | Build freshness | The live local HTML view still showed an earlier `EF-TEC-006` duplicate after the curatorial source definition had been corrected. | Regenerate HTML, rebuild the curated archive, re-run sanitization/audit, then amend the GitHub repository. |
 | Explicit category filters | Regenerated catalogue visibly exposed `All sources` plus one control for each `EF-*` category; no workspace-code category was present. | Complete a fresh-session click test after the browser tab reference expired. |
 | Filter interaction | In a fresh browser session, selecting `EF-FLD` hid all unrelated source groups and displayed only the 17 curated farmer-decision and field-validation records. | Category filter behavior verified. |
+| Final curated catalogue | The refreshed source catalogue displayed meaningful `EF-*` category records with direct GitHub canonical-file links, including the expanded India, regional, field, data, technical, and vision evidence. No raw conversation-log or workspace-code entries were present in ordinary source browsing. | Final live catalogue verification completed. |
 
 The duplicate is a build freshness issue, not a retained canonical-record decision. The category definition contains only five `EF-TEC` canonical records after the correction.
