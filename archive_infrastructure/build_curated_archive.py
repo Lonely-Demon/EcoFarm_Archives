@@ -276,4 +276,36 @@ for record in excluded:
     lines.append(f"| `{record['source_id']}` | `{record['source_group']}` | `{record['original_relative_path']}` | {record['reason']} |")
 (meta_dir / 'inclusion_exclusion_register.md').write_text('\n'.join(lines))
 
+readme = f'''# EcoFarm Archives
+
+This repository is a **curated, source-traceable knowledge archive** for EcoFarm. It is not a raw file dump. Every primary source was reviewed for lasting value to EcoFarm’s vision, product mechanics, technical reasoning, research, field validation, data safety, historical design, or decision history.
+
+> The archive is non-final. A historical feature, research plan, agent synthesis, market hypothesis, source test, or pitch artifact is not proof that a capability is validated, currently approved, or guaranteed to be built.
+
+## Start here
+
+| Location | Purpose |
+|---|---|
+| [`CURATED_ARCHIVE_INDEX.md`](CURATED_ARCHIVE_INDEX.md) | Human-readable register of reviewed canonical sources, category-aware IDs, roles, legacy trace, and GitHub links. |
+| [`10_knowledge_base_outputs/EcoFarm_Master_Knowledge_Base.md`](10_knowledge_base_outputs/EcoFarm_Master_Knowledge_Base.md) | Hyper-detailed human-readable knowledge base. |
+| [`10_knowledge_base_outputs/html_knowledge_site/`](10_knowledge_base_outputs/html_knowledge_site/) | Static, navigable HTML knowledge base. |
+| [`10_knowledge_base_outputs/llm_knowledge_corpus/`](10_knowledge_base_outputs/llm_knowledge_corpus/) | Retrieval-oriented corpus and external-LLM use guide. |
+| [`archive_metadata/`](archive_metadata/) | Crosswalk, semantic review, inclusion/exclusion record, and public-release audit. |
+
+## Meaningful source categories
+
+`EF-GOV` governance/archive · `EF-VSN` founder vision/evolution · `EF-PRD` product/feature mechanics · `EF-TEC` technical architecture/hardware/AI · `EF-AGR` India agriculture problem research · `EF-REG` regional/Namakkal research · `EF-MKT` market/commercial/ecosystem research · `EF-FLD` farmer decision/field validation · `EF-DAT` data sources/safety/P0 feasibility · `EF-DSN` historical design/pitch/media.
+
+The original preservation corpus contained **{len(MANIFEST)}** raw artifacts. This curated archive retains **{len(records)}** canonical substantive records. Exact duplicates, generic app code, dependency/configuration files, generated builds, low-signal items, and raw conversation traces are documented rather than mixed into ordinary evidence browsing. Archive-generation code is kept separately under [`archive_infrastructure/`](archive_infrastructure/).
+
+## Public-release policy
+
+The public copy is scanned for credential patterns and contact identifiers; detected contact identifiers are redacted in this repository while the private preservation corpus remains unchanged. See [`archive_metadata/public_release_audit.md`](archive_metadata/public_release_audit.md) and [`archive_metadata/public_release_redaction_log.md`](archive_metadata/public_release_redaction_log.md).
+
+## Updating
+
+Preserve a raw artifact, review it for substantive value, assign an `EF-*` ID only to a canonical source, update the crosswalk and knowledge outputs, then rerun the public-release audit/redaction workflow before publishing.
+'''
+(OUT / 'README.md').write_text(readme)
+
 print(json.dumps({'curated_records': len(records), 'excluded_or_aliased': len(excluded), 'output': str(OUT)}, indent=2))

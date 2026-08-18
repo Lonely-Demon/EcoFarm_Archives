@@ -1,58 +1,29 @@
 # EcoFarm Archives
 
-This repository is a **curated, source-traceable knowledge archive** for EcoFarm. It is not a dump of every file ever created around the project. The archive preserves material that has been reviewed as substantively useful for EcoFarm’s vision, product mechanics, technical reasoning, research, field validation, data safety, historical design, or decision history.
+This repository is a **curated, source-traceable knowledge archive** for EcoFarm. It is not a raw file dump. Every primary source was reviewed for lasting value to EcoFarm’s vision, product mechanics, technical reasoning, research, field validation, data safety, historical design, or decision history.
 
-> The archive is intentionally non-final. A historical feature, research plan, agent synthesis, market hypothesis, source test, or pitch artifact should never be read as proof that the capability is validated, currently approved, or guaranteed to be built.
+> The archive is non-final. A historical feature, research plan, agent synthesis, market hypothesis, source test, or pitch artifact is not proof that a capability is validated, currently approved, or guaranteed to be built.
 
 ## Start here
 
-| File or directory | Purpose |
+| Location | Purpose |
 |---|---|
-| [`CURATED_ARCHIVE_INDEX.md`](CURATED_ARCHIVE_INDEX.md) | Human-readable register of every curated canonical source with category-aware ID, role, legacy trace, and GitHub file link. |
-| [`10_knowledge_base_outputs/EcoFarm_Master_Knowledge_Base.md`](10_knowledge_base_outputs/EcoFarm_Master_Knowledge_Base.md) | Hyper-detailed human-readable master knowledge base. |
-| [`10_knowledge_base_outputs/html_knowledge_site/`](10_knowledge_base_outputs/html_knowledge_site/) | Static navigable HTML edition of the knowledge base. |
-| [`10_knowledge_base_outputs/llm_knowledge_corpus/`](10_knowledge_base_outputs/llm_knowledge_corpus/) | Retrieval-oriented corpus and external-LLM use guidance. |
-| [`archive_metadata/`](archive_metadata/) | Legacy crosswalk, inclusion/exclusion record, semantic review, coverage record, and public-release audit. |
+| [`CURATED_ARCHIVE_INDEX.md`](CURATED_ARCHIVE_INDEX.md) | Human-readable register of reviewed canonical sources, category-aware IDs, roles, legacy trace, and GitHub links. |
+| [`10_knowledge_base_outputs/EcoFarm_Master_Knowledge_Base.md`](10_knowledge_base_outputs/EcoFarm_Master_Knowledge_Base.md) | Hyper-detailed human-readable knowledge base. |
+| [`10_knowledge_base_outputs/html_knowledge_site/`](10_knowledge_base_outputs/html_knowledge_site/) | Static, navigable HTML knowledge base. |
+| [`10_knowledge_base_outputs/llm_knowledge_corpus/`](10_knowledge_base_outputs/llm_knowledge_corpus/) | Retrieval-oriented corpus and external-LLM use guide. |
+| [`archive_metadata/`](archive_metadata/) | Crosswalk, semantic review, inclusion/exclusion record, and public-release audit. |
 
-## Curated category system
+## Meaningful source categories
 
-| Prefix | Category | What belongs here |
-|---|---|---|
-| `EF-GOV` | Governance and archive | Founder approvals, decision records, archive rules, and governing context. |
-| `EF-VSN` | Founder vision and evolution | Onboarding documents, original thesis, and scope evolution. |
-| `EF-PRD` | Product concept and feature mechanics | Feature intent, workflows, PRDs, capability logic, and MVP rationale. |
-| `EF-TEC` | Technical architecture, hardware, and AI | Stack reasoning, data/system architecture, sensor/hardware research, and AI framing. |
-| `EF-AGR` | India agriculture problem research | Farmer problems, agricultural distress, structural and global/India context. |
-| `EF-REG` | Regional microcosm and Namakkal research | Kongu/Namakkal/Punjab comparison, regional context, and location-entry rationale. |
-| `EF-MKT` | Market, commercial, and ecosystem research | Market/alternative research, ecosystem mapping, and commercial hypotheses. |
-| `EF-FLD` | Farmer decision and field validation | Farmer-problem research, field methods, consent, event/outcome instruments, and validation logic. |
-| `EF-DAT` | Data sources, safety, and P0 feasibility | Source controls, P0 tests, consent/data models, safety, referral, and observability. |
-| `EF-DSN` | Historical design, pitch, and media | Mockups, wireframes, decks, pitches, and research communication assets. |
+`EF-GOV` governance/archive · `EF-VSN` founder vision/evolution · `EF-PRD` product/feature mechanics · `EF-TEC` technical architecture/hardware/AI · `EF-AGR` India agriculture problem research · `EF-REG` regional/Namakkal research · `EF-MKT` market/commercial/ecosystem research · `EF-FLD` farmer decision/field validation · `EF-DAT` data sources/safety/P0 feasibility · `EF-DSN` historical design/pitch/media.
 
-## Why some files are absent from the primary catalogue
+The original preservation corpus contained **390** raw artifacts. This curated archive retains **97** canonical substantive records. Exact duplicates, generic app code, dependency/configuration files, generated builds, low-signal items, and raw conversation traces are documented rather than mixed into ordinary evidence browsing. Archive-generation code is kept separately under [`archive_infrastructure/`](archive_infrastructure/).
 
-The original preservation corpus contained **390** raw artifacts. The curated archive retains **97** canonical substantive records. The remainder are documented in [`archive_metadata/inclusion_exclusion_register.md`](archive_metadata/inclusion_exclusion_register.md) as one of the following:
+## Public-release policy
 
-- exact duplicate or semantic alias of a retained canonical record;
-- generic application code, dependency/configuration file, or generated build output from the unrelated EcoFarm pilot/task-tracker workspace;
-- low-signal, incomplete, redundant, or non-evidence item;
-- raw conversation/context trace retained in private preservation rather than treated as normal evidence.
+The public copy is scanned for credential patterns and contact identifiers; detected contact identifiers are redacted in this repository while the private preservation corpus remains unchanged. See [`archive_metadata/public_release_audit.md`](archive_metadata/public_release_audit.md) and [`archive_metadata/public_release_redaction_log.md`](archive_metadata/public_release_redaction_log.md).
 
-The code that generates, validates, and serves this archive is kept in [`archive_infrastructure/`](archive_infrastructure/). It is separated from research and product evidence on purpose.
+## Updating
 
-## Source identifiers and links
-
-Curated citations use IDs such as `EF-FLD-001` or `EF-DAT-007`. Each corresponds to one canonical file and is linked from the master document directly to GitHub. Original sequential `SRC-xxxx` identifiers are retained in [`archive_metadata/legacy_source_crosswalk.csv`](archive_metadata/legacy_source_crosswalk.csv) for traceability.
-
-## Public-release handling
-
-The public copy has been scanned for credential patterns and contact identifiers. Contact identifiers detected in reviewed records have been redacted in the public archive copy; the raw preservation corpus is retained separately and unchanged. See [`archive_metadata/public_release_audit.md`](archive_metadata/public_release_audit.md) and [`archive_metadata/public_release_redaction_log.md`](archive_metadata/public_release_redaction_log.md).
-
-## Updating the archive
-
-1. Preserve a new raw artifact before summarizing it.
-2. Review whether it is substantively useful, an alias, or archive infrastructure.
-3. Assign a category-aware `EF-*` identifier only to canonical substantive records.
-4. Update the crosswalk, semantic-supersession register, Master Knowledge Base, LLM corpus, and HTML site.
-5. Re-run the public-release audit and redaction pass before pushing changes.
-
+Preserve a raw artifact, review it for substantive value, assign an `EF-*` ID only to a canonical source, update the crosswalk and knowledge outputs, then rerun the public-release audit/redaction workflow before publishing.

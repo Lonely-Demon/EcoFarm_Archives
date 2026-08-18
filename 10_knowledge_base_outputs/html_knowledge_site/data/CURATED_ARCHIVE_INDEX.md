@@ -40,7 +40,6 @@
 | `EF-TEC-003` | AI integration and data-source capabilities | Historical intelligence/data architecture rationale | `SRC-0011` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-003__tech_stack_research_ai_data.md) |
 | `EF-TEC-004` | Cloud hosting and scalability research | Historical deployment and scale considerations | `SRC-0015` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-004__tech_stack_research_hosting.md) |
 | `EF-TEC-005` | Sensor research source capture | Historical sensor capability and trade-off research | `SRC-0025`, `SRC-0026`, `SRC-0029`, `SRC-0036` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf) |
-| `EF-TEC-006` | AI farming application content | Cross-category product and system concept record | `SRC-0027` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-006__ai_farming_app_content.txt) |
 
 ## EF-AGR — 04 India Agriculture Problem Research
 
