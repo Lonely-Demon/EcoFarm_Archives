@@ -20,6 +20,15 @@ for record in MANIFEST:
 SEMANTIC_ALIASES = {
     'SRC-0025': ['SRC-0026', 'SRC-0029', 'SRC-0036'],
 }
+# Public EF identifiers are durable citations. Do not renumber existing records when a
+# private item is removed or a newly reviewed historical source is added later.
+STABLE_IDS = {
+    'SRC-0090': 'EF-GOV-005',
+    'SRC-0091': 'EF-GOV-006',
+    'SRC-0120': 'EF-GOV-007',
+    'SRC-0121': 'EF-GOV-008',
+    'SRC-0030': 'EF-DSN-019',
+}
 
 # Every entry below has been included because its title, source role, and normalized content were reviewed as material to EcoFarm's knowledge, history, research, feature mechanics, safety, or validation work.
 CATEGORY_SPECS = [
@@ -27,7 +36,6 @@ CATEGORY_SPECS = [
         ('SRC-0134', 'Current main conversation canonical capture', 'Current founder instructions, corrections, and requirements'),
         ('SRC-0135', 'Current session approvals and requirements', 'Current governing approval record'),
         ('SRC-0289', 'Master document reworked architecture', 'Knowledge-base architecture decision record'),
-        ('SRC-0130', 'Historical EcoFarm 1 conversation trace', 'Historical founder/assistant project-development context; browse as trace, not as present authority'),
         ('SRC-0090', 'Research Agent 1 handoff', 'Farmer-problem and decision-reality research mandate, scope, and evidence boundary'),
         ('SRC-0091', 'Research Agent 1 revision feedback', 'Founder-directed revision of the farmer-decision research programme'),
         ('SRC-0120', 'Research Agent 2 handoff', 'Ecosystem, data-feasibility, alternatives, and delivery research mandate'),
@@ -38,6 +46,7 @@ CATEGORY_SPECS = [
         ('SRC-0040', 'Later concise EcoFarm onboarding document', 'Later historical framing and scope orientation'),
         ('SRC-0037', 'EcoFarm onboarding document outline', 'Historical structure and evolution reference'),
         ('SRC-0054', 'Historical EcoFarm-2 onboarding document', 'Intermediate project-onboarding version preserving historical scope evolution'),
+        ('SRC-0035', 'Historical EcoFarm onboarding document source text', 'Earlier detailed onboarding formulation retained for historical-comparison use'),
     ]),
     ('EF-PRD', '02_product_concept_and_feature_mechanics', [
         ('SRC-0006', 'Historical product requirements document', 'Feature intent, roles, workflows, and capability relationships'),
@@ -154,6 +163,7 @@ CATEGORY_SPECS = [
         ('SRC-0335', 'Regional cluster radar chart', 'Historical comparative visual'),
         ('SRC-0336', 'Regional clusters chart', 'Historical research communication asset'),
         ('SRC-0338', 'Water disputes chart', 'Historical research communication asset'),
+        ('SRC-0030', 'Historical hackathon submission', 'Historical innovation/newness framing and early presentation narrative'),
     ]),
 ]
 
@@ -176,7 +186,7 @@ for prefix, directory, entries in CATEGORY_SPECS:
         source_path = ARCHIVE / record['relative_path']
         if not source_path.exists():
             raise FileNotFoundError(source_path)
-        curated_id = f'{prefix}-{sequence:03d}'
+        curated_id = STABLE_IDS.get(source_id, f'{prefix}-{sequence:03d}')
         destination_name = f'{curated_id}__{slug(record["file_name"])}{record["extension"]}'
         destination = target / destination_name
         shutil.copy2(source_path, destination)
@@ -215,6 +225,7 @@ for file_name in [
     'EcoFarm_Corpus_Coverage_and_Resolution.md',
     'EcoFarm_HTML_Usability_Checks.md',
     'EcoFarm_Curated_Archive_Verification_Notes.md',
+    'EcoFarm_Confirmed_Noncanonical_Family_Review.md',
     'EcoFarm_Master_Knowledge_Base_Legacy_SRC_Reference_Copy.md',
 ]:
     path = ARCHIVE / 'knowledge_mapping' / file_name
@@ -239,6 +250,7 @@ for script_name in [
     'sanitize_public_curated_archive.py',
     'audit_public_curated_archive.py',
     'migrate_master_citations_to_curated_ids.py',
+    'remove_public_conversation_trace_citations.py',
     'validate_knowledge_deliverables.py',
     'serve_html_knowledge.sh',
 ]:

@@ -30,16 +30,6 @@
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-003__ecofarm_master_document_reworked_architecture.md"
   },
   {
-    "curated_id": "EF-GOV-004",
-    "category_prefix": "EF-GOV",
-    "category_directory": "00_governance_and_archive",
-    "title": "Historical EcoFarm 1 conversation trace",
-    "legacy_source_ids": [
-      "SRC-0130"
-    ],
-    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl"
-  },
-  {
     "curated_id": "EF-GOV-005",
     "category_prefix": "EF-GOV",
     "category_directory": "00_governance_and_archive",
@@ -118,6 +108,16 @@
       "SRC-0054"
     ],
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-004__project_onboarding_document.md (title: \"project onboarding document: smart farming ecosystem\")"
+  },
+  {
+    "curated_id": "EF-VSN-005",
+    "category_prefix": "EF-VSN",
+    "category_directory": "01_founder_vision_and_evolution",
+    "title": "Historical EcoFarm onboarding document source text",
+    "legacy_source_ids": [
+      "SRC-0035"
+    ],
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-005__project_onboarding_document_old.txt"
   },
   {
     "curated_id": "EF-PRD-001",
@@ -1158,5 +1158,15 @@
       "SRC-0338"
     ],
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-018__water_disputes.png"
+  },
+  {
+    "curated_id": "EF-DSN-019",
+    "category_prefix": "EF-DSN",
+    "category_directory": "09_historical_design_pitch_and_media",
+    "title": "Historical hackathon submission",
+    "legacy_source_ids": [
+      "SRC-0030"
+    ],
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-019__hackathon_submission_md_title_6. briefly explain newness_uniqueness of the innovation\")"
   }
 ]

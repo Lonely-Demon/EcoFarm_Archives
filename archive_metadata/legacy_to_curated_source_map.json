@@ -20,13 +20,6 @@
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-003__ecofarm_master_document_reworked_architecture.md",
     "canonical_source_id": "SRC-0289"
   },
-  "SRC-0130": {
-    "curated_id": "EF-GOV-004",
-    "title": "Historical EcoFarm 1 conversation trace",
-    "github_relative_path": "00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl",
-    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl",
-    "canonical_source_id": "SRC-0130"
-  },
   "SRC-0090": {
     "curated_id": "EF-GOV-005",
     "title": "Research Agent 1 handoff",
@@ -82,6 +75,13 @@
     "github_relative_path": "01_founder_vision_and_evolution/EF-VSN-004__project_onboarding_document.md (title: \"project onboarding document: smart farming ecosystem\")",
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-004__project_onboarding_document.md (title: \"project onboarding document: smart farming ecosystem\")",
     "canonical_source_id": "SRC-0054"
+  },
+  "SRC-0035": {
+    "curated_id": "EF-VSN-005",
+    "title": "Historical EcoFarm onboarding document source text",
+    "github_relative_path": "01_founder_vision_and_evolution/EF-VSN-005__project_onboarding_document_old.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-005__project_onboarding_document_old.txt",
+    "canonical_source_id": "SRC-0035"
   },
   "SRC-0006": {
     "curated_id": "EF-PRD-001",
@@ -1062,5 +1062,12 @@
     "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-018__water_disputes.png",
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-018__water_disputes.png",
     "canonical_source_id": "SRC-0338"
+  },
+  "SRC-0030": {
+    "curated_id": "EF-DSN-019",
+    "title": "Historical hackathon submission",
+    "github_relative_path": "09_historical_design_pitch_and_media/EF-DSN-019__hackathon_submission_md_title_6. briefly explain newness_uniqueness of the innovation\")",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/09_historical_design_pitch_and_media/EF-DSN-019__hackathon_submission_md_title_6. briefly explain newness_uniqueness of the innovation\")",
+    "canonical_source_id": "SRC-0030"
   }
 }

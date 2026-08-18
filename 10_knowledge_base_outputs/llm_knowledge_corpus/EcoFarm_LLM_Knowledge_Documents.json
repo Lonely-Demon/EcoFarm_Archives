@@ -680,11 +680,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-VSN-005",
+    "curated_category_prefix": "EF-VSN",
+    "curated_category_directory": "01_founder_vision_and_evolution",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-005__project_onboarding_document_old.txt",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0036",
@@ -1728,11 +1728,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": "EF-GOV-004",
-    "curated_category_prefix": "EF-GOV",
-    "curated_category_directory": "00_governance_and_archive",
-    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl",
-    "curation_access": "public_canonical_record"
+    "curated_id": null,
+    "curated_category_prefix": null,
+    "curated_category_directory": null,
+    "canonical_github_url": null,
+    "curation_access": "private_raw_or_contextual_only"
   },
   {
     "source_id": "SRC-0131",

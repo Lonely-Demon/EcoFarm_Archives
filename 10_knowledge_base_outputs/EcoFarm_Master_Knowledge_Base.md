@@ -63,7 +63,7 @@ The human-readable document uses internal references such as `[EF-FLD-001](https
 
 ### 2.1 The originating intuition
 
-EcoFarm began as an intuition that farming decisions are not merely agricultural calculations. They are made under uncertainty, incomplete information, physical distance, labour constraints, financial pressure, changing weather, local advice, and unequal access to technology. The initial ambition was correspondingly broad: combine field hardware, sensor information, remote control, weather, crop intelligence, market awareness, farm management, community, and access to people or services into a single agricultural technology ecosystem. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
+EcoFarm began as an intuition that farming decisions are not merely agricultural calculations. They are made under uncertainty, incomplete information, physical distance, labour constraints, financial pressure, changing weather, local advice, and unequal access to technology. The initial ambition was correspondingly broad: combine field hardware, sensor information, remote control, weather, crop intelligence, market awareness, farm management, community, and access to people or services into a single agricultural technology ecosystem. `[Private preservation trace; no public link]` [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
 
 The early conceptual mistake to avoid is assuming that EcoFarm’s essence was a list of modules. The deeper thesis was that a farmer should not have to navigate every uncertainty through disconnected tools, physical visits, implicit local knowledge, or opaque commercial relationships. The envisioned system would make farm conditions and choices visible, connect them to relevant information, and give the farmer more control over both operations and decisions.
 
@@ -118,7 +118,7 @@ The following principles recur across the current research and should be treated
 
 ### 3.1 Phase A — Broad AI-enabled Agri-Tech company and mobile app
 
-The earliest retained founder request described an AI-powered farming company with physical products and a mobile application. The physical side included remotely controllable motor starters, gate valves for water flow, drip-irrigation systems, sensor kits for soil conditions, and AI-enabled cameras for crop monitoring. The mobile side was intended to make these devices usable while also addressing weather, crop selection, crop management, farm mapping, budgeting, community, labour, equipment rental, direct/wholesale sale, market prices, disease diagnosis, and more. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130")
+The earliest retained founder request described an AI-powered farming company with physical products and a mobile application. The physical side included remotely controllable motor starters, gate valves for water flow, drip-irrigation systems, sensor kits for soil conditions, and AI-enabled cameras for crop monitoring. The mobile side was intended to make these devices usable while also addressing weather, crop selection, crop management, farm mapping, budgeting, community, labour, equipment rental, direct/wholesale sale, market prices, disease diagnosis, and more. `[Private preservation trace; no public link]`
 
 The important historical insight is not the number of features. It is that the initial model treated farm operations, agronomy, information, commerce, and social coordination as interconnected. Remote irrigation control without sensing or crop context was incomplete; crop advice without weather, budget, or market context was incomplete; market access without quality, logistics, labour, and farmer records was incomplete.
 
@@ -291,7 +291,7 @@ Each dossier records a concept’s original intention, its intended mechanics, d
 
 | Field | Knowledge record |
 |---|---|
-| **Historical intent** | Help a farmer decide what crop to plant using soil conditions, weather until harvest, market demand, budget, and preference. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") |
+| **Historical intent** | Help a farmer decide what crop to plant using soil conditions, weather until harvest, market demand, budget, and preference. `[Private preservation trace; no public link]` |
 | **Underlying intuition** | Crop choice is a consequential decision made under multiple constraints; an answer should not be based on a single factor such as price or weather. |
 | **Conceptual working** | Collect season, location, water reliability, crop history, available inputs/labour, soil-test availability, farmer objective, and constraints. Compare a small set of feasible crop options against explicit assumptions, source-labelled context, trade-offs, and unknowns. Present questions for a human adviser when information is insufficient. |
 | **Required data** | Location, season, water category, crop/land context, labour/input/cash constraint, farmer objective, and ideally current soil/test evidence. |
@@ -304,7 +304,7 @@ Each dossier records a concept’s original intention, its intended mechanics, d
 
 | Field | Knowledge record |
 |---|---|
-| **Historical intent** | Provide accurate weather data, localized forecasts, adverse-weather alerts, and weather-informed planting, irrigation, and crop-care guidance. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039") |
+| **Historical intent** | Provide accurate weather data, localized forecasts, adverse-weather alerts, and weather-informed planting, irrigation, and crop-care guidance. `[Private preservation trace; no public link]` [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039") |
 | **Underlying intuition** | Weather alters the timing and risk of farm operations; a farmer needs actionable context rather than a raw number. |
 | **Conceptual working** | Match a target-location forecast/advisory and validity period to a named crop-stage decision. Preserve source, time, location, freshness, forecast/observation distinction, and transformation rule. Produce only information, caution, or referral states. |
 | **Required data** | Approved target-relevant source, rights/terms status, issue/retrieval/validity time, location scope, crop stage, intended action window. |
@@ -317,7 +317,7 @@ Each dossier records a concept’s original intention, its intended mechanics, d
 
 | Field | Knowledge record |
 |---|---|
-| **Historical intent** | Show market prices near the farm, help farmers negotiate or decide where/when to sell, connect to buyers, and later reduce intermediary dependence. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039") |
+| **Historical intent** | Show market prices near the farm, help farmers negotiate or decide where/when to sell, connect to buyers, and later reduce intermediary dependence. `[Private preservation trace; no public link]` [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039") |
 | **Underlying intuition** | Farmers may make sales under asymmetric information and may benefit from clearer observations, comparisons, and memory of prior decisions. |
 | **Conceptual working** | Capture commodity, variety, grade where available, market, date, unit, observed min/max/modal price, and farmer constraints such as transport, storage, cash needs, quality, and buyer relationship. Display only comparable observations and log the actual route/decision/outcome. |
 | **Required data** | Decision-relevant crop/market selection, source rights, freshness, unit/variety/grade semantics, transport/storage/liquidity context. |
@@ -328,7 +328,7 @@ Each dossier records a concept’s original intention, its intended mechanics, d
 
 ### 6.4 Farm mapping, field sectors, satellite context, and land observation
 
-**Historical intent.** Let a farmer map farmland, divide it into crop sectors, obtain satellite views, and later identify stressed areas or overall field performance. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") [EF-PRD-002](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-002__mvp_screens_flows.md "MVP user flows and key screens outline; legacy SRC-0005") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
+**Historical intent.** Let a farmer map farmland, divide it into crop sectors, obtain satellite views, and later identify stressed areas or overall field performance. `[Private preservation trace; no public link]` [EF-PRD-002](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/02_product_concept_and_feature_mechanics/EF-PRD-002__mvp_screens_flows.md "MVP user flows and key screens outline; legacy SRC-0005") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
 
 **Conceptual working.** A field map would associate a physical area with crop cycle, sensor placement, water zone, activity history, and observations. Satellite imagery or remote sensing could later provide a coarse contextual signal. The map is valuable when it helps link observations and actions to the correct field, rather than being a decorative visualization.
 
@@ -354,7 +354,7 @@ Each dossier records a concept’s original intention, its intended mechanics, d
 
 ### 6.6 Irrigation control, automation, and remote operation
 
-**Historical intent.** Allow farmers to remotely control motor starters, pumps, valves, irrigation zones, and later automated schedules; connect control to soil and weather information. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
+**Historical intent.** Allow farmers to remotely control motor starters, pumps, valves, irrigation zones, and later automated schedules; connect control to soil and weather information. `[Private preservation trace; no public link]` [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
 
 **Conceptual working.** A farmer or authorized operator sees a status, chooses a manual action or approved schedule, and sends a command through a gateway/actuator system. The system should acknowledge command state, report actual device status rather than only desired state, log who acted and when, and surface safety or connectivity failures. Longer-term automation would require conservative rules, overrides, water/resource context, and owner control.
 
@@ -372,7 +372,7 @@ Each dossier records a concept’s original intention, its intended mechanics, d
 
 ### 6.8 Crop health, pest, disease, and image-based support
 
-**Historical intent.** Combine user-uploaded photos, AI-enabled cameras, monitoring, early detection, and localized management guidance to help identify disease, pest, and crop-health issues. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
+**Historical intent.** Combine user-uploaded photos, AI-enabled cameras, monitoring, early detection, and localized management guidance to help identify disease, pest, and crop-health issues. `[Private preservation trace; no public link]` [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
 
 **Conceptual working.** A symptom event would collect crop, stage, location, timing, visible symptoms, recent weather, treatment history, and possibly photographs. The system could classify the evidence as insufficient, suggest basic observation or a safe educational reference, compare possible categories, or route it to human review. A future image model might add an evidence signal, but it must retain confidence, quality, and provenance rather than replace context.
 
@@ -380,7 +380,7 @@ Each dossier records a concept’s original intention, its intended mechanics, d
 
 ### 6.9 Growth tracking, yield estimation, and crop-calendar support
 
-**Historical intent.** Track crop stages, guide pre-planting through harvest, show timely activities, predict yield, and connect activity timing to weather, sensors, and field observations. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
+**Historical intent.** Track crop stages, guide pre-planting through harvest, show timely activities, predict yield, and connect activity timing to weather, sensors, and field observations. `[Private preservation trace; no public link]` [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
 
 **Conceptual working.** A crop cycle contains stage and event milestones. A calendar or workflow should identify what activity is relevant, what source/guide supports it, and what variables make timing conditional. Historical yield estimation would combine history, sensors, crop conditions, and models; current thinking recognizes that this is a future hypothesis requiring ground truth and careful communication.
 
@@ -388,7 +388,7 @@ Each dossier records a concept’s original intention, its intended mechanics, d
 
 ### 6.10 Farm logs, tasks, budget, and seasonal planning
 
-**Historical intent.** Give farmers a way to record tasks, plan a budget for a season, monitor use of resources, track expenses/revenue, and create operational memory. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
+**Historical intent.** Give farmers a way to record tasks, plan a budget for a season, monitor use of resources, track expenses/revenue, and create operational memory. `[Private preservation trace; no public link]` [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
 
 **Conceptual working.** A farmer or assisted operator creates activities, costs, inputs, events, actions, and outcomes. These records may later support budget views, historical patterns, or decision review. In the current narrow model, the most important logging function is not general productivity tracking; it is recording the input, choice, reason, and outcome of a named decision.
 
@@ -396,7 +396,7 @@ Each dossier records a concept’s original intention, its intended mechanics, d
 
 ### 6.11 Community, peer exchange, labour, equipment rental, and marketplace concepts
 
-**Historical intent.** Enable farmer communities, peer knowledge sharing, equipment rental, labour/harvesting access, fertilizer-shop discovery, direct retail/wholesale sale, and marketplace relationships. [EF-GOV-004](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl "Historical EcoFarm 1 conversation trace; legacy SRC-0130") [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
+**Historical intent.** Enable farmer communities, peer knowledge sharing, equipment rental, labour/harvesting access, fertilizer-shop discovery, direct retail/wholesale sale, and marketplace relationships. `[Private preservation trace; no public link]` [EF-VSN-001](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md "Extended EcoFarm onboarding document; legacy SRC-0039")
 
 **Underlying intuition.** Many farm constraints are social and operational, not merely informational. Farmers may need trusted people, tools, labour, markets, and exchange channels as much as they need a forecast.
 
