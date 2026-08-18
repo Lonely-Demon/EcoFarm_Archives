@@ -1259,11 +1259,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-GOV-005",
+    "curated_category_prefix": "EF-GOV",
+    "curated_category_directory": "00_governance_and_archive",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-005__pasted_content.txt",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0091",
@@ -1284,11 +1284,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-GOV-006",
+    "curated_category_prefix": "EF-GOV",
+    "curated_category_directory": "00_governance_and_archive",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-006__pasted_content_2.txt",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0092",
@@ -1304,11 +1304,11 @@
       "soil_water_and_sensors",
       "validation"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-FLD-018",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-018__research_notes_advisory_channels.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0093",
@@ -1325,11 +1325,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-FLD-019",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-019__research_notes_groundnut_study.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0094",
@@ -1346,11 +1346,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-REG-012",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-012__research_notes_handbook.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0095",
@@ -1368,11 +1368,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-DAT-020",
+    "curated_category_prefix": "EF-DAT",
+    "curated_category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-020__research_notes_imd.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0096",
@@ -1389,11 +1389,11 @@
       "soil_water_and_sensors",
       "validation"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-FLD-020",
+    "curated_category_prefix": "EF-FLD",
+    "curated_category_directory": "07_farmer_decision_and_field_validation",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-020__research_notes_information_search.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0097",
@@ -1411,11 +1411,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-REG-013",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-013__research_notes_local_official.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0098",
@@ -1506,11 +1506,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-GOV-007",
+    "curated_category_prefix": "EF-GOV",
+    "curated_category_directory": "00_governance_and_archive",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-007__pasted_content.txt",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0121",
@@ -1534,11 +1534,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-GOV-008",
+    "curated_category_prefix": "EF-GOV",
+    "curated_category_directory": "00_governance_and_archive",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-008__pasted_content_2.txt",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0123",
@@ -1933,11 +1933,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-AGR-007",
+    "curated_category_prefix": "EF-AGR",
+    "curated_category_directory": "04_india_agriculture_problem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-007__complete_unified_master_document.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0277",
@@ -1991,11 +1991,11 @@
       "validation",
       "weather"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-AGR-008",
+    "curated_category_prefix": "EF-AGR",
+    "curated_category_directory": "04_india_agriculture_problem_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-008__comprehensive_agricultural_crisis_data_consolidati.pdf",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0279",
@@ -2305,11 +2305,11 @@
       "soil_water_and_sensors",
       "validation"
     ],
-    "curated_id": null,
-    "curated_category_prefix": null,
-    "curated_category_directory": null,
-    "canonical_github_url": null,
-    "curation_access": "private_raw_or_contextual_only"
+    "curated_id": "EF-REG-011",
+    "curated_category_prefix": "EF-REG",
+    "curated_category_directory": "05_regional_microcosm_and_namakkal_research",
+    "canonical_github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-011__executive_summary_operational_difficulties.md",
+    "curation_access": "public_canonical_record"
   },
   {
     "source_id": "SRC-0291",

@@ -1,0 +1,261 @@
+# EcoFarm Research Agent 2 Handoff
+
+## Ecosystem, Data, Existing Alternatives, and Delivery Feasibility Research
+
+**Role:** Senior agricultural ecosystem, public-data, institutional-landscape, and competitive-alternatives researcher
+
+**Geographic starting point:** Namakkal / Kongu belt, Tamil Nadu, India
+
+**Research mode:** Rigorous, current desk research with a field-verification agenda. Do not claim a partnership, integration, data access right, or local coverage without direct evidence.
+
+---
+
+## 1. Why You Are Being Asked to Work on This
+
+EcoFarm’s first product is intended to be a localized, transparent decision-support workflow for farmers—not a broad agricultural operating system. The critical strategic question is therefore not “Can information be found online?” It is:
+
+> **Can EcoFarm assemble reliable, legally usable, locally meaningful information and fit into the existing advisory ecosystem in a way that improves a farmer’s real decision rather than duplicating, obscuring, or conflicting with trusted channels?**
+
+Your task is to map the ecosystem around the initial Namakkal/Kongu pilot, identify existing alternatives and their practical limitations, assess the quality and accessibility of the data required by candidate workflows, and define the boundaries within which EcoFarm can responsibly operate.
+
+This is a research and feasibility handoff. It must not choose the MVP alone, design an interface, build integrations, or present a data feed as valuable before Agent 1 and fieldwork establish the farmer decision it serves.
+
+---
+
+## 2. EcoFarm Context You Must Understand Before Researching
+
+### 2.1 Working first-product hypothesis
+
+EcoFarm is exploring a software-first, localized decision-support product for a narrowly defined Namakkal/Kongu farmer segment. The initial candidate value areas are:
+
+- Constraint-aware crop-option comparison.
+
+- Weather conditions and meaningful action-oriented alerts.
+
+- Crop-risk awareness and safe education.
+
+- Current market-price observations and alerts, presented as information rather than forecasts.
+
+- Farmer choice and outcome logging.
+
+These are **hypotheses**. Your work should reveal which of them have data and ecosystem feasibility, which overlap with existing public or private services, and which should not be pursued without stronger evidence.
+
+### 2.2 Non-negotiable product boundaries
+
+EcoFarm must not claim to offer any of the following in the initial pilot:
+
+| Do not claim or build as a first-pilot promise | Why it is excluded |
+| --- | --- |
+| Guaranteed highest-profit crop recommendation | Requires impossible certainty and creates financial-risk exposure |
+| Future-price prediction or buyer assurance | Current market observations do not justify price prophecy or transaction guarantees |
+| Fully autonomous high-stakes agronomic advice | Requires stronger evidence, accountability, and escalation procedures |
+| Automated irrigation, sensors, controllers, drones, or remote actuation | Hardware complexity is outside the software-first pilot |
+| Marketplace, labour exchange, equipment rental, blockchain, or broad financial services | These are separate businesses with separate operational requirements |
+| Claim to replace extension, TNAU, KVK, or public advisories | Existing institutions are part of the environment EcoFarm must understand and potentially complement |
+
+### 2.3 Current known starting points
+
+The audited corpus established several starting points, not final conclusions. Official public resources appear to exist for daily mandi-price observations and agricultural weather/advisory dissemination. Namakkal has an agriculture department, extension activities, soil-testing and training programmes, and major crops including groundnut. TNAU and related outreach infrastructure exist. These facts support a pilot environment, but they do **not** prove data fitness, practical adoption, an integration right, local completeness, or partnership.
+
+Exact claims regarding local groundwater depletion levels, local digital adoption, product coverage, crisis severity, or competitors require current primary-source validation. Treat earlier reports, charts, and AI-generated documents as leads only.
+
+---
+
+## 3. Your Core Questions
+
+| Research question | Required answer |
+| --- | --- |
+| What advice, data, and service channels already reach Namakkal/Kongu farmers? | A current ecosystem map, including who operates each channel, target farmer, delivery mode, language, frequency, cost, and evidence of practical reach. |
+| What does each existing channel do well and poorly? | A non-speculative capability and limitation comparison. |
+| Which public, institutional, or commercial datasets could support a narrow EcoFarm workflow? | A source register with access path, fields, resolution, freshness, licensing/terms, reliability, gaps, and fallback options. |
+| Can the data support a recommendation safely? | Clear distinction between descriptive data, decision support, and impermissible predictive claims. |
+| What is the competitive set? | Direct products, adjacent products, institutional services, informal advisers, and status quo—never “no competition.” |
+| Where can EcoFarm complement rather than duplicate? | Specific workflow and partnership hypotheses, not generic partnership language. |
+| What needs direct verification before a pilot? | A short field/partner verification agenda with named unknowns. |
+
+---
+
+## 4. Required Research Scope
+
+### 4.1 Local agricultural and advisory ecosystem
+
+Map the relevant ecosystem at district and accessible regional level. Include, where present and verifiable, the district agriculture department, ATMA, KVKs, TNAU-linked units, soil-testing and input-advisory services, farmer producer organizations, cooperatives, commodity or crop associations, local research stations, market committees, insurance/lending-adjacent bodies, civil-society organizations, and commercially trusted local actors.
+
+For each actor, record mission, farmer segment, delivery channel, relevant services, evidence of activity in the target geography, decision moments served, language and accessibility, practical limitations, and whether EcoFarm should consider it an alternative, a validation source, a distribution channel, a human escalation channel, or simply context.
+
+### 4.2 Data-feasibility assessment
+
+Assess the data resources needed for candidate EcoFarm workflows. Do not stop at listing APIs or portals. Build a feasibility register that answers whether the resource is usable in practice for a pilot.
+
+Evaluate at least the following categories:
+
+| Data category | Questions to answer |
+| --- | --- |
+| Weather and agricultural advisories | Forecast horizon, spatial resolution, update time, historical access, advisory content, language, outages, and whether an alert can be local/actionable. |
+| Market-price observations | Commodity and market coverage, price fields, data freshness, missingness, historical consistency, source-market relevance, and restrictions on use. |
+| Crop calendar and agronomy | Authoritative source, regional/crop specificity, update cycle, scientific provenance, and risk of over-generalization. |
+| Soil, water, and land context | Availability, farmer-level consent requirements, spatial precision, staleness, legal access, and whether it supports an actual decision. |
+| Pest and disease information | Source authority, regional relevance, diagnostic limitation, escalation path, and danger of false certainty. |
+| Farmer-entered data | Minimum inputs, privacy sensitivity, likely accuracy, language burden, and validation method. |
+| Satellite or remote-sensing data | What it can and cannot infer for a small pilot; resolution, cost, cloud cover, timing, and interpretation burden. |
+
+Every source must be classified as **available and pilot-usable**, **available but insufficient alone**, **requires permission or partnership**, **uncertain**, or **not appropriate for the initial pilot**.
+
+### 4.3 Existing alternatives and competitive reality
+
+Map alternatives honestly. Include local human advice, government and university channels, common media channels, existing digital advisory or market-information products, input-linked advisory, financial or insurance-linked support, and informal workarounds. The objective is not a generic competitor list; it is to determine the current job-to-be-done and why a farmer would change behaviour.
+
+For each relevant alternative, answer:
+
+- What decision does it support?
+
+- Who uses or trusts it?
+
+- What does it cost in money, time, attention, or dependence?
+
+- What data or explanation does it provide?
+
+- What limitation is documented rather than assumed?
+
+- Would EcoFarm replace it, route to it, aggregate it, or not compete with it?
+
+### 4.4 Delivery and trust feasibility
+
+Assess practical delivery conditions: connectivity, device and language realities, digital literacy, assisted-use possibilities, notification tolerance, privacy sensitivity, trust pathways, user-support requirements, and the role of a human intermediary. Where desk evidence is weak, design a direct field verification question rather than inventing a conclusion.
+
+### 4.5 Safety, governance, and operational dependencies
+
+Identify the safety and governance constraints for using each data source or making each type of recommendation. Consider data freshness, provenance display, missing-data behavior, permissions, consent, recommendation records, human escalation, terms of use, and intellectual-property or redistribution limitations. Focus on concrete pilot risks, not generic legal boilerplate.
+
+---
+
+## 5. Evidence Standards and Source Rules
+
+### 5.1 Source hierarchy
+
+Prioritize official source documentation, original datasets, regulatory/department materials, agricultural-university publications, peer-reviewed work, and direct communication with data owners or institutional representatives. Treat search snippets, platform marketing claims, blog posts, media reports, and prior AI outputs as leads only.
+
+For every material finding, capture publisher, URL, publication/update date, geography, access date, applicable terms or license, data fields, stated limitations, and confidence. If an API or dataset cannot be accessed, do not assume it works; record the access failure and an alternative verification path.
+
+### 5.2 Claim discipline
+
+Use the same labels in every output:
+
+| Label | Meaning |
+| --- | --- |
+| **Verified fact** | Supported by an appropriate official, institutional, or direct source |
+| **Supported inference** | Reasoned conclusion, still requiring local confirmation |
+| **Product hypothesis** | A proposed EcoFarm opportunity or design choice |
+| **Unknown / verification required** | Cannot be confirmed from reliable accessible evidence |
+
+Do not represent data availability as data quality, an official programme as active farmer adoption, a conversation as a partnership, or an app listing as proof of active local use.
+
+### 5.3 Specific prohibitions
+
+- Do not claim exact groundwater crisis rates or over-exploited-block percentages unless primary data is successfully accessed and properly scoped.
+
+- Do not claim that weather or mandi data can predict profitability or future prices.
+
+- Do not claim that local institutions will partner, share data, or distribute EcoFarm without a documented conversation or agreement.
+
+- Do not assert competitor absence, farmer willingness to pay, or local digital readiness without direct evidence.
+
+- Do not recommend collecting farmer data “just in case.” Apply data minimization: collect only what a named workflow requires.
+
+---
+
+## 6. Required Deliverables
+
+Submit one rigorous Markdown report and four supporting registers. The report must help the product and research lead decide what is feasible, redundant, unsafe, or worth validating.
+
+### 6.1 Main report structure
+
+1. **Executive answer:** The most credible ecosystem and data opportunity for the initial EcoFarm hypothesis, the main constraints, and what must be verified next.
+
+1. **Ecosystem map:** Institutions, advisers, service channels, market channels, potential field-access partners, and existing alternatives.
+
+1. **Data-feasibility matrix:** Candidate sources, fields, coverage, freshness, access, terms, confidence, gaps, and pilot suitability.
+
+1. **Alternatives matrix:** Direct, adjacent, institutional, informal, and status-quo alternatives; their strengths and limitations.
+
+1. **Complement-versus-duplicate analysis:** Where EcoFarm can create a practical decision workflow without claiming to replace existing channels.
+
+1. **Safety and governance constraints:** Required disclosures, data-minimization principles, source labeling, escalation needs, and prohibited claims.
+
+1. **Pilot operating implications:** The minimum data, partner access, human support, and workflow requirements for a safe test.
+
+1. **Open questions and verification plan:** What Agent 1, fieldwork, or partner conversations must resolve.
+
+### 6.2 Supporting registers
+
+| File | Minimum content |
+| --- | --- |
+| `data_source_register.md` | Source, owner, URL/API, field set, resolution, freshness, history, access terms, cost, gaps, fallback, and pilot-use classification |
+| `ecosystem_register.md` | Actor, location, role, farmer segment, delivery channel, evidence of activity, relevance, verification status, and possible relationship type |
+| `alternatives_matrix.md` | Alternative, job served, target user, channel, strengths, limitations, local relevance, and EcoFarm relationship |
+| `claim_ledger.md` | Material claim, source, geography, date, confidence, and evidence label |
+| `field_partner_verification_questions.md` | Questions for departments, institutions, data owners, and potential pilot intermediaries |
+
+---
+
+## 7. Required Depth
+
+Use at least 20 credible sources, including at least ten primary official, institutional, academic, dataset-owner, or direct-source documents. Depth must be highest in the target geography and the data categories supporting the leading product hypotheses. National resources can establish context, but must not substitute for local feasibility.
+
+Each data source in the top-priority matrix requires a practical assessment, not a paragraph of description. Include field names, date/freshness, resolution, access method, known missingness, terms or constraints, and a decision on whether it is usable for a first pilot.
+
+Each ecosystem or alternative entry must distinguish **documented activity** from **assumed relevance**. A named institution is not automatically an available partner.
+
+---
+
+## 8. Required Handoff to Product, UI/UX, and Development
+
+Your output must provide the following actionable handoff.
+
+### 8.1 Product handoff
+
+- The three data-supported candidate workflows and the strongest reason each may still fail.
+
+- The existing alternative or institutional channel that each workflow must complement or outperform.
+
+- The minimum trust proposition EcoFarm must offer to avoid duplication.
+
+### 8.2 UI/UX handoff
+
+- Required user-facing source metadata: source name, date/time, location/market, freshness, confidence, and limitations.
+
+- Inputs that farmers cannot reasonably provide and therefore must not be required in early onboarding.
+
+- Language, assisted-use, low-connectivity, and explanation requirements that require prototype testing.
+
+### 8.3 Development handoff
+
+- A prioritized data contract for each viable candidate workflow: required inputs, source, transformation, output, update pattern, storage need, and failure behavior.
+
+- Data that must remain read-only information versus data that could support a constrained recommendation.
+
+- Required logging: source version, source time, recommendation version, missing-data state, farmer change/rejection, and escalation event.
+
+- Technical or legal blockers that require an explicit decision before implementation.
+
+---
+
+## 9. Starting References and Project Materials
+
+The following are orientation sources. Revalidate all details at the original source and identify current access conditions.
+
+| Source or material | Starting relevance | Required caution |
+| --- | --- | --- |
+| EcoFarm comprehensive audit | Defines product boundary, known evidence gaps, existing official-source leads, and risk controls | It is a synthesis, not a source of independent proof |
+| Namakkal District Agriculture Department | Local agriculture, extension, soil, training, and programme context | Confirm present coverage, active programmes, and practical access |
+| Tamil Nadu Agricultural University | Research, outreach, KVK, crop and agro-climatic context | Do not infer endorsement or a partnership |
+| IMD agricultural meteorology resources | Forecast and advisory ecosystem | Confirm actual local resolution, delivery, terms, and actionability |
+| Official mandi-price resource | Current price-observation starting point | Verify crop/market coverage, freshness, missingness, and permitted use |
+| CGWB materials | Groundwater context | Exact local claims must be verified from accessible primary documents |
+| Agriculture Census and NSS materials | Population and agricultural-structure definitions | Do not substitute national definitions or averages for local farmer reality |
+
+---
+
+## 10. Final Quality Check Before You Hand Back Work
+
+Before submitting, ask whether a product, UI/UX, or development agent could make a safer decision because of your work. If the answer is only “they now know more facts,” the work is incomplete. Your report must say what data can be trusted, what must be displayed with caveats, what is missing, what EcoFarm would duplicate, where a human or institutional escalation path is necessary, and what should not be built yet.

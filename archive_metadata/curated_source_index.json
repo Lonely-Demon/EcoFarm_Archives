@@ -64,6 +64,70 @@
     "github_relative_path": "00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl"
   },
   {
+    "curated_id": "EF-GOV-005",
+    "category_prefix": "EF-GOV",
+    "category_directory": "00_governance_and_archive",
+    "source_id": "SRC-0090",
+    "legacy_source_ids": [
+      "SRC-0090"
+    ],
+    "title": "Research Agent 1 handoff",
+    "role": "Farmer-problem and decision-reality research mandate, scope, and evidence boundary",
+    "source_group": "research_agent_1",
+    "original_relative_path": "Research-Agent-1/pasted_content.txt",
+    "sha256": "3129083f9e39be6ac7f7d893839f5334c43384f440ca30c71e02f459bb619a3a",
+    "archive_relative_path": "00_governance_and_archive/EF-GOV-005__pasted_content.txt",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-005__pasted_content.txt"
+  },
+  {
+    "curated_id": "EF-GOV-006",
+    "category_prefix": "EF-GOV",
+    "category_directory": "00_governance_and_archive",
+    "source_id": "SRC-0091",
+    "legacy_source_ids": [
+      "SRC-0091"
+    ],
+    "title": "Research Agent 1 revision feedback",
+    "role": "Founder-directed revision of the farmer-decision research programme",
+    "source_group": "research_agent_1",
+    "original_relative_path": "Research-Agent-1/pasted_content_2.txt",
+    "sha256": "b7ce869979fbac05f28836573bff76b1c47fd75074aaa9df6cbab5536cdcbfee",
+    "archive_relative_path": "00_governance_and_archive/EF-GOV-006__pasted_content_2.txt",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-006__pasted_content_2.txt"
+  },
+  {
+    "curated_id": "EF-GOV-007",
+    "category_prefix": "EF-GOV",
+    "category_directory": "00_governance_and_archive",
+    "source_id": "SRC-0120",
+    "legacy_source_ids": [
+      "SRC-0120"
+    ],
+    "title": "Research Agent 2 handoff",
+    "role": "Ecosystem, data-feasibility, alternatives, and delivery research mandate",
+    "source_group": "research_agent_2",
+    "original_relative_path": "Research-Agent-2/pasted_content.txt",
+    "sha256": "d2c05e2a2f08789624687c56500357d2391bc8d07480b97eaad095965b661ef0",
+    "archive_relative_path": "00_governance_and_archive/EF-GOV-007__pasted_content.txt",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-007__pasted_content.txt"
+  },
+  {
+    "curated_id": "EF-GOV-008",
+    "category_prefix": "EF-GOV",
+    "category_directory": "00_governance_and_archive",
+    "source_id": "SRC-0121",
+    "legacy_source_ids": [
+      "SRC-0121"
+    ],
+    "title": "Research Agent 2 revision feedback",
+    "role": "Founder-directed revision of the data, safety, and ecosystem research programme",
+    "source_group": "research_agent_2",
+    "original_relative_path": "Research-Agent-2/pasted_content_2.txt",
+    "sha256": "75f32ef6996c322bb1eaedd95413e636b40e06c8e20dcbad2cb34d475e7a84a4",
+    "archive_relative_path": "00_governance_and_archive/EF-GOV-008__pasted_content_2.txt",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-008__pasted_content_2.txt"
+  },
+  {
     "curated_id": "EF-VSN-001",
     "category_prefix": "EF-VSN",
     "category_directory": "01_founder_vision_and_evolution",
@@ -110,6 +174,22 @@
     "sha256": "b60361cff94a57dae1f66da0db816ed1ebe65ae34c3d723049bf3a9a63620af8",
     "archive_relative_path": "01_founder_vision_and_evolution/EF-VSN-003__document_outline.md (title: \"project onboarding document: ecofarm\")",
     "github_relative_path": "01_founder_vision_and_evolution/EF-VSN-003__document_outline.md (title: \"project onboarding document: ecofarm\")"
+  },
+  {
+    "curated_id": "EF-VSN-004",
+    "category_prefix": "EF-VSN",
+    "category_directory": "01_founder_vision_and_evolution",
+    "source_id": "SRC-0054",
+    "legacy_source_ids": [
+      "SRC-0054"
+    ],
+    "title": "Historical EcoFarm-2 onboarding document",
+    "role": "Intermediate project-onboarding version preserving historical scope evolution",
+    "source_group": "historical_task_ecofarm_2",
+    "original_relative_path": "EcoFarm-2/project_onboarding_document.md (title: \"Project Onboarding Document: Smart Farming Ecosystem\")",
+    "sha256": "b0adadf4571f97e0e109f97289cbfb98d582bc91f25e8b63f06e4a827df29992",
+    "archive_relative_path": "01_founder_vision_and_evolution/EF-VSN-004__project_onboarding_document.md (title: \"project onboarding document: smart farming ecosystem\")",
+    "github_relative_path": "01_founder_vision_and_evolution/EF-VSN-004__project_onboarding_document.md (title: \"project onboarding document: smart farming ecosystem\")"
   },
   {
     "curated_id": "EF-PRD-001",
@@ -307,6 +387,22 @@
     "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf"
   },
   {
+    "curated_id": "EF-TEC-006",
+    "category_prefix": "EF-TEC",
+    "category_directory": "03_technical_architecture_hardware_ai",
+    "source_id": "SRC-0056",
+    "legacy_source_ids": [
+      "SRC-0056"
+    ],
+    "title": "Historical technical master document v2",
+    "role": "Detailed historical system/architecture reference beyond the table-of-contents artefact",
+    "source_group": "historical_task_ecofarm_2",
+    "original_relative_path": "EcoFarm-2/sfe_master_document_v2.md (title: \"1. Introduction and System Overview\")",
+    "sha256": "082bff3325d465e83fb991498e99d43fc60cd8097d35e8afbe742671c203db07",
+    "archive_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-006__sfe_master_document_v2_md_title_1. introduction and system overview\")",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-006__sfe_master_document_v2_md_title_1. introduction and system overview\")"
+  },
+  {
     "curated_id": "EF-AGR-001",
     "category_prefix": "EF-AGR",
     "category_directory": "04_india_agriculture_problem_research",
@@ -401,6 +497,38 @@
     "sha256": "552a704411a8ee7507a95366b92ce3dbc17566ba622814dc5e60b2e6ac92c9a5",
     "archive_relative_path": "04_india_agriculture_problem_research/EF-AGR-006__problems_faced_by_farmers_global_overview_with_india_focus.pdf",
     "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-006__problems_faced_by_farmers_global_overview_with_india_focus.pdf"
+  },
+  {
+    "curated_id": "EF-AGR-007",
+    "category_prefix": "EF-AGR",
+    "category_directory": "04_india_agriculture_problem_research",
+    "source_id": "SRC-0276",
+    "legacy_source_ids": [
+      "SRC-0276"
+    ],
+    "title": "Complete agricultural crisis analysis",
+    "role": "Integrated historical crisis synthesis and visualisation context",
+    "source_group": "project_shared_files",
+    "original_relative_path": "shared_files/COMPLETE_UNIFIED_MASTER_DOCUMENT.md",
+    "sha256": "65bbc49bd1598e6400c2d93c1df08ac81c4667680715811258b2928b8a2f9ac1",
+    "archive_relative_path": "04_india_agriculture_problem_research/EF-AGR-007__complete_unified_master_document.md",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-007__complete_unified_master_document.md"
+  },
+  {
+    "curated_id": "EF-AGR-008",
+    "category_prefix": "EF-AGR",
+    "category_directory": "04_india_agriculture_problem_research",
+    "source_id": "SRC-0278",
+    "legacy_source_ids": [
+      "SRC-0278"
+    ],
+    "title": "Multi-AI agricultural crisis data consolidation",
+    "role": "Secondary multi-source research consolidation; retain as synthesis, not primary proof",
+    "source_group": "project_shared_files",
+    "original_relative_path": "shared_files/COMPREHENSIVE AGRICULTURAL CRISIS DATA CONSOLIDATI.pdf",
+    "sha256": "6964ed0193e9d[REDACTED_PHONE]fb9021cdcdcc0efb4f7a000bab0cf1e3c79aba606",
+    "archive_relative_path": "04_india_agriculture_problem_research/EF-AGR-008__comprehensive_agricultural_crisis_data_consolidati.pdf",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-008__comprehensive_agricultural_crisis_data_consolidati.pdf"
   },
   {
     "curated_id": "EF-REG-001",
@@ -561,6 +689,54 @@
     "sha256": "0eb1b1575e53eb07140a008f13cde1442c1af540db42e2e0a[REDACTED_PHONE]e3e02",
     "archive_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-010__tamil_nadu_agriculture_specific_analysis.md",
     "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-010__tamil_nadu_agriculture_specific_analysis.md"
+  },
+  {
+    "curated_id": "EF-REG-011",
+    "category_prefix": "EF-REG",
+    "category_directory": "05_regional_microcosm_and_namakkal_research",
+    "source_id": "SRC-0290",
+    "legacy_source_ids": [
+      "SRC-0290"
+    ],
+    "title": "Executive operational-difficulties summary",
+    "role": "Historical Kongu/Punjab selection synthesis and caveats",
+    "source_group": "project_shared_files",
+    "original_relative_path": "shared_files/Executive_Summary_Operational_Difficulties.md",
+    "sha256": "96b827905201c7d4346ac382dad1280860138fe8929417bd8943a[REDACTED_PHONE]e",
+    "archive_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-011__executive_summary_operational_difficulties.md",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-011__executive_summary_operational_difficulties.md"
+  },
+  {
+    "curated_id": "EF-REG-012",
+    "category_prefix": "EF-REG",
+    "category_directory": "05_regional_microcosm_and_namakkal_research",
+    "source_id": "SRC-0094",
+    "legacy_source_ids": [
+      "SRC-0094"
+    ],
+    "title": "Namakkal district statistical handbook notes",
+    "role": "Primary local statistical evidence notes used in farmer-segment research",
+    "source_group": "research_agent_1",
+    "original_relative_path": "Research-Agent-1/research_notes_handbook.md",
+    "sha256": "abbef4b23c9a492d1d33417796b5bb9fb481e3b8dee3c5ca743903c6e24ff26d",
+    "archive_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-012__research_notes_handbook.md",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-012__research_notes_handbook.md"
+  },
+  {
+    "curated_id": "EF-REG-013",
+    "category_prefix": "EF-REG",
+    "category_directory": "05_regional_microcosm_and_namakkal_research",
+    "source_id": "SRC-0097",
+    "legacy_source_ids": [
+      "SRC-0097"
+    ],
+    "title": "Namakkal Agriculture Department notes",
+    "role": "Primary local institutional/land/rainfall/crop evidence notes",
+    "source_group": "research_agent_1",
+    "original_relative_path": "Research-Agent-1/research_notes_local_official.md",
+    "sha256": "24c539e80b0aa0b8b3898aa31c62b6dde27a64a9eeb8d943619d8acf51e4292e",
+    "archive_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-013__research_notes_local_official.md",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-013__research_notes_local_official.md"
   },
   {
     "curated_id": "EF-MKT-001",
@@ -983,6 +1159,54 @@
     "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-017__ecofarmweeklyeventregisterandevidencedashboard.md"
   },
   {
+    "curated_id": "EF-FLD-018",
+    "category_prefix": "EF-FLD",
+    "category_directory": "07_farmer_decision_and_field_validation",
+    "source_id": "SRC-0092",
+    "legacy_source_ids": [
+      "SRC-0092"
+    ],
+    "title": "Advisory channels and information-behaviour notes",
+    "role": "Institutional/advisory overlap evidence for farmer-decision research",
+    "source_group": "research_agent_1",
+    "original_relative_path": "Research-Agent-1/research_notes_advisory_channels.md",
+    "sha256": "ce6f8d42944aa516d81512120b4d8059f0aa4d086c159bac1ded557d14d73b34",
+    "archive_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-018__research_notes_advisory_channels.md",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-018__research_notes_advisory_channels.md"
+  },
+  {
+    "curated_id": "EF-FLD-019",
+    "category_prefix": "EF-FLD",
+    "category_directory": "07_farmer_decision_and_field_validation",
+    "source_id": "SRC-0093",
+    "legacy_source_ids": [
+      "SRC-0093"
+    ],
+    "title": "Namakkal rainfed groundnut study notes",
+    "role": "Local study evidence informing the groundnut entry hypothesis",
+    "source_group": "research_agent_1",
+    "original_relative_path": "Research-Agent-1/research_notes_groundnut_study.md",
+    "sha256": "a84383aaf60598845192052728d7dbe09202d070cf221c86ea2d2ce84778f07a",
+    "archive_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-019__research_notes_groundnut_study.md",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-019__research_notes_groundnut_study.md"
+  },
+  {
+    "curated_id": "EF-FLD-020",
+    "category_prefix": "EF-FLD",
+    "category_directory": "07_farmer_decision_and_field_validation",
+    "source_id": "SRC-0096",
+    "legacy_source_ids": [
+      "SRC-0096"
+    ],
+    "title": "Tamil Nadu farmer information-search study notes",
+    "role": "Information-behaviour evidence with locality and age limitations stated",
+    "source_group": "research_agent_1",
+    "original_relative_path": "Research-Agent-1/research_notes_information_search.md",
+    "sha256": "2b279b87d96db1a5125b9a9dba07d876e8aeadeb8d561d3a299ee0de8cb001bb",
+    "archive_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-020__research_notes_information_search.md",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-020__research_notes_information_search.md"
+  },
+  {
     "curated_id": "EF-DAT-001",
     "category_prefix": "EF-DAT",
     "category_directory": "08_data_sources_safety_and_p0_feasibility",
@@ -1302,6 +1526,22 @@
     "sha256": "89144528b8c842c1bcd818fea82ee25715b45093403e7ed1376f389d57209fbe",
     "archive_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt",
     "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt"
+  },
+  {
+    "curated_id": "EF-DAT-020",
+    "category_prefix": "EF-DAT",
+    "category_directory": "08_data_sources_safety_and_p0_feasibility",
+    "source_id": "SRC-0095",
+    "legacy_source_ids": [
+      "SRC-0095"
+    ],
+    "title": "IMD weather-advisory evidence notes",
+    "role": "Institutional weather/advisory service context and EcoFarm differentiation boundary",
+    "source_group": "research_agent_1",
+    "original_relative_path": "Research-Agent-1/research_notes_imd.md",
+    "sha256": "d82faed5608a7f71f3626e9a5d5d7b793f29e130cf6e9edaa17a349fbdddb918",
+    "archive_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-020__research_notes_imd.md",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-020__research_notes_imd.md"
   },
   {
     "curated_id": "EF-DSN-001",

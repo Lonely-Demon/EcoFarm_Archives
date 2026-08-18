@@ -10,6 +10,10 @@
 | `EF-GOV-002` | Current session approvals and requirements | Current governing approval record | `SRC-0135` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-002__ecofarm_current_session_approvals_and_requirements_2026_08_18.md) |
 | `EF-GOV-003` | Master document reworked architecture | Knowledge-base architecture decision record | `SRC-0289` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-003__ecofarm_master_document_reworked_architecture.md) |
 | `EF-GOV-004` | Historical EcoFarm 1 conversation trace | Historical founder/assistant project-development context; browse as trace, not as present authority | `SRC-0130` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl) |
+| `EF-GOV-005` | Research Agent 1 handoff | Farmer-problem and decision-reality research mandate, scope, and evidence boundary | `SRC-0090` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-005__pasted_content.txt) |
+| `EF-GOV-006` | Research Agent 1 revision feedback | Founder-directed revision of the farmer-decision research programme | `SRC-0091` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-006__pasted_content_2.txt) |
+| `EF-GOV-007` | Research Agent 2 handoff | Ecosystem, data-feasibility, alternatives, and delivery research mandate | `SRC-0120` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-007__pasted_content.txt) |
+| `EF-GOV-008` | Research Agent 2 revision feedback | Founder-directed revision of the data, safety, and ecosystem research programme | `SRC-0121` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-008__pasted_content_2.txt) |
 
 ## EF-VSN — 01 Founder Vision And Evolution
 
@@ -18,6 +22,7 @@
 | `EF-VSN-001` | Extended EcoFarm onboarding document | Richest preserved historical founder vision and feature mechanics | `SRC-0039` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-001__project_onboarding_document.md) |
 | `EF-VSN-002` | Later concise EcoFarm onboarding document | Later historical framing and scope orientation | `SRC-0040` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-002__project_onboarding_document_final.md) |
 | `EF-VSN-003` | EcoFarm onboarding document outline | Historical structure and evolution reference | `SRC-0037` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-003__document_outline.md (title: "project onboarding document: ecofarm")) |
+| `EF-VSN-004` | Historical EcoFarm-2 onboarding document | Intermediate project-onboarding version preserving historical scope evolution | `SRC-0054` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-004__project_onboarding_document.md (title: "project onboarding document: smart farming ecosystem")) |
 
 ## EF-PRD — 02 Product Concept And Feature Mechanics
 
@@ -40,6 +45,7 @@
 | `EF-TEC-003` | AI integration and data-source capabilities | Historical intelligence/data architecture rationale | `SRC-0011` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-003__tech_stack_research_ai_data.md) |
 | `EF-TEC-004` | Cloud hosting and scalability research | Historical deployment and scale considerations | `SRC-0015` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-004__tech_stack_research_hosting.md) |
 | `EF-TEC-005` | Sensor research source capture | Historical sensor capability and trade-off research | `SRC-0025`, `SRC-0026`, `SRC-0029`, `SRC-0036` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf) |
+| `EF-TEC-006` | Historical technical master document v2 | Detailed historical system/architecture reference beyond the table-of-contents artefact | `SRC-0056` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-006__sfe_master_document_v2_md_title_1. introduction and system overview")) |
 
 ## EF-AGR — 04 India Agriculture Problem Research
 
@@ -51,6 +57,8 @@
 | `EF-AGR-004` | India national agriculture crisis | India-wide farmer-problem context | `SRC-0298` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-004__india_national_agriculture_crisis.md) |
 | `EF-AGR-005` | Indian agriculture comprehensive report | National structural context | `SRC-0299` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-005__indian_agriculture_comprehensive_report.pdf) |
 | `EF-AGR-006` | Global farmer problems with India focus | Global comparison and India context | `SRC-0311` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-006__problems_faced_by_farmers_global_overview_with_india_focus.pdf) |
+| `EF-AGR-007` | Complete agricultural crisis analysis | Integrated historical crisis synthesis and visualisation context | `SRC-0276` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-007__complete_unified_master_document.md) |
+| `EF-AGR-008` | Multi-AI agricultural crisis data consolidation | Secondary multi-source research consolidation; retain as synthesis, not primary proof | `SRC-0278` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-008__comprehensive_agricultural_crisis_data_consolidati.pdf) |
 
 ## EF-REG — 05 Regional Microcosm And Namakkal Research
 
@@ -66,6 +74,9 @@
 | `EF-REG-008` | Operational difficulties research plan | Kongu/Punjab analysis method | `SRC-0310` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-008__operational_difficulties_research_plan.md) |
 | `EF-REG-009` | Punjab operational difficulties | Comparator region context | `SRC-0314` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-009__punjab_operational_difficulties_detailed.md) |
 | `EF-REG-010` | Tamil Nadu agriculture-specific analysis | State-level operating context | `SRC-0315` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-010__tamil_nadu_agriculture_specific_analysis.md) |
+| `EF-REG-011` | Executive operational-difficulties summary | Historical Kongu/Punjab selection synthesis and caveats | `SRC-0290` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-011__executive_summary_operational_difficulties.md) |
+| `EF-REG-012` | Namakkal district statistical handbook notes | Primary local statistical evidence notes used in farmer-segment research | `SRC-0094` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-012__research_notes_handbook.md) |
+| `EF-REG-013` | Namakkal Agriculture Department notes | Primary local institutional/land/rainfall/crop evidence notes | `SRC-0097` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-013__research_notes_local_official.md) |
 
 ## EF-MKT — 06 Market Commercial And Ecosystem Research
 
@@ -101,6 +112,9 @@
 | `EF-FLD-015` | Seasonal event and observation map | Event timing model | `SRC-0081`, `SRC-0375` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-015__ecofarmseasonaleventandobservationmap.md) |
 | `EF-FLD-016` | Post-event follow-up | Outcome/follow-up instrument | `SRC-0078`, `SRC-0376` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-016__ecofarmshortpost_eventfollow_up.md) |
 | `EF-FLD-017` | Weekly event register and evidence dashboard | Field evidence tracking method | `SRC-0082`, `SRC-0381` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-017__ecofarmweeklyeventregisterandevidencedashboard.md) |
+| `EF-FLD-018` | Advisory channels and information-behaviour notes | Institutional/advisory overlap evidence for farmer-decision research | `SRC-0092` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-018__research_notes_advisory_channels.md) |
+| `EF-FLD-019` | Namakkal rainfed groundnut study notes | Local study evidence informing the groundnut entry hypothesis | `SRC-0093` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-019__research_notes_groundnut_study.md) |
+| `EF-FLD-020` | Tamil Nadu farmer information-search study notes | Information-behaviour evidence with locality and age limitations stated | `SRC-0096` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-020__research_notes_information_search.md) |
 
 ## EF-DAT — 08 Data Sources Safety And P0 Feasibility
 
@@ -125,6 +139,7 @@
 | `EF-DAT-017` | Referral directory verification | Referral directory test evidence | `SRC-0122`, `SRC-0388` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-017__referral_directory_verification.txt) |
 | `EF-DAT-018` | TNAU Agro-Met headers | P0 source-test evidence | `SRC-0125`, `SRC-0389` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-018__tnau_agromet_headers.txt) |
 | `EF-DAT-019` | TNAU weather test manifest | P0 source-test evidence | `SRC-0126`, `SRC-0390` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt) |
+| `EF-DAT-020` | IMD weather-advisory evidence notes | Institutional weather/advisory service context and EcoFarm differentiation boundary | `SRC-0095` | [Open on GitHub](https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-020__research_notes_imd.md) |
 
 ## EF-DSN — 09 Historical Design Pitch And Media
 

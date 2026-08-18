@@ -28,11 +28,16 @@ CATEGORY_SPECS = [
         ('SRC-0135', 'Current session approvals and requirements', 'Current governing approval record'),
         ('SRC-0289', 'Master document reworked architecture', 'Knowledge-base architecture decision record'),
         ('SRC-0130', 'Historical EcoFarm 1 conversation trace', 'Historical founder/assistant project-development context; browse as trace, not as present authority'),
+        ('SRC-0090', 'Research Agent 1 handoff', 'Farmer-problem and decision-reality research mandate, scope, and evidence boundary'),
+        ('SRC-0091', 'Research Agent 1 revision feedback', 'Founder-directed revision of the farmer-decision research programme'),
+        ('SRC-0120', 'Research Agent 2 handoff', 'Ecosystem, data-feasibility, alternatives, and delivery research mandate'),
+        ('SRC-0121', 'Research Agent 2 revision feedback', 'Founder-directed revision of the data, safety, and ecosystem research programme'),
     ]),
     ('EF-VSN', '01_founder_vision_and_evolution', [
         ('SRC-0039', 'Extended EcoFarm onboarding document', 'Richest preserved historical founder vision and feature mechanics'),
         ('SRC-0040', 'Later concise EcoFarm onboarding document', 'Later historical framing and scope orientation'),
         ('SRC-0037', 'EcoFarm onboarding document outline', 'Historical structure and evolution reference'),
+        ('SRC-0054', 'Historical EcoFarm-2 onboarding document', 'Intermediate project-onboarding version preserving historical scope evolution'),
     ]),
     ('EF-PRD', '02_product_concept_and_feature_mechanics', [
         ('SRC-0006', 'Historical product requirements document', 'Feature intent, roles, workflows, and capability relationships'),
@@ -49,6 +54,7 @@ CATEGORY_SPECS = [
         ('SRC-0011', 'AI integration and data-source capabilities', 'Historical intelligence/data architecture rationale'),
         ('SRC-0015', 'Cloud hosting and scalability research', 'Historical deployment and scale considerations'),
         ('SRC-0025', 'Sensor research source capture', 'Historical sensor capability and trade-off research'),
+        ('SRC-0056', 'Historical technical master document v2', 'Detailed historical system/architecture reference beyond the table-of-contents artefact'),
     ]),
     ('EF-AGR', '04_india_agriculture_problem_research', [
         ('SRC-0277', 'Unified agricultural crisis document with citations', 'India-wide agricultural-problem research synthesis'),
@@ -57,6 +63,8 @@ CATEGORY_SPECS = [
         ('SRC-0298', 'India national agriculture crisis', 'India-wide farmer-problem context'),
         ('SRC-0299', 'Indian agriculture comprehensive report', 'National structural context'),
         ('SRC-0311', 'Global farmer problems with India focus', 'Global comparison and India context'),
+        ('SRC-0276', 'Complete agricultural crisis analysis', 'Integrated historical crisis synthesis and visualisation context'),
+        ('SRC-0278', 'Multi-AI agricultural crisis data consolidation', 'Secondary multi-source research consolidation; retain as synthesis, not primary proof'),
     ]),
     ('EF-REG', '05_regional_microcosm_and_namakkal_research', [
         ('SRC-0274', 'All agricultural microcosms detailed profiles', 'Comparative regional-entry research'),
@@ -69,6 +77,9 @@ CATEGORY_SPECS = [
         ('SRC-0310', 'Operational difficulties research plan', 'Kongu/Punjab analysis method'),
         ('SRC-0314', 'Punjab operational difficulties', 'Comparator region context'),
         ('SRC-0315', 'Tamil Nadu agriculture-specific analysis', 'State-level operating context'),
+        ('SRC-0290', 'Executive operational-difficulties summary', 'Historical Kongu/Punjab selection synthesis and caveats'),
+        ('SRC-0094', 'Namakkal district statistical handbook notes', 'Primary local statistical evidence notes used in farmer-segment research'),
+        ('SRC-0097', 'Namakkal Agriculture Department notes', 'Primary local institutional/land/rainfall/crop evidence notes'),
     ]),
     ('EF-MKT', '06_market_commercial_and_ecosystem_research', [
         ('SRC-0382', 'Market research conversation export', 'Founder-market research and strategic reasoning record'),
@@ -98,6 +109,9 @@ CATEGORY_SPECS = [
         ('SRC-0375', 'Seasonal event and observation map', 'Event timing model'),
         ('SRC-0376', 'Post-event follow-up', 'Outcome/follow-up instrument'),
         ('SRC-0381', 'Weekly event register and evidence dashboard', 'Field evidence tracking method'),
+        ('SRC-0092', 'Advisory channels and information-behaviour notes', 'Institutional/advisory overlap evidence for farmer-decision research'),
+        ('SRC-0093', 'Namakkal rainfed groundnut study notes', 'Local study evidence informing the groundnut entry hypothesis'),
+        ('SRC-0096', 'Tamil Nadu farmer information-search study notes', 'Information-behaviour evidence with locality and age limitations stated'),
     ]),
     ('EF-DAT', '08_data_sources_safety_and_p0_feasibility', [
         ('SRC-0354', 'Ecosystem, data feasibility, alternatives, and delivery handoff', 'Current systems/data feasibility synthesis'),
@@ -119,6 +133,7 @@ CATEGORY_SPECS = [
         ('SRC-0388', 'Referral directory verification', 'Referral directory test evidence'),
         ('SRC-0389', 'TNAU Agro-Met headers', 'P0 source-test evidence'),
         ('SRC-0390', 'TNAU weather test manifest', 'P0 source-test evidence'),
+        ('SRC-0095', 'IMD weather-advisory evidence notes', 'Institutional weather/advisory service context and EcoFarm differentiation boundary'),
     ]),
     ('EF-DSN', '09_historical_design_pitch_and_media', [
         ('SRC-0003', 'Field overview high-fidelity mockup', 'Historical visual product concept'),

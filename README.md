@@ -18,7 +18,7 @@ This repository is a **curated, source-traceable knowledge archive** for EcoFarm
 
 `EF-GOV` governance/archive · `EF-VSN` founder vision/evolution · `EF-PRD` product/feature mechanics · `EF-TEC` technical architecture/hardware/AI · `EF-AGR` India agriculture problem research · `EF-REG` regional/Namakkal research · `EF-MKT` market/commercial/ecosystem research · `EF-FLD` farmer decision/field validation · `EF-DAT` data sources/safety/P0 feasibility · `EF-DSN` historical design/pitch/media.
 
-The original preservation corpus contained **390** raw artifacts. This curated archive retains **97** canonical substantive records. Exact duplicates, generic app code, dependency/configuration files, generated builds, low-signal items, and raw conversation traces are documented rather than mixed into ordinary evidence browsing. Archive-generation code is kept separately under [`archive_infrastructure/`](archive_infrastructure/).
+The original preservation corpus contained **390** raw artifacts. This curated archive retains **112** canonical substantive records. Exact duplicates, generic app code, dependency/configuration files, generated builds, low-signal items, and raw conversation traces are documented rather than mixed into ordinary evidence browsing. Archive-generation code is kept separately under [`archive_infrastructure/`](archive_infrastructure/).
 
 ## Public-release policy
 

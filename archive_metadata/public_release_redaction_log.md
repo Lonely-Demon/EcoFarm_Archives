@@ -15,6 +15,6 @@
 | `archive_metadata/EcoFarm_Corpus_Coverage_and_Resolution.md` | email address: 1 |
 | `archive_metadata/legacy_source_manifest.json` | email address: 2, Indian mobile number: 12 |
 | `archive_metadata/legacy_source_manifest.csv` | email address: 2, Indian mobile number: 12 |
-| `archive_metadata/curated_source_index.json` | Indian mobile number: 2 |
+| `archive_metadata/curated_source_index.json` | Indian mobile number: 4 |
 | `archive_metadata/inclusion_exclusion_register.md` | email address: 1 |
 | `10_knowledge_base_outputs/llm_knowledge_corpus/EcoFarm_LLM_Knowledge_Chunks.jsonl` | email address: 4, Indian mobile number: 3 |

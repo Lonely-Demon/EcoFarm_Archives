@@ -1,0 +1,109 @@
+# EcoFarm Research Agent 2 — Revision Feedback
+
+## Ecosystem, Data, Existing Alternatives, and Delivery Feasibility Research
+
+**Status:** Your original package is accepted as a strong ecosystem and data-feasibility foundation. This is a **targeted revision request**, not a request to collect more general agriculture facts or produce another broad competitor report.
+
+**Your original responsibility:** Determine whether EcoFarm can responsibly fit into the Namakkal/Kongu advisory and data ecosystem without duplicating existing channels, overstating data quality, or implying partnerships that do not exist.
+
+**Current working hypothesis:** EcoFarm may eventually support one human-supervised sowing/early-establishment decision packet. Weather/advisory information, farmer-entered constraints, referenced agronomy, and—only where relevant—market observations are inputs to that one decision. They are not three independent MVPs.
+
+---
+
+## 1. What You Did Well — Retain Without Dilution
+
+Your work correctly identifies a dense ecosystem of public, institutional, commercial, and informal alternatives. It avoids false claims that information is absent, data is automatically usable, public pages imply data rights, or named institutions are already partners. Your source classifications, provenance requirements, missing-data logic, consent boundaries, and rules against price prediction and autonomous agronomic advice are especially strong.
+
+Retain the data-source register, ecosystem register, alternatives matrix, verification-question set, claim labels, and safety/governance matrix. Do not dilute the distinction between a source that is public, a source that is technically accessible, and a source that is legally and operationally usable in a farmer-facing workflow.
+
+---
+
+## 2. Revision Objective
+
+Your first package establishes that several sources and channels may be relevant. The next stage needs a sharper answer:
+
+> **For one narrowly defined sowing/early-establishment event, which sources can EcoFarm actually use, in what order, with what freshness and rights, for which limited output—and when must the system refuse, suppress, or refer?**
+
+The revision must turn source lists into an implementation-readiness test plan. It must not recommend a broad app, launch integrations, infer a partnership, or promote weather, market, or crop guidance as standalone products.
+
+---
+
+## 3. Required Revisions
+
+| Priority | Required revision | Why it matters | Required content |
+| --- | --- | --- | --- |
+| P0 | Create a **P0 source operational-test plan** | A webpage or API portal does not establish usable integration | For each P0 source: access method, authorization, fields, source owner, required test request, expected response, update timing, empty response, rate-limit behavior, attribution, storage/redistribution terms, fallback, and test pass/fail criteria |
+| P0 | Define a **weather/advisory source hierarchy** | IMD APIs, IMD bulletins, TNAU bulletins, and TAWN may differ in resolution, timing, or wording | State source precedence, geographic scope, freshness threshold, conflict policy, transformation rule, display requirement, and the condition for suppressing an alert |
+| P0 | Reduce the technical plan to **one decision packet** | Three parallel workflows create premature scope | Show how farmer context, weather/advisory evidence, referenced crop guidance, and optional market context support the selected event; clearly mark components that are excluded until field evidence elevates them |
+| P0 | Produce a **P0 data dictionary and consent map** | “Data minimization” needs field-level operational meaning | For every proposed field: purpose, source, required/optional, sensitivity, validation, storage duration, access/deletion route, consent wording, and failure behavior if absent |
+| P0 | Define a **safe escalation and referral design without assumed partnership** | “Human escalation” must not imply an unavailable service or endorsement | State trigger cases, the precise farmer-facing wording, current referral information, what EcoFarm does and does not promise, and what changes only after a documented agreement |
+| P1 | Complete a **local market-semantic verification plan** | Min/max/modal prices are useless if they do not match crop, variety, quality, unit, market, or farmer route | Obtain or define the process for one real target commodity/market sample: identifiers, variety, grade, unit, update delay, missingness, local price relevance, and safe display wording |
+| P1 | Convert the alternatives matrix into a **behavioural verification plan** | Directories and platform descriptions do not show actual farmer use | Add field measures for last use, decision served, response time, trust reason, cost, abandonment reason, and whether the alternative changed a recent action |
+| P1 | Define a **source-failure observability plan** | Safety depends on recognizing stale, missing, contradictory, or transformed data | Specify logs, dashboards or review records, freshness checks, source-version capture, manual intervention, and user-facing fail-closed behavior |
+
+---
+
+## 4. Required Data and Ecosystem Classifications
+
+Every P0 source must be placed in one—and only one—of the following operational categories after testing:
+
+| Classification | Meaning | Product consequence |
+| --- | --- | --- |
+| **Approved P0 source** | Access, terms, freshness, geographic relevance, provenance, and failure behavior passed the required test | May support a constrained, source-labelled output |
+| **Manual-reference source** | Reliable content but no automated/reuse right or inadequate operational access | May be linked or used by a human reviewer with attribution; not automated |
+| **Context-only source** | Useful for research or background but not sufficiently local, timely, or actionable | Must not be used in a farmer decision packet |
+| **Permission-dependent source** | May be valuable but needs farmer consent, owner permission, or institutional agreement | Must remain unavailable until permission is documented |
+| **Rejected for the first pilot** | Cannot satisfy safety, relevance, or operational conditions | Must not be included in P0, regardless of technical appeal |
+
+The revision must also classify every named institutional actor as **documented context**, **field-verification target**, **current referral information**, or **documented partner**. The last category may only be used with written evidence.
+
+---
+
+## 5. Deliverables Required From This Revision
+
+Do not rewrite the original main report. Update or add only the following files.
+
+| Required file | Purpose |
+| --- | --- |
+| `EcoFarm_P0_Source_Operational_Test_Plan.md` | Makes each P0 source testable before any implementation claim |
+| `EcoFarm_Weather_and_Advisory_Source_Hierarchy.md` | Defines precedence, freshness, conflict, display, and suppression logic |
+| `EcoFarm_P0_Decision_Packet_Data_Dictionary_and_Consent_Map.md` | Defines minimum data, consent, retention, and failure behavior for the chosen event |
+| `EcoFarm_Safe_Referral_and_Escalation_Design.md` | Defines safe no-partnership referral behavior and future agreement requirements |
+| `EcoFarm_Target_Market_Semantics_Verification_Plan.md` | Makes market observations comparable before use in any future workflow |
+| `EcoFarm_Alternatives_Behavioural_Verification_Addendum.md` | Turns the alternatives matrix into field questions and measures |
+| `EcoFarm_Source_Failure_and_Provenance_Observability_Plan.md` | Defines logs, source versioning, staleness, conflict handling, and user-facing failure states |
+| Updated `EcoFarmData-SourceRegister.md` and `EcoFarmEcosystemRegister.md` | Adds an operational classification and evidence for each change |
+
+---
+
+## 6. Completion Criteria
+
+Your revision is complete only when a technical lead can answer the following without assuming access or inventing requirements:
+
+1. **Which exact source(s) can be used for the P0 decision packet today, and what has been tested?**
+
+1. **What data is shown as raw observation, what is transformed, and what may never become a predictive claim?**
+
+1. **What happens if the source is stale, missing, contradictory, geographically too coarse, or inaccessible?**
+
+1. **Which farmer data fields are strictly necessary, and what consent/retention/deletion process applies to each?**
+
+1. **What referral can EcoFarm offer now without implying a partnership, response-time guarantee, or institutional endorsement?**
+
+If a source cannot be fully tested from desk research, label it **verification required** and specify the precise owner, question, test artifact, and decision threshold. Do not upgrade it based on apparent credibility alone.
+
+---
+
+## 7. Handoff Requirement
+
+At the end of the revision, provide a one-page **P0 Feasibility Decision Memo** with exactly four sections:
+
+1. **Approved P0 inputs and sources.**
+
+1. **Manual-only, permission-dependent, and rejected sources.**
+
+1. **Required UI/UX provenance, uncertainty, consent, and failure-state requirements.**
+
+1. **Technical blockers that must be resolved before a narrow pilot build can start.**
+
+The memo must preserve all original product boundaries: no future-price prediction, buyer assurance, autonomous high-stakes agronomy, sensor/hardware actuation, marketplace functions, or implied institutional partnership.

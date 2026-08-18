@@ -1,0 +1,247 @@
+# EcoFarm Research Agent 1 Handoff
+
+## Farmer Problem and Decision Reality Research
+
+**Role:** Senior agricultural customer-research and problem-discovery analyst
+
+**Geographic starting point:** Namakkal / Kongu belt, Tamil Nadu, India
+
+**Priority farmer hypothesis:** Small- and medium-holding groundnut farmers, initially reachable through one familiar village and later a non-relative comparison village
+
+**Research mode:** Rigorous desk research plus field-research design. Do not represent this work as completed farmer validation. Desk research must lead to a field-validation plan, not substitute for it.
+
+---
+
+## 1. Why You Are Being Asked to Work on This
+
+EcoFarm has a large, thoughtful archive of agriculture research, product concepts, regional comparisons, and system designs. The archive is valuable as a **hypothesis repository**, but it does not yet establish customer demand. No first-party farmer interviews, MVP feedback, letters of intent, verified recommendation outcomes, or willingness-to-pay evidence existed in the audited corpus.
+
+Your mission is to identify the **most defensible initial farmer problem and recurring decision** for EcoFarm to validate. You are not being asked to prove that an ambitious agricultural platform is desirable. You are being asked to answer a narrower question:
+
+> **For which Namakkal/Kongu farmer segment does one recurring decision create sufficient uncertainty, loss, delay, or dependence that a transparent, localized decision-support workflow is worth testing?**
+
+The desired result is a decision-ready research brief that lets a product lead choose what to test manually with farmers before UI/UX or software is built in depth.
+
+---
+
+## 2. EcoFarm Context You Must Understand Before Researching
+
+### 2.1 Long-term vision versus first-product boundary
+
+EcoFarm’s long-term vision includes an integrated agricultural ecosystem involving software, AI, weather and market information, sensors, irrigation hardware, cameras, satellite imagery, services, marketplaces, and financial or community layers. **That is not the scope of this research or the first pilot.**
+
+The working first-product hypothesis is a **localized, risk-aware agricultural decision-support tool**. It may eventually help a farmer understand crop options, weather-linked actions, risk awareness, and current market observations. It must not be framed as a generic “AI farming app,” an agricultural operating system, a buyer-assurance platform, or a guaranteed profit predictor.
+
+### 2.2 Current evidence status
+
+| Statement | Current status | How you must treat it |
+| --- | --- | --- |
+| Namakkal/Kongu is a practical first pilot geography because of founder access | Well-supported strategic rationale, not proof of market demand | Use as a field-access advantage only |
+| Groundnut farmers are a promising initial segment | Product hypothesis | Test against evidence; do not assume it is correct |
+| Crop choice, weather response, crop-risk awareness, and selling-time information are major farmer decisions | Plausible candidate decision areas | Compare them; do not treat them as validated priorities |
+| Existing weather, extension, market, and dealer channels leave a meaningful gap | Plausible but unproven | Investigate actual current workarounds and satisfaction |
+| Farmers will trust transparent localized support | Unproven | Treat trust as a behavior to test, not a brand claim |
+| Farmers or institutions will pay | Unproven | Do not infer willingness to pay from stated interest |
+
+### 2.3 Working product posture
+
+If EcoFarm eventually gives decision support, it should offer a small set of feasible options, state constraints, show uncertainty, distinguish observations from predictions, and record the farmer’s actual choice. It must not claim to know the single highest-profit crop, guarantee buyers, guarantee yields, or issue high-stakes advice when critical information is absent.
+
+---
+
+## 3. Your Core Questions
+
+Your work must answer each question explicitly. If evidence is insufficient, say so plainly and specify what field evidence is required.
+
+| Research question | What a useful answer looks like |
+| --- | --- |
+| Which farmer segments in Namakkal/Kongu face the most frequent and costly agricultural decisions? | Segment definitions based on crop, holding pattern, irrigation/rainfall exposure, market channel, and advisory access—not generic “farmers.” |
+| Which decisions recur often enough to become a product workflow? | A decision map with timing, trigger, owner, current information sources, constraints, and consequence of a poor decision. |
+| What problem is both painful and realistically addressable by decision support? | A bounded problem with clear information or workflow failure, not a structural issue EcoFarm cannot solve alone. |
+| What do farmers use now? | The actual workaround stack: family, experienced neighbours, input dealer, trader, extension officer, FPO, WhatsApp, television, informal networks, intuition, or no action. |
+| Where is the trust gap? | Evidence about who farmers believe, why, when advice is ignored, and what proof or explanation changes trust. |
+| Which decision has a measurable pre/post outcome? | A candidate workflow with observable action, timing, confidence, avoided loss, or other credible measure. |
+| What would make EcoFarm irrelevant or unsafe? | Existing services already solve it, information cannot affect the outcome, data is too weak, or wrong support could cause material harm. |
+
+---
+
+## 4. Required Research Scope
+
+### 4.1 Segment and crop-system analysis
+
+Develop a practical segmentation of the Namakkal/Kongu farmer environment. Do not use broad statewide averages as a substitute for local segmentation. Analyse, where evidence permits, crop types, holding patterns, irrigation access, rainfall dependence, soil or water constraints, advisory channels, smartphone and language realities, market routes, and decision authority within a household.
+
+Begin with groundnut as a hypothesis, not a conclusion. Compare groundnut with any locally material crop systems that research shows may produce a more frequent, consequential, and tractable decision workflow. Explain why each candidate segment is relevant or should be deprioritized.
+
+### 4.2 Decision-journey mapping
+
+For each credible candidate segment, map the annual or crop-cycle journey. Identify decisions involving crop selection, planting timing, input use, irrigation or water response, pest/disease response, harvest timing, storage, selling, and crop switching/diversification. For each decision, specify:
+
+- The trigger and frequency.
+
+- Who decides and who influences the decision.
+
+- The information currently used.
+
+- The time window available for action.
+
+- The financial, agronomic, or operational consequence of a weak decision.
+
+- The present workaround and its limitations.
+
+- What EcoFarm could credibly support versus what it cannot solve.
+
+### 4.3 Farmer trust and adoption reality
+
+Study adoption as a trust and workflow question, not merely smartphone penetration. Investigate local advice hierarchies, prior experience with government or commercial advisory services, language preferences, literacy and assisted-use requirements, willingness to share farm information, distrust caused by bad advice, and the influence of input sellers, traders, relatives, extension workers, FPOs, and local agronomists.
+
+Distinguish **interest**, **understanding**, **declared intention**, **trial**, **repeat use**, and **verified action**. These are not interchangeable forms of validation.
+
+### 4.4 Problem and alternative analysis
+
+Do not research only digital products. The most important competitor may be a trusted person or a familiar habit. Analyse alternatives across these categories:
+
+| Alternative type | Examples to investigate |
+| --- | --- |
+| Informal human advice | Family, neighbours, experienced farmers, input dealer, trader, local expert |
+| Institutional advice | Extension system, KVK, agricultural department, TNAU-linked channels, FPO support |
+| Media and digital advice | WhatsApp, YouTube, television, apps, websites, SMS, weather alerts |
+| Existing product or service | Advisory platforms, input or procurement platforms, agri-fintech, precision-ag tools |
+| Non-action | Delayed decision, repeating a familiar crop, accepting risk, selling immediately |
+
+Your analysis must identify whether EcoFarm would replace, coordinate with, or merely duplicate these alternatives.
+
+---
+
+## 5. Evidence Standards and Source Rules
+
+### 5.1 Source hierarchy
+
+Use the following hierarchy. Your report must identify the source type for every material claim.
+
+1. **Primary official or institutional sources:** Government departments, official statistical releases, agricultural universities, research institutions, regulated datasets, published scheme documentation.
+
+1. **Peer-reviewed research and clearly identified institutional research:** Especially papers with relevant geography, crop system, farmer segment, and methods.
+
+1. **Direct first-party field evidence:** Interviews, observation, pilot records, and documented statements—with consent and clear sampling context.
+
+1. **High-quality industry or civil-society research:** Use cautiously and state methods, geography, funding, and date.
+
+1. **Media, platform materials, informal discussion, or AI-generated reports:** Use only for lead generation; never as standalone proof.
+
+### 5.2 Claim discipline
+
+Every material claim must include the following in a claim ledger or footnote: source link, publisher, publication date, geography, population or denominator, method where relevant, and your confidence level. Never turn national evidence into a Namakkal-specific claim. Never use the words “farmers” and “agricultural households” interchangeably without checking definitions.
+
+Mark every conclusion as one of the following:
+
+| Label | Meaning |
+| --- | --- |
+| **Verified fact** | Directly supported by an appropriate primary or high-quality source |
+| **Supported inference** | Reasonable conclusion from multiple sources, but not directly observed locally |
+| **Product hypothesis** | Plausible proposition EcoFarm must test |
+| **Unknown / field validation required** | Cannot be answered credibly with desk research |
+
+### 5.3 Prohibited shortcuts
+
+- Do not treat existing EcoFarm reports, charts, or prior AI outputs as independent evidence.
+
+- Do not cite an exact percentage, local severity score, adoption probability, or success probability unless the underlying source is accessible and appropriate.
+
+- Do not claim that Namakkal has “no competition,” that farmers have a certain willingness to pay, or that a feature will be adopted without direct evidence.
+
+- Do not convert a parent’s observation, founder intuition, or anecdote into a market conclusion.
+
+- Do not recommend a broad platform, hardware programme, marketplace, or predictive AI as the answer to a problem merely because it is technically interesting.
+
+---
+
+## 6. Required Deliverables
+
+Submit one rigorous Markdown report and one supporting claim ledger. The report must be decision-ready rather than encyclopedic.
+
+### 6.1 Main report structure
+
+1. **Executive answer:** The three most credible candidate farmer decision problems, ranked with a clear recommendation and caveats.
+
+1. **Segment map:** Target segments, crop systems, access conditions, and reasons to prioritize or deprioritize each.
+
+1. **Decision journeys:** Detailed maps for the leading three candidate decisions.
+
+1. **Current workaround and trust map:** Who farmers consult, what existing channels do well, and where their limitations are demonstrable.
+
+1. **Problem scoring table:** Frequency, consequence, urgency, addressability, trust burden, data feasibility, measurability, and field-access feasibility. Scores must be explicitly labelled as analytical judgments, not scientific facts.
+
+1. **Recommended initial hypothesis:** One segment, one recurring decision, one outcome hypothesis, and one strict product boundary.
+
+1. **Field-validation plan:** Interview guide, sampling plan, observation plan, and “continue / change / stop” signals.
+
+1. **Unknowns and risks:** What must not be assumed before fieldwork.
+
+### 6.2 Required supporting files
+
+| File | Minimum content |
+| --- | --- |
+| `claim_ledger.md` | Each significant factual claim, source, date, geography, confidence, and evidence label |
+| `source_register.md` | All sources consulted, source type, relevance, limitations, and access date |
+| `field_interview_guide.md` | Open-ended past-behavior questions; no leading product pitch questions |
+| `decision_journey_tables.md` | Structured decision maps for the leading candidates |
+
+---
+
+## 7. Required Depth
+
+This is not a surface market overview. Aim for enough depth that a founder can spend the next week in fieldwork rather than re-researching basic questions.
+
+At minimum, use 20 credible sources, including at least eight primary official, institutional, or peer-reviewed sources. Prioritize Tamil Nadu, Namakkal/Kongu, relevant crop systems, and farmer-decision research over India-wide generalities. If local data is unavailable, report the absence as a finding and define the fieldwork needed to fill it.
+
+The report should be concise enough to use, but detailed enough to audit. A good target is a 10–15 page Markdown-equivalent main report plus appendices and ledgers. Depth is measured by traceability and decision usefulness, not word count.
+
+---
+
+## 8. Fieldwork Design Requirements
+
+Design an interview guide that elicits events rather than opinions. Ask about the most recent crop cycle, the last time a weather event changed a decision, the last disease/pest event, the last crop-selection decision, the last selling decision, the source of advice used, what happened next, and what it cost or saved.
+
+Avoid questions such as “Would you use an app?” or “Do you like AI?” until the end, if at all. A useful field interview should leave EcoFarm with a decision timeline, a current workaround, a trust map, a consequence, and consent to follow up.
+
+Specify a purposeful sample across familiar and non-relative farmers, varying holding size, water situation, crop history, technology comfort, and advice access. Make clear that a family-network sample is useful for learning but insufficient for proving transferability.
+
+---
+
+## 9. Handoff to Product, UI/UX, and Development
+
+Your report is complete only when another agent can use it without reinterpreting your research. The handoff must contain:
+
+- A one-sentence **decision brief**: “For [specific farmer segment], EcoFarm should test support for [specific recurring decision] because [evidence-backed problem], using [bounded workflow], measured by [observable behavior/outcome].”
+
+- Five non-negotiable user constraints for UI/UX.
+
+- Five non-negotiable product safety or trust constraints for development.
+
+- A list of inputs that must be collected from the farmer and why each is necessary.
+
+- A list of data or field facts that are insufficient for a safe recommendation.
+
+- The exact hypotheses the next product and field-validation stages must test.
+
+---
+
+## 10. Starting References and Project Materials
+
+Use these only as orientation, not as proof. Revalidate every statistic and conclusion with original sources.
+
+| Material | Why it is relevant | Limitation |
+| --- | --- | --- |
+| EcoFarm comprehensive audit | Defines current product hypothesis, MVP boundary, risk framing, and known evidence gaps | It is a synthesis, not independent local validation |
+| EcoFarm market-research conversation export | Captures founder reasoning, corrections, and rejected overreach | Conversation is not external evidence |
+| Namakkal District Agriculture Department | Starting point for local crops, extension, services, and district context | Reconfirm all current figures and programme details |
+| TNAU and KVK / outreach materials | Starting point for agricultural research, advisories, and possible field channels | Do not assume a partnership or endorsement |
+| IMD agricultural meteorology materials | Starting point for weather/advisory ecosystem research | Weather availability does not prove product value |
+| Official mandi-price resources | Starting point for current price-observation feasibility | Does not validate local relevance or price prediction |
+
+---
+
+## 11. Final Quality Check Before You Hand Back Work
+
+Before submitting, verify that your recommendation is specific enough to test in a 30-day field programme, modest enough to be safe, and evidence-backed enough to withstand founder and investor scrutiny. If the evidence does not support a single primary decision wedge, do not force one; recommend the minimum additional fieldwork required to choose.

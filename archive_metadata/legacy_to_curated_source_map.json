@@ -27,6 +27,34 @@
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-004__ecofarm_1_conversation.jsonl",
     "canonical_source_id": "SRC-0130"
   },
+  "SRC-0090": {
+    "curated_id": "EF-GOV-005",
+    "title": "Research Agent 1 handoff",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-005__pasted_content.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-005__pasted_content.txt",
+    "canonical_source_id": "SRC-0090"
+  },
+  "SRC-0091": {
+    "curated_id": "EF-GOV-006",
+    "title": "Research Agent 1 revision feedback",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-006__pasted_content_2.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-006__pasted_content_2.txt",
+    "canonical_source_id": "SRC-0091"
+  },
+  "SRC-0120": {
+    "curated_id": "EF-GOV-007",
+    "title": "Research Agent 2 handoff",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-007__pasted_content.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-007__pasted_content.txt",
+    "canonical_source_id": "SRC-0120"
+  },
+  "SRC-0121": {
+    "curated_id": "EF-GOV-008",
+    "title": "Research Agent 2 revision feedback",
+    "github_relative_path": "00_governance_and_archive/EF-GOV-008__pasted_content_2.txt",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/00_governance_and_archive/EF-GOV-008__pasted_content_2.txt",
+    "canonical_source_id": "SRC-0121"
+  },
   "SRC-0039": {
     "curated_id": "EF-VSN-001",
     "title": "Extended EcoFarm onboarding document",
@@ -47,6 +75,13 @@
     "github_relative_path": "01_founder_vision_and_evolution/EF-VSN-003__document_outline.md (title: \"project onboarding document: ecofarm\")",
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-003__document_outline.md (title: \"project onboarding document: ecofarm\")",
     "canonical_source_id": "SRC-0037"
+  },
+  "SRC-0054": {
+    "curated_id": "EF-VSN-004",
+    "title": "Historical EcoFarm-2 onboarding document",
+    "github_relative_path": "01_founder_vision_and_evolution/EF-VSN-004__project_onboarding_document.md (title: \"project onboarding document: smart farming ecosystem\")",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/01_founder_vision_and_evolution/EF-VSN-004__project_onboarding_document.md (title: \"project onboarding document: smart farming ecosystem\")",
+    "canonical_source_id": "SRC-0054"
   },
   "SRC-0006": {
     "curated_id": "EF-PRD-001",
@@ -153,6 +188,13 @@
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-005__fireshotcapture004_ecofarm_module_sensorresearch_grok_grok_com.pdf",
     "canonical_source_id": "SRC-0025"
   },
+  "SRC-0056": {
+    "curated_id": "EF-TEC-006",
+    "title": "Historical technical master document v2",
+    "github_relative_path": "03_technical_architecture_hardware_ai/EF-TEC-006__sfe_master_document_v2_md_title_1. introduction and system overview\")",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/03_technical_architecture_hardware_ai/EF-TEC-006__sfe_master_document_v2_md_title_1. introduction and system overview\")",
+    "canonical_source_id": "SRC-0056"
+  },
   "SRC-0277": {
     "curated_id": "EF-AGR-001",
     "title": "Unified agricultural crisis document with citations",
@@ -194,6 +236,20 @@
     "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-006__problems_faced_by_farmers_global_overview_with_india_focus.pdf",
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-006__problems_faced_by_farmers_global_overview_with_india_focus.pdf",
     "canonical_source_id": "SRC-0311"
+  },
+  "SRC-0276": {
+    "curated_id": "EF-AGR-007",
+    "title": "Complete agricultural crisis analysis",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-007__complete_unified_master_document.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-007__complete_unified_master_document.md",
+    "canonical_source_id": "SRC-0276"
+  },
+  "SRC-0278": {
+    "curated_id": "EF-AGR-008",
+    "title": "Multi-AI agricultural crisis data consolidation",
+    "github_relative_path": "04_india_agriculture_problem_research/EF-AGR-008__comprehensive_agricultural_crisis_data_consolidati.pdf",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/04_india_agriculture_problem_research/EF-AGR-008__comprehensive_agricultural_crisis_data_consolidati.pdf",
+    "canonical_source_id": "SRC-0278"
   },
   "SRC-0274": {
     "curated_id": "EF-REG-001",
@@ -264,6 +320,27 @@
     "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-010__tamil_nadu_agriculture_specific_analysis.md",
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-010__tamil_nadu_agriculture_specific_analysis.md",
     "canonical_source_id": "SRC-0315"
+  },
+  "SRC-0290": {
+    "curated_id": "EF-REG-011",
+    "title": "Executive operational-difficulties summary",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-011__executive_summary_operational_difficulties.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-011__executive_summary_operational_difficulties.md",
+    "canonical_source_id": "SRC-0290"
+  },
+  "SRC-0094": {
+    "curated_id": "EF-REG-012",
+    "title": "Namakkal district statistical handbook notes",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-012__research_notes_handbook.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-012__research_notes_handbook.md",
+    "canonical_source_id": "SRC-0094"
+  },
+  "SRC-0097": {
+    "curated_id": "EF-REG-013",
+    "title": "Namakkal Agriculture Department notes",
+    "github_relative_path": "05_regional_microcosm_and_namakkal_research/EF-REG-013__research_notes_local_official.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/05_regional_microcosm_and_namakkal_research/EF-REG-013__research_notes_local_official.md",
+    "canonical_source_id": "SRC-0097"
   },
   "SRC-0382": {
     "curated_id": "EF-MKT-001",
@@ -580,6 +657,27 @@
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-017__ecofarmweeklyeventregisterandevidencedashboard.md",
     "canonical_source_id": "SRC-0381"
   },
+  "SRC-0092": {
+    "curated_id": "EF-FLD-018",
+    "title": "Advisory channels and information-behaviour notes",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-018__research_notes_advisory_channels.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-018__research_notes_advisory_channels.md",
+    "canonical_source_id": "SRC-0092"
+  },
+  "SRC-0093": {
+    "curated_id": "EF-FLD-019",
+    "title": "Namakkal rainfed groundnut study notes",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-019__research_notes_groundnut_study.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-019__research_notes_groundnut_study.md",
+    "canonical_source_id": "SRC-0093"
+  },
+  "SRC-0096": {
+    "curated_id": "EF-FLD-020",
+    "title": "Tamil Nadu farmer information-search study notes",
+    "github_relative_path": "07_farmer_decision_and_field_validation/EF-FLD-020__research_notes_information_search.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/07_farmer_decision_and_field_validation/EF-FLD-020__research_notes_information_search.md",
+    "canonical_source_id": "SRC-0096"
+  },
   "SRC-0104": {
     "curated_id": "EF-DAT-001",
     "title": "Ecosystem, data feasibility, alternatives, and delivery handoff",
@@ -831,6 +929,13 @@
     "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt",
     "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-019__tnau_weather_test_manifest.txt",
     "canonical_source_id": "SRC-0390"
+  },
+  "SRC-0095": {
+    "curated_id": "EF-DAT-020",
+    "title": "IMD weather-advisory evidence notes",
+    "github_relative_path": "08_data_sources_safety_and_p0_feasibility/EF-DAT-020__research_notes_imd.md",
+    "github_url": "https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/08_data_sources_safety_and_p0_feasibility/EF-DAT-020__research_notes_imd.md",
+    "canonical_source_id": "SRC-0095"
   },
   "SRC-0003": {
     "curated_id": "EF-DSN-001",

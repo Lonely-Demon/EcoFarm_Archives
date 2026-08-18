@@ -1,0 +1,106 @@
+# EcoFarm Research Agent 1 — Revision Feedback
+
+## Farmer Problem and Decision Reality Research
+
+**Status:** Your original package is accepted as a strong desk-research and field-research-design foundation. This is a **targeted revision request**, not a request to repeat the research or write another broad market report.
+
+**Your original responsibility:** Determine the most defensible initial farmer segment and recurring decision for EcoFarm to validate in Namakkal/Kongu.
+
+**Current working hypothesis:** Small, primarily rainfed Namakkal farmers growing groundnut or comparable dryland crops may need support during the **sow / wait / re-sow / early-establishment response** decision. This remains a product hypothesis, not an established customer need.
+
+---
+
+## 1. What You Did Well — Retain Without Dilution
+
+Your work has five strengths that must be preserved in every revision. First, it keeps desk evidence separate from first-party validation. Second, it treats groundnut as a starting hypothesis rather than a foregone conclusion. Third, it uses past-behaviour and event-reconstruction questions instead of leading app-interest questions. Fourth, it defines clear safety boundaries around crop-risk and chemical advice. Fifth, it refuses to collapse current alternatives into a simplistic “farmers lack information” narrative.
+
+Do not remove the claim ledger, source register, decision journeys, field interview guide, or the distinction between verified fact, supported inference, product hypothesis, and field-validation unknown.
+
+---
+
+## 2. Revision Objective
+
+Your first package identified **two tied leading candidates**: rainfed crop establishment/early-season response and in-season crop-risk response. The next product stage needs a disciplined way to distinguish them from real field evidence.
+
+> **Your revision objective is to make the field programme capable of selecting one initial decision event—or explicitly refusing to select one—without allowing desk scores, founder familiarity, or interview enthusiasm to decide the outcome.**
+
+The result should be a small set of operational documents that enables a 30–90 day field programme. It must not expand EcoFarm into a generic crop-advisory, market, or AI product study.
+
+---
+
+## 3. Required Revisions
+
+| Priority | Required revision | Why it matters | Required content |
+| --- | --- | --- | --- |
+| P0 | Create a **seasonal event and observation map** | A 30-day research programme can fail if live sowing or early-establishment events are not imminent | For each target crop/village: expected sowing window, early-establishment window, crop-risk window, sale window, likely event dates over 90 days, and which evidence can only be reconstructed retrospectively |
+| P0 | Create a **candidate tie-break protocol** | The top two desk scores are tied; the MVP cannot be selected by intuition | Pre-specify decision rules comparing recurrence, consequence, current workaround gap, actionability, safety burden, data sufficiency, observed behavior, and ability to measure outcome |
+| P0 | Create a **decision operationalization sheet** for each leading candidate | “Sow / wait / re-sow / adjust” is still too broad for a first workflow | For every sub-decision: trigger, decision owner, time window, minimum inputs, feasible actions, data source, refusal conditions, escalation condition, observed action, and follow-up outcome |
+| P0 | Define a **minimum core pilot cohort** | A broad 24–30 interview mix can become analytically shallow | Separate: discovery interviews, primary monitored cohort, comparison cohort, and adviser/market interviews. State the minimum target-segment cohort required before drawing a wedge conclusion |
+| P0 | Add a **household decision-authority module** | The person interviewed may not own cash, land, phone access, or final authority | Capture who initiates, influences, pays for, vetoes, and executes each decision; who receives/interprets phone information; and who must be included in follow-up |
+| P1 | Add a **counterfactual and attribution protocol** | An action after discussion with EcoFarm does not establish EcoFarm influence | Capture the farmer’s stated baseline action, all other advice sources, reason for acceptance/rejection, timing of each input, and alternative explanation for the outcome |
+| P1 | Add a **field-data quality and corroboration protocol** | Self-reported acreage, cost, timing, and outcomes can be inconsistent | Classify every field as observed, self-reported, document-supported, third-party corroborated, or unknown. Define when a response should not be used for outcome claims |
+| P1 | Make the comparative-crop logic explicit | Groundnut is a sensible starting hypothesis, but it may not be the strongest decision wedge | Define the comparison crops, why they are included, the minimum interviews per comparison, and the rule for elevating a non-groundnut system |
+
+---
+
+## 4. Evidence and Claim Requirements
+
+All existing evidence rules remain in force. In addition, the fieldwork revision must distinguish the following states explicitly:
+
+| State | What may be concluded |
+| --- | --- |
+| **Recalled event** | The farmer describes a past decision; useful for discovery but not direct outcome proof |
+| **Observed live event** | A real decision trigger is witnessed or time-stamped; suitable for workflow testing |
+| **Document-supported event** | A receipt, field note, weather bulletin, message, seed record, sale record, or other artifact corroborates part of the timeline |
+| **Follow-up confirmed action** | The team has recontacted the participant after the decision window and recorded the actual action |
+| **Attribution unresolved** | An action occurred, but EcoFarm’s contribution cannot be distinguished from other advice or constraints |
+
+Do not call a field observation “validation” unless the decision, action, timing, and relevant comparison or counterfactual information are recorded. Do not treat the interview sample as representative of Namakkal or Tamil Nadu.
+
+---
+
+## 5. Deliverables Required From This Revision
+
+Do not rewrite the original main report. Update or add only the following files.
+
+| Required file | Purpose |
+| --- | --- |
+| `EcoFarm_Seasonal_Event_and_Observation_Map.md` | Converts candidate workflows into real upcoming field windows |
+| `EcoFarm_Candidate_Decision_Tie_Break_Protocol.md` | Pre-specifies how the first wedge will be selected or rejected |
+| `EcoFarm_Decision_Operationalization_Sheets.md` | Defines the exact leading sub-decisions, inputs, boundaries, and outcomes |
+| `EcoFarm_Primary_Pilot_Cohort_and_Decision_Authority_Protocol.md` | Separates discovery, monitored, comparison, and adviser samples and records household authority |
+| `EcoFarm_Attribution_and_Field_Data_Quality_Protocol.md` | Defines counterfactual capture, evidence hierarchy, corroboration, and outcome-claim discipline |
+| Updated `EcoFarmFieldInterviewGuide.md` | Adds authority, counterfactual, artifact, and follow-up prompts without making the interview leading |
+| Updated `EcoFarmClaimLedger.md` | Adds any new factual claims only with source, geography, date, and confidence label |
+
+---
+
+## 6. Completion Criteria
+
+Your revision is complete only when a product lead can answer all five questions below without inventing detail:
+
+1. **What exact decision event is being tested, and when will it occur?**
+
+1. **What evidence would select sowing/early-establishment over crop-risk response—or require no selection?**
+
+1. **Who actually makes, funds, influences, and executes the decision?**
+
+1. **What action, outcome, and counterfactual will be recorded?**
+
+1. **Which result would cause EcoFarm to stop, change segment, or defer software?**
+
+The expected output is a field-operational package, not a stronger sales narrative. If seasonal timing makes live event observation impossible, say so directly and propose the minimum credible retrospective and follow-up design rather than pretending a 30-day test will prove the decision.
+
+---
+
+## 7. Handoff Requirement
+
+At the end of the revision, provide a one-page **Field Selection Memo** with exactly three sections:
+
+1. **What is ready to test now.**
+
+1. **What remains an unknown that Product, UI/UX, and Development must not assume.**
+
+1. **What specific field evidence will trigger the decision to start a narrow pilot build.**
+
+The memo must preserve the existing product boundary: no guaranteed profit, buyer assurance, future-price prediction, autonomous pesticide or disease prescription, hardware actuation, or generic agricultural operating-system scope.
