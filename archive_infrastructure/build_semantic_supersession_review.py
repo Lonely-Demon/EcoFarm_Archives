@@ -7,6 +7,15 @@ ROOT = Path('/home/ubuntu/ecofarm_source_archive')
 manifest = json.loads((ROOT / 'manifest' / 'EcoFarm_Source_Manifest.json').read_text())
 OUT = ROOT / 'knowledge_mapping' / 'EcoFarm_Semantic_Supersession_Review.md'
 
+EXPLICIT_SENSOR_RELATIONS = {
+    'SRC-0025': 'Stale/deprecated FireShot PDF capture; retain only as historical provenance alias of preferred parseable Markdown record `SRC-0391`.',
+    'SRC-0026': 'Stale/deprecated FireShot PDF capture; retain only as historical provenance alias of preferred parseable Markdown record `SRC-0391`.',
+    'SRC-0029': 'Legacy text capture retained as provenance alias; preferred retrieval record is `SRC-0391`.',
+    'SRC-0036': 'Legacy text capture retained as provenance alias; preferred retrieval record is `SRC-0391`.',
+    'SRC-0391': 'Preferred parseable Markdown record for the historical Grok sensor-research conversation; supersedes FireShot/text captures for retrieval, not as current engineering authority.',
+    'SRC-0392': 'Companion parseable Markdown record focused on sensor alternatives and selection constraints; preserve as complementary historical research, not current engineering authority.',
+}
+
 def family(record):
     group = record['source_group']
     path = record['relative_path'].lower()
@@ -18,6 +27,8 @@ def family(record):
     if group == 'research_agent_2':
         return '07 — Research Agent 2: ecosystem, data, safety, and P0 work'
     if group == 'current_uploads':
+        if any(term in name for term in ['sensor', 'hardware', 'grok-ecofarm-module']):
+            return '03 — Sensor, hardware, and IoT research'
         if any(term in name for term in ['field', 'decision', 'claimledger', 'candidate', 'recruitment', 'event', 'household']):
             return '06 — Research Agent 1: farmer decision and field-validation work'
         if any(term in name for term in ['source', 'ecosystem', 'alternatives', 'p0', 'weather', 'referral', 'observability', 'imdagrimet', 'tnau_']):
@@ -49,6 +60,8 @@ def family(record):
 def relation(record):
     name = record['file_name'].lower()
     path = record['relative_path'].lower()
+    if record['source_id'] in EXPLICIT_SENSOR_RELATIONS:
+        return EXPLICIT_SENSOR_RELATIONS[record['source_id']]
     if record.get('duplicate_of'):
         return f"Exact duplicate of `{record['duplicate_of']}`; retain as provenance alias, not independent evidence."
     if 'revised' in name or 'operationalrevision' in name:

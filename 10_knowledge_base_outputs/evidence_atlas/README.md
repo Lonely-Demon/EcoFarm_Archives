@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This directory contains the **post-review evidence layer** for the EcoFarm archive. It was created only after every one of the 113 curated `EF-*` canonical sources was individually read in full. The Atlas preserves uncertainty and source boundaries; it does not convert historical ideas, field methods, or visual materials into validation.
+This directory contains the **post-review evidence layer** for the EcoFarm archive. It covers 114 curated `EF-*` canonical sources, each individually read in full before classification or trace mapping. The Atlas preserves uncertainty and source boundaries; it does not convert historical ideas, field methods, or visual materials into validation.
+
+The preferred parseable Grok sensor-research export is `EF-TEC-005`; the older FireShot PDF/text captures are retained as stale/deprecated provenance aliases rather than retrieval sources. `EF-TEC-007` is its complementary sensor-alternatives research export.
 
 ## Start Here
 

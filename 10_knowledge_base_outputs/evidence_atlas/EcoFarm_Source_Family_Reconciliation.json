@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "artifact_id": "EFSR-001",
   "title": "EcoFarm Source-Family Relationship and Evidence-Treatment Reconciliation",
-  "scope": "Family-level reconciliation after completion of 113 individual full-file reviews; not a claim-level Evidence Atlas.",
+  "scope": "Family-level reconciliation after completion of 114 individual full-file reviews; not a claim-level Evidence Atlas.",
   "completion_precondition": {
     "ledger_path": "full_file_review/EcoFarm_Full_File_Review_Ledger.json",
-    "sources_in_scope": 113,
-    "sources_completed_individual_full_review": 113,
+    "sources_in_scope": 114,
+    "sources_completed_individual_full_review": 114,
     "sources_pending": 0
   },
   "families": [
@@ -41,8 +41,8 @@
     {
       "family_id": "FAM-TEC",
       "category": "03_technical_architecture_hardware_ai",
-      "source_ids": ["EF-TEC-001", "EF-TEC-002", "EF-TEC-003", "EF-TEC-004", "EF-TEC-005", "EF-TEC-006"],
-      "relationship_summary": "Alternatives, proposed stack, AI/data, hosting, sensor research, and technical-master records explain historical option space and architecture rationale.",
+      "source_ids": ["EF-TEC-001", "EF-TEC-002", "EF-TEC-003", "EF-TEC-004", "EF-TEC-005", "EF-TEC-006", "EF-TEC-007"],
+      "relationship_summary": "Alternatives, proposed stack, AI/data, hosting, a preferred parseable sensor-research export, a complementary sensor-alternatives export, and technical-master records explain historical option space and architecture rationale. The prior FireShot/text sensor captures are retained as provenance aliases rather than retrieval sources.",
       "default_evidence_labels": ["historical_intent", "product_hypothesis", "needs_revalidation"],
       "default_current_use": "historical_context",
       "qualified_by": ["FAM-DAT"],
@@ -117,4 +117,3 @@
   ],
   "trace_mapping_rule": "Atomic EVA records must cite specific EF source spans and retrieval chunks; family membership cannot substitute for source-level evidence."
 }
-

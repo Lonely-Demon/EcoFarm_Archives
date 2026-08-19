@@ -2,7 +2,7 @@
 
 > Scope: automated pattern scan plus structural review of the curated archive intended for the public GitHub repository. It is not legal advice and does not verify third-party copyright ownership.
 
-- Files scanned: **179**
+- Files scanned: **183**
 - Blocking credential findings: **0**
 - Review findings: **0**
 

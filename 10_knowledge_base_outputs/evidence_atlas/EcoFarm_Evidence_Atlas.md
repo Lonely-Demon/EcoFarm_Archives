@@ -4,9 +4,18 @@
 
 The Evidence Atlas is an **archive-only trace layer** for EcoFarm. It is designed to make the project’s accumulated reasoning inspectable and reusable without converting historical intent, secondary research, field instruments, visuals, or product hypotheses into verified fact. It does not select a product wedge, recommend an investment, or declare a product or pilot validated.
 
-The Atlas is now based on a completed mandatory review stage: **113 of 113 curated canonical sources were individually read in full before classification, relationship reconciliation, or trace mapping.** The procedural record is available in the [Full-File Review Completion Record](full_file_review/EcoFarm_Full_File_Review_Completion_Record.md), while source-specific treatment remains in the [Full-File Review Ledger](full_file_review/EcoFarm_Full_File_Review_Ledger.json).
+The Atlas is now based on a completed mandatory review stage: **114 of 114 curated canonical sources were individually read in full before classification, relationship reconciliation, or trace mapping.** The procedural record is available in the [Full-File Review Completion Record](full_file_review/EcoFarm_Full_File_Review_Completion_Record.md), while source-specific treatment remains in the [Full-File Review Ledger](full_file_review/EcoFarm_Full_File_Review_Ledger.json).
 
 > **How to read an Atlas statement:** First identify its evidence label, scope, limitation, source ID, chunk ID, and current-use designation. A statement with an eloquent historical source is still only historical intent unless the cited evidence supports more.
+
+### Sensor-Research Source Treatment Update
+
+The user-provided parseable Grok exports were individually reviewed and added after the original Atlas completion record. `EF-TEC-005` is now the preferred Markdown representation of the long historical sensor-research conversation. The older FireShot PDF and text captures remain in raw provenance only; they are **stale/deprecated for retrieval**, not erased. `EF-TEC-007` is a complementary alternatives-and-selection-criteria conversation, not a second copy of `EF-TEC-005`.
+
+| Canonical source | Retrieval treatment | Evidentiary boundary |
+|---|---|---|
+| `EF-TEC-005` | Preferred parseable historical sensor-research source; replaces the FireShot capture for normal retrieval and citation. | Founder questions, intentions, and historical reasoning only. Component, price, compliance, RF, calibration, field-spacing, safety, and performance assertions require direct revalidation. |
+| `EF-TEC-007` | Complementary parseable historical sensor-alternatives source. | Preserves selection criteria and unresolved trade-offs; it does not establish that any listed sensor or supplier currently meets those criteria. |
 
 ## Evidence Architecture
 
@@ -63,7 +72,7 @@ The full structured record is [EVA Feature Evidence Map](EVA_Feature_Evidence_Ma
 | Planting recommendations | `EF-VSN-*`, `EF-PRD-006` | P0 feasibility and source hierarchy | A product hypothesis; regional estimates must not be presented as farm-specific agronomy. |
 | Crop lifecycle guidance | `EF-VSN-*`, `EF-PRD-005` | Referral, source, and field-claim controls | Localization, provenance, clinical/agronomic boundaries, and user utility remain open. |
 | Disease diagnosis and pest alerts | `EF-VSN-*`, `EF-TEC-003` | P0 safety, escalation, and observability | No training data, model evaluation, confidence calibration, or field accuracy evidence is established. |
-| Irrigation automation | `EF-VSN-*`, `EF-TEC-005`–`006` | P0 feasibility, escalation, and fail-closed controls | Historical intent includes override/confirmation; deployment and hazard controls remain unresolved. |
+| Irrigation automation | `EF-VSN-*`, `EF-TEC-005`–`007` | P0 feasibility, escalation, and fail-closed controls | Historical intent includes override/confirmation; deployment and hazard controls remain unresolved. |
 | Records, calendars, tasks, and inventory | `EF-VSN-*`, `EF-PRD-*` | Data and field-attribution protocols | Actual data-entry burden and farmer utility remain to be tested. |
 | Market-price information | `EF-VSN-*`, `EF-PRD-007` | Source semantics and provider tests | Market/commodity/variety/grade/date/update state must be explicit; no forecast or benefit follows from a displayed price. |
 | Financial, marketplace, labour, and community features | `EF-VSN-*`, `EF-PRD-*` | Consent, referral, data, and ecosystem controls | Historical MVP scope differs across versions; network effects, trust, compliance, and demand are unresolved. |
@@ -117,7 +126,7 @@ The detailed log is in [EVA Revalidation Findings](EVA_Revalidation_Findings.md)
 
 | Artifact | Coverage | Use |
 |---|---:|---|
-| [EVA Source Review Records](EVA_Source_Review_Records.jsonl) | 113 records | One stable source-coverage record per individually reviewed canonical source, including limitation note, source chunk, and durable GitHub URL. |
+| [EVA Source Review Records](EVA_Source_Review_Records.jsonl) | 114 records | One stable source-coverage record per individually reviewed canonical source, including limitation note, source chunk, and durable GitHub URL. |
 | [EVA Core Trace Records](EVA_Core_Trace_Records.jsonl) | 23 records | Cross-source constraints, historical intent, contradictions, and open questions. |
 | [EVA Feature Evidence Map](EVA_Feature_Evidence_Map.json) | 12 feature families | Historical feature intent linked to evidence and P0/field qualifications. |
 | [EVA Claim Source Map](EVA_Claim_Source_Map.json) | 11 claim families | Claim source sets, evidence label, revalidation priority, and use boundary. |

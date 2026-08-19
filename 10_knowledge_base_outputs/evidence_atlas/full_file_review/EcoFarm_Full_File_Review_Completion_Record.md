@@ -6,14 +6,14 @@
 
 ## Completion Result
 
-The ledger contains **113 curated source records**. All **113** have the status `completed_individual_full_review`; no record remains `pending`.
+The ledger contains **114 curated source records**. All **114** have the status `completed_individual_full_review`; no record remains `pending`. The post-Atlas update adds a preferred parseable sensor-research export (`EF-TEC-005`) and a complementary sensor-alternatives export (`EF-TEC-007`); the original FireShot capture is retained only as stale/deprecated provenance.
 
 | Review measure | Result |
 |---|---:|
-| Curated canonical sources in scope | 113 |
-| Sources completed by individual full-file review | 113 |
+| Curated canonical sources in scope | 114 |
+| Sources completed by individual full-file review | 114 |
 | Sources pending | 0 |
-| Normalized-text, sequential line-by-line reviews | 108 |
+| Normalized-text, sequential line-by-line reviews | 110 |
 | Individual visual/binary review workflows | 5 |
 
 The review process treated a source packet as an access aid, not a substitute for the source. Long text was read sequentially in ranges. Sources designated as visual or binary were individually located and inspected; when a nominally visual/binary item proved to be a textual source artifact, the actual artifact was read in full rather than inferred from its title or packet placeholder.
@@ -25,7 +25,7 @@ The review process treated a source packet as an access aid, not a substitute fo
 | `00_governance_and_archive` | 7 | Complete |
 | `01_founder_vision_and_evolution` | 5 | Complete |
 | `02_product_concept_and_feature_mechanics` | 7 | Complete |
-| `03_technical_architecture_hardware_ai` | 6 | Complete |
+| `03_technical_architecture_hardware_ai` | 7 | Complete |
 | `04_india_agriculture_problem_research` | 8 | Complete |
 | `05_regional_microcosm_and_namakkal_research` | 13 | Complete |
 | `06_market_commercial_and_ecosystem_research` | 8 | Complete |

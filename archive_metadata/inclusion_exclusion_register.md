@@ -2,8 +2,8 @@
 
 | Treatment | Count | Explanation |
 |---|---:|---|
-| Curated substantive canonical records | 113 | Reviewed sources copied into category folders. |
-| Legacy raw artifacts not copied as primary records | 277 | Either duplicate aliases, irrelevant/generic app code, generated material, conversation trace, or low-signal/redundant source material. |
+| Curated substantive canonical records | 114 | Reviewed sources copied into category folders. |
+| Legacy raw artifacts not copied as primary records | 278 | Either duplicate aliases, irrelevant/generic app code, generated material, conversation trace, or low-signal/redundant source material. |
 
 ## Per-source exclusion or demotion record
 
@@ -19,6 +19,7 @@
 | `SRC-0017` | `historical_task_ecofarm_1` | `EcoFarm-1/ui_ux_guidelines_refined.md` | Preserved in the private raw archive but excluded from the primary public catalogue after relevance review; it is low-signal, generated, incomplete, conversational trace, redundant source capture, or requires future source-specific escalation. |
 | `SRC-0018` | `historical_task_ecofarm_1` | `EcoFarm-1/ui_ux_synthesis.md` | Preserved in the private raw archive but excluded from the primary public catalogue after relevance review; it is low-signal, generated, incomplete, conversational trace, redundant source capture, or requires future source-specific escalation. |
 | `SRC-0019` | `historical_task_ecofarm_1` | `EcoFarm-1/ui_ux_synthesis_growwise.md` | Preserved in the private raw archive but excluded from the primary public catalogue after relevance review; it is low-signal, generated, incomplete, conversational trace, redundant source capture, or requires future source-specific escalation. |
+| `SRC-0025` | `historical_task_ecofarm_1_2` | `EcoFarm-1-2/FireShotCapture004-EcoFarm_Module-SensorResearch-Grok-[grok.com].pdf` | Preserved in the private raw archive but excluded from the primary public catalogue after relevance review; it is low-signal, generated, incomplete, conversational trace, redundant source capture, or requires future source-specific escalation. |
 | `SRC-0026` | `historical_task_ecofarm_1_2` | `EcoFarm-1-2/FireShotCapture008-EcoFarm_Module-SensorResearch-Grok-[grok.com].pdf` | Preserved in the private raw archive but excluded from the primary public catalogue after relevance review; it is low-signal, generated, incomplete, conversational trace, redundant source capture, or requires future source-specific escalation. |
 | `SRC-0028` | `historical_task_ecofarm_1_2` | `EcoFarm-1-2/project_onboarding_document.md (title: "Project Onboarding Document: Smart Farming Ecosystem Mobile Application")` | Not separately copied: exact duplicate or format/version alias of retained material; use legacy manifest and canonical source mapping. |
 | `SRC-0029` | `historical_task_ecofarm_1_2` | `EcoFarm-1-2/sensor_research_grok_content_new.txt` | Not separately copied: exact duplicate or format/version alias of retained material; use legacy manifest and canonical source mapping. |

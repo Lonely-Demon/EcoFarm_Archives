@@ -59,11 +59,13 @@
 
 | Source ID | Artifact | Source group | File relation / required treatment |
 |---|---|---|---|
-| `SRC-0025` | `EcoFarm-1-2/FireShotCapture004-EcoFarm_Module-SensorResearch-Grok-[grok.com].pdf` | `historical_task_ecofarm_1_2` | Standalone or family member; determine role from document content and chronology. |
-| `SRC-0026` | `EcoFarm-1-2/FireShotCapture008-EcoFarm_Module-SensorResearch-Grok-[grok.com].pdf` | `historical_task_ecofarm_1_2` | Standalone or family member; determine role from document content and chronology. |
+| `SRC-0025` | `EcoFarm-1-2/FireShotCapture004-EcoFarm_Module-SensorResearch-Grok-[grok.com].pdf` | `historical_task_ecofarm_1_2` | Stale/deprecated FireShot PDF capture; retain only as historical provenance alias of preferred parseable Markdown record `SRC-0391`. |
+| `SRC-0026` | `EcoFarm-1-2/FireShotCapture008-EcoFarm_Module-SensorResearch-Grok-[grok.com].pdf` | `historical_task_ecofarm_1_2` | Stale/deprecated FireShot PDF capture; retain only as historical provenance alias of preferred parseable Markdown record `SRC-0391`. |
 | `SRC-0027` | `EcoFarm-1-2/ai_farming_app_content.txt` | `historical_task_ecofarm_1_2` | Standalone or family member; determine role from document content and chronology. |
-| `SRC-0029` | `EcoFarm-1-2/sensor_research_grok_content_new.txt` | `historical_task_ecofarm_1_2` | Variant copy/version; compare content and retain chronology. |
-| `SRC-0036` | `EcoFarm-1-3/sensor_research_grok_content.txt` | `historical_task_ecofarm_1_3` | Standalone or family member; determine role from document content and chronology. |
+| `SRC-0029` | `EcoFarm-1-2/sensor_research_grok_content_new.txt` | `historical_task_ecofarm_1_2` | Legacy text capture retained as provenance alias; preferred retrieval record is `SRC-0391`. |
+| `SRC-0036` | `EcoFarm-1-3/sensor_research_grok_content.txt` | `historical_task_ecofarm_1_3` | Legacy text capture retained as provenance alias; preferred retrieval record is `SRC-0391`. |
+| `SRC-0391` | `uploads/Grok-EcoFarm-Module-Sensor-Research.md` | `current_uploads` | Preferred parseable Markdown record for the historical Grok sensor-research conversation; supersedes FireShot/text captures for retrieval, not as current engineering authority. |
+| `SRC-0392` | `uploads/Conversation2—EcoFarmModuleSensorAlternativesResearch.md` | `current_uploads` | Companion parseable Markdown record focused on sensor alternatives and selection constraints; preserve as complementary historical research, not current engineering authority. |
 
 ## 04 — Historical proposal, pitch, hackathon, and master-document material
 

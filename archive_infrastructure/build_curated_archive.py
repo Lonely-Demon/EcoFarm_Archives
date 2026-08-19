@@ -18,7 +18,7 @@ for record in MANIFEST:
 # Content-level aliases supplement exact-hash duplicate tracking. They are reviewed as repeated
 # sensor-research captures with the same conceptual coverage, not silently discarded.
 SEMANTIC_ALIASES = {
-    'SRC-0025': ['SRC-0026', 'SRC-0029', 'SRC-0036'],
+    'SRC-0391': ['SRC-0025', 'SRC-0026', 'SRC-0029', 'SRC-0036'],
 }
 # Public EF identifiers are durable citations. Do not renumber existing records when a
 # private item is removed or a newly reviewed historical source is added later.
@@ -62,8 +62,9 @@ CATEGORY_SPECS = [
         ('SRC-0010', 'Proposed technology stack', 'Historical system-stack proposal'),
         ('SRC-0011', 'AI integration and data-source capabilities', 'Historical intelligence/data architecture rationale'),
         ('SRC-0015', 'Cloud hosting and scalability research', 'Historical deployment and scale considerations'),
-        ('SRC-0025', 'Sensor research source capture', 'Historical sensor capability and trade-off research'),
+        ('SRC-0391', 'Preferred parseable Grok sensor-research export', 'Preferred historical sensor design-intent and component-research record; supersedes FireShot capture for retrieval'),
         ('SRC-0056', 'Historical technical master document v2', 'Detailed historical system/architecture reference beyond the table-of-contents artefact'),
+        ('SRC-0392', 'Companion Grok sensor-alternatives research export', 'Historical component-alternatives and selection-criteria record'),
     ]),
     ('EF-AGR', '04_india_agriculture_problem_research', [
         ('SRC-0277', 'Unified agricultural crisis document with citations', 'India-wide agricultural-problem research synthesis'),
@@ -249,9 +250,10 @@ for script_name in [
     'augment_llm_corpus_with_curated_metadata.py',
     'sanitize_public_curated_archive.py',
     'audit_public_curated_archive.py',
-    'migrate_master_citations_to_curated_ids.py',
-    'remove_public_conversation_trace_citations.py',
-    'validate_knowledge_deliverables.py',
+        'migrate_master_citations_to_curated_ids.py',
+        'remove_public_conversation_trace_citations.py',
+        'register_preferred_sensor_exports.py',
+        'validate_knowledge_deliverables.py',
     'serve_html_knowledge.sh',
 ]:
     script = Path('/home/ubuntu/ecofarm_inventory') / script_name

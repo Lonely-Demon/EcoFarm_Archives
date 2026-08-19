@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "source_review_records": 113,
+  "source_review_records": 114,
   "core_trace_records": 23,
   "feature_evidence_records": 12,
   "claim_source_records": 11,
@@ -116,6 +116,7 @@
     "EF-TEC-004",
     "EF-TEC-005",
     "EF-TEC-006",
+    "EF-TEC-007",
     "EF-VSN-001",
     "EF-VSN-002",
     "EF-VSN-003",

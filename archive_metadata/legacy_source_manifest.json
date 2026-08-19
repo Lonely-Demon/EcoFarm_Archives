@@ -4288,5 +4288,27 @@
     "sha256": "89144528b8c842c1bcd818fea82ee25715b45093403e7ed1376f389d57209fbe",
     "duplicate_group": "SRC-0126|SRC-0390",
     "duplicate_status": "exact_duplicate"
+  },
+  {
+    "source_id": "SRC-0391",
+    "relative_path": "uploads/Grok-EcoFarm-Module-Sensor-Research.md",
+    "source_group": "current_uploads",
+    "file_name": "Grok-EcoFarm-Module-Sensor-Research.md",
+    "extension": ".md",
+    "bytes": 422038,
+    "sha256": "e9e5cdeeb46aec0ce2e18b6fa74a5dff232f9ae09e396ca4d9a8e0ebcd4c28d6",
+    "duplicate_group": "",
+    "duplicate_status": "unique"
+  },
+  {
+    "source_id": "SRC-0392",
+    "relative_path": "uploads/Conversation2\u2014EcoFarmModuleSensorAlternativesResearch.md",
+    "source_group": "current_uploads",
+    "file_name": "Conversation2\u2014EcoFarmModuleSensorAlternativesResearch.md",
+    "extension": ".md",
+    "bytes": 66274,
+    "sha256": "14104ad58d0d7f59109b0608429d038101e3f70118d25793dddd7d754676cc32",
+    "duplicate_group": "",
+    "duplicate_status": "unique"
   }
 ]

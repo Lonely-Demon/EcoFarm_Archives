@@ -10,6 +10,16 @@ OUT = ROOT / 'llm_knowledge_corpus'
 OUT.mkdir(exist_ok=True)
 MAX_CHARS = 6000
 
+# These content-distinct captures preserve the same sensor-research conversation family.
+# The parseable Markdown export is the preferred retrieval representation; the prior
+# FireShot/text captures remain document-level provenance aliases rather than chunks.
+SEMANTIC_RETRIEVAL_ALIASES = {
+    'SRC-0025': 'SRC-0391',
+    'SRC-0026': 'SRC-0391',
+    'SRC-0029': 'SRC-0391',
+    'SRC-0036': 'SRC-0391',
+}
+
 INCLUDED_GROUPS = {
     'historical_task_ecofarm_1', 'historical_task_ecofarm_2', 'historical_task_ecofarm_1_2',
     'historical_task_ecofarm_1_3', 'historical_task_ecofarm_1_3_later',
@@ -125,12 +135,15 @@ for record in manifest:
         text = conversation_to_text(text)
     if len(text.strip()) < 150:
         continue
-    canonical = canonical_by_hash.get(record['sha256'], record['source_id'])
-    is_exact_duplicate = canonical != record['source_id']
+    exact_canonical = canonical_by_hash.get(record['sha256'], record['source_id'])
+    canonical = SEMANTIC_RETRIEVAL_ALIASES.get(record['source_id'], exact_canonical)
+    is_exact_duplicate = exact_canonical != record['source_id']
+    is_retrieval_alias = canonical != record['source_id']
     document = {
         'source_id': record['source_id'],
         'canonical_source_id': canonical,
         'exact_duplicate_of_canonical': is_exact_duplicate,
+        'semantic_retrieval_alias_of': canonical if is_retrieval_alias and not is_exact_duplicate else None,
         'source_group': record['source_group'],
         'relative_path': record['relative_path'],
         'status_hint': status_for(record['source_group'], record['relative_path']),
@@ -138,7 +151,7 @@ for record in manifest:
         'document_tags': topic_tags(text[:40000]),
     }
     documents.append(document)
-    if is_exact_duplicate:
+    if is_retrieval_alias:
         continue
     for number, (heading, body) in enumerate(chunks_with_headings(text), start=1):
         chunks.append({
@@ -175,7 +188,7 @@ with readme.open('w') as f:
     f.write('| `EcoFarm_LLM_Knowledge_Chunks.jsonl` | Retrieval-ready source chunks. Every chunk contains the exact source ID, path, heading context, status hint, tags, and text. |\n')
     f.write('| `EcoFarm_LLM_Topic_Index.json` | Topic-to-chunk lookup index. |\n\n')
     f.write('## Retrieval rules\n\n')
-    f.write('Treat each chunk as source-specific evidence. Use `source_id` and `relative_path` when citing. Do not turn a `plan_or_method_artifact` into completed validation, and do not infer current approval from a `historical_product_or_technical_artifact`. Exact duplicates remain recorded at the document level but are excluded from duplicate chunk copies.\n\n')
+    f.write('Treat each chunk as source-specific evidence. Use `source_id` and `relative_path` when citing. Do not turn a `plan_or_method_artifact` into completed validation, and do not infer current approval from a `historical_product_or_technical_artifact`. Exact duplicates and explicitly designated semantic retrieval aliases remain recorded at the document level but are excluded from duplicate chunk copies.\n\n')
     f.write(f'## Corpus statistics\n\n- Documents represented: {len(documents)}\n- Canonical text chunks: {len(chunks)}\n- Retrieval topics: {len(tag_index)}\n')
 
 print(json.dumps({'documents': len(documents), 'canonical_chunks': len(chunks), 'topics': len(tag_index)}, indent=2))
