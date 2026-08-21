@@ -4,6 +4,7 @@ import json
 import re
 import shutil
 import markdown
+from urllib.parse import quote
 
 SOURCE = Path('/home/ubuntu/projects/ecofarm-89bdc8ac/EcoFarm_Master_Knowledge_Base.md')
 ARCHIVE = Path('/home/ubuntu/ecofarm_source_archive')
@@ -49,7 +50,7 @@ code { padding:2px 5px; background:#eef0e9; border-radius:3px; font:12px/1.3 ui-
 @media (max-width:880px) { .shell { display:block; } aside { position:relative; height:auto; padding:22px; } nav { columns:2; } nav a { break-inside:avoid; } main { padding:36px 24px 70px; } }
 '''
 
-JS = '''
+JS = r'''
 async function searchKnowledge() {
   const query = document.getElementById('knowledge-search').value.trim().toLowerCase();
   const target = document.getElementById('search-results');
@@ -105,7 +106,8 @@ for (prefix, directory), entries in sorted(source_groups.items()):
     source_entries.append(f'<h2 data-source-prefix="{prefix}">{html.escape(prefix)} — {html.escape(directory.replace("_", " ").title())}</h2>')
     for record in entries:
         legacy_ids = ', '.join(record['legacy_source_ids'])
-        github_url = f'https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/{record["github_relative_path"]}'
+        github_path = quote(record['github_relative_path'], safe='/_.-')
+        github_url = f'https://github.com/Lonely-Demon/EcoFarm_Archives/blob/main/{github_path}'
         source_entries.append(f'''<details id="{record['curated_id']}" data-source-prefix="{record['category_prefix']}" class="source-entry"><summary><code>{record['curated_id']}</code> — {html.escape(record['title'])}</summary><p><strong>Role:</strong> {html.escape(record['role'])}<br><strong>Category:</strong> <code>{html.escape(record['category_directory'])}</code><br><strong>Legacy trace:</strong> <code>{html.escape(legacy_ids)}</code><br><a href="{github_url}">Open canonical file on GitHub</a></p></details>''')
 filter_buttons = ['<button class="active" data-prefix="" onclick="filterCuratedSources(\'\')">All sources</button>']
 for prefix, _ in sorted(source_groups):
