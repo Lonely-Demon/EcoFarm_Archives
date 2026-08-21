@@ -7,6 +7,7 @@ import shutil
 
 ARCHIVE = Path('/home/ubuntu/ecofarm_source_archive')
 OUT = Path('/home/ubuntu/ecofarm_curated_archive')
+NAVIGATION_TEMPLATES = ARCHIVE / 'archive_navigation_templates'
 GITHUB_REPOSITORY = 'Lonely-Demon/EcoFarm_Archives'
 GITHUB_BRANCH = 'main'
 MANIFEST = json.loads((ARCHIVE / 'manifest' / 'EcoFarm_Source_Manifest.json').read_text())
@@ -207,12 +208,26 @@ for prefix, directory, entries in CATEGORY_SPECS:
             'github_relative_path': str(destination.relative_to(OUT)),
         })
 
+# Restore additive reader-navigation documents. They are maintained outside the raw
+# source set so category-level canonical source paths remain stable across rebuilds.
+if NAVIGATION_TEMPLATES.exists():
+    start_here = NAVIGATION_TEMPLATES / '00_START_HERE'
+    if start_here.exists():
+        shutil.copytree(start_here, OUT / '00_START_HERE')
+    for _, directory, _ in CATEGORY_SPECS:
+        guide = NAVIGATION_TEMPLATES / 'category_guides' / f'{directory}.md'
+        if guide.exists():
+            shutil.copy2(guide, OUT / directory / 'README.md')
+
 # Curated knowledge-base outputs and archive metadata are copied after substantive evidence.
 kb_dir = OUT / '10_knowledge_base_outputs'
 kb_dir.mkdir()
 shutil.copy2('/home/ubuntu/projects/ecofarm-89bdc8ac/EcoFarm_Master_Knowledge_Base.md', kb_dir / 'EcoFarm_Master_Knowledge_Base.md')
 shutil.copytree('/home/ubuntu/ecofarm_knowledge_html', kb_dir / 'html_knowledge_site')
 shutil.copytree(ARCHIVE / 'llm_knowledge_corpus', kb_dir / 'llm_knowledge_corpus')
+knowledge_outputs_guide = NAVIGATION_TEMPLATES / 'knowledge_outputs_README.md'
+if knowledge_outputs_guide.exists():
+    shutil.copy2(knowledge_outputs_guide, kb_dir / 'README.md')
 
 meta_dir = OUT / 'archive_metadata'
 meta_dir.mkdir()
@@ -234,6 +249,9 @@ for file_name in [
         shutil.copy2(path, meta_dir / file_name)
 shutil.copy2(ARCHIVE / 'manifest' / 'EcoFarm_Source_Manifest.json', meta_dir / 'legacy_source_manifest.json')
 shutil.copy2(ARCHIVE / 'manifest' / 'EcoFarm_Source_Manifest.csv', meta_dir / 'legacy_source_manifest.csv')
+metadata_guide = NAVIGATION_TEMPLATES / 'metadata_README.md'
+if metadata_guide.exists():
+    shutil.copy2(metadata_guide, meta_dir / 'README.md')
 
 # Archive infrastructure: only the tools that create or validate the public knowledge archive, never the unrelated pilot/tracker application code.
 infra_dir = OUT / 'archive_infrastructure'
@@ -252,13 +270,17 @@ for script_name in [
     'audit_public_curated_archive.py',
         'migrate_master_citations_to_curated_ids.py',
         'remove_public_conversation_trace_citations.py',
-        'register_preferred_sensor_exports.py',
-        'validate_knowledge_deliverables.py',
+    'register_preferred_sensor_exports.py',
+    'update_evidence_atlas_html.py',
+    'validate_knowledge_deliverables.py',
     'serve_html_knowledge.sh',
 ]:
     script = Path('/home/ubuntu/ecofarm_inventory') / script_name
     if script.exists():
         shutil.copy2(script, infra_dir / script_name)
+infrastructure_guide = NAVIGATION_TEMPLATES / 'infrastructure_README.md'
+if infrastructure_guide.exists():
+    shutil.copy2(infrastructure_guide, infra_dir / 'README.md')
 
 excluded = []
 for record in MANIFEST:
@@ -298,7 +320,7 @@ with (meta_dir / 'legacy_source_crosswalk.csv').open('w', newline='') as stream:
         row['legacy_source_ids'] = ';'.join(record['legacy_source_ids'])
         writer.writerow(row)
 
-lines = ['# Curated EcoFarm Archive Index', '', '> This is the human-facing source index. It contains only reviewed substantive content. Code, package metadata, generated builds, duplicate aliases, and archive noise do not appear as ordinary source records.', '']
+lines = ['# Curated EcoFarm Archive Index', '', '> This is the human-facing source index. It contains only reviewed substantive content. Code, package metadata, generated builds, duplicate aliases, and archive noise do not appear as ordinary source records.', '', '> **New reader?** Start with [`00_START_HERE/README.md`](00_START_HERE/README.md). This index is the source lookup layer: use it to locate a durable `EF-*` record, then read the source and its Evidence Atlas treatment before making a substantive claim.', '']
 for prefix, directory, _ in CATEGORY_SPECS:
     entries = [record for record in records if record['category_prefix'] == prefix]
     lines.extend([f'## {prefix} — {directory.replace("_", " ").title()}', '', '| Curated ID | Title | Role | Legacy source ID(s) | GitHub file |', '|---|---|---|---|---|'])
@@ -344,5 +366,8 @@ The public copy is scanned for credential patterns and contact identifiers; dete
 Preserve a raw artifact, review it for substantive value, assign an `EF-*` ID only to a canonical source, update the crosswalk and knowledge outputs, then rerun the public-release audit/redaction workflow before publishing.
 '''
 (OUT / 'README.md').write_text(readme)
+root_guide = NAVIGATION_TEMPLATES / 'root_README.md'
+if root_guide.exists():
+    shutil.copy2(root_guide, OUT / 'README.md')
 
 print(json.dumps({'curated_records': len(records), 'excluded_or_aliased': len(excluded), 'output': str(OUT)}, indent=2))

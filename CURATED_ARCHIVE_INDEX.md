@@ -2,6 +2,8 @@
 
 > This is the human-facing source index. It contains only reviewed substantive content. Code, package metadata, generated builds, duplicate aliases, and archive noise do not appear as ordinary source records.
 
+> **New reader?** Start with [`00_START_HERE/README.md`](00_START_HERE/README.md). This index is the source lookup layer: use it to locate a durable `EF-*` record, then read the source and its Evidence Atlas treatment before making a substantive claim.
+
 ## EF-GOV — 00 Governance And Archive
 
 | Curated ID | Title | Role | Legacy source ID(s) | GitHub file |
