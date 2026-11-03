@@ -1,0 +1,404 @@
+# EcoFarm crop suitability catalogue
+# ---------------------------------------------------------------------------
+# HONESTY NOTE (governed by the archive):
+# These are working agronomic thresholds compiled for the pilot decision engine.
+# They are NOT TNAU recommendations, are NOT field-validated for any individual
+# plot, and carry review_status: unreviewed_pending_agronomist.
+# Every value here is presented in the UI together with that status.
+# Do not silently upgrade these numbers into official guidance.
+#
+# Units: pH dimensionless, ec_ds_m soil EC in dS/m, duration_days whole days,
+# water_mm approximate seasonal crop water requirement.
+# water_need_level: 1 very_low | 2 low | 3 medium | 4 high | 5 very_high
+# tolerance scores 0..1 per farmer objective.
+
+catalogue_version: "crop-catalogue-2026.11.0"
+review_status: "unreviewed_pending_agronomist"
+limitation_note: >-
+  Threshold values are working defaults compiled for the pilot decisions engine.
+  They are not TNAU recommendations, are not calibrated to a specific plot or
+  soil series, and must be reviewed by a qualified agronomist before any field use.
+
+crops:
+  - id: groundnut
+    name_en: Groundnut
+    local_names: { ta: "நிலக்கடலை" }
+    category: oilseed
+    water_need_level: 2
+    water_mm: [400, 600]
+    rainfed_suitable: true
+    assured_irrigation_required: false
+    duration_days: [100, 120]
+    seasons:
+      - { id: adipattam, name: "Adipattam (Apr-Jul)", months: [4, 5, 6, 7] }
+      - { id: margazhi, name: "Margazhi pattam (Oct-Jan)", months: [10, 11, 12, 1] }
+    soil:
+      textures: [red, sandy, loam]
+      ph_range: [5.5, 7.5]
+      drainage: well_drained
+      ec_tolerance_ds_m: 2.0
+    cost_level: 3
+    labour_level: 3
+    objective_scores:
+      water_conservation: 0.85
+      lower_input_cost: 0.6
+      timing_flexibility: 0.6
+      household_food: 0.45
+      market_sale: 0.75
+      risk_reduction: 0.7
+      fodder: 0.4
+    objective_notes:
+      market_sale: "Groundnut is a listed major Namakkal crop with established local trade."
+      risk_reduction: "Rainfed groundnut establishment is the archive's primary field-research hypothesis, not a validated advantage."
+    key_risks:
+      - "Rainfed establishment depends on received rainfall; the engine holds no approved weather source."
+      - "Pod yield is sensitive to moisture stress at pegging and pod-filling."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: major
+
+  - id: maize
+    name_en: Maize
+    local_names: { ta: "மக்காச்சோளம்" }
+    category: cereal
+    water_need_level: 3
+    water_mm: [500, 700]
+    rainfed_suitable: true
+    assured_irrigation_required: false
+    duration_days: [90, 110]
+    seasons:
+      - { id: kharif, name: "Kharif (Jun-Jul)", months: [6, 7] }
+      - { id: rabi, name: "Rabi (Oct-Nov)", months: [10, 11] }
+    soil:
+      textures: [red, loam, black]
+      ph_range: [5.5, 7.5]
+      drainage: well_drained
+      ec_tolerance_ds_m: 1.8
+    cost_level: 3
+    labour_level: 3
+    objective_scores:
+      water_conservation: 0.45
+      lower_input_cost: 0.5
+      timing_flexibility: 0.6
+      household_food: 0.5
+      market_sale: 0.8
+      risk_reduction: 0.5
+      fodder: 0.85
+    objective_notes:
+      fodder: "Maize supplies grain and fodder, which matters in a poultry-dense district."
+    key_risks:
+      - "Requires reliable moisture through tasselling and grain filling."
+      - "Fall armyworm pressure requires scouting; the engine does not diagnose pests."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: major
+
+  - id: sorghum
+    name_en: Sorghum (Cholam)
+    local_names: { ta: "சோளம்" }
+    category: cereal
+    water_need_level: 2
+    water_mm: [350, 500]
+    rainfed_suitable: true
+    assured_irrigation_required: false
+    duration_days: [100, 115]
+    seasons:
+      - { id: kharif, name: "Kharif (Jun-Jul)", months: [6, 7] }
+      - { id: rabi, name: "Rabi (Sep-Oct)", months: [9, 10] }
+    soil:
+      textures: [red, black, loam, sandy]
+      ph_range: [6.0, 8.2]
+      drainage: moderate
+      ec_tolerance_ds_m: 3.0
+    cost_level: 2
+    labour_level: 2
+    objective_scores:
+      water_conservation: 0.85
+      lower_input_cost: 0.8
+      timing_flexibility: 0.7
+      household_food: 0.7
+      market_sale: 0.5
+      risk_reduction: 0.8
+      fodder: 0.8
+    objective_notes:
+      risk_reduction: "Sorghum tolerates short dry spells better than most cereals in this list."
+    key_risks:
+      - "Lower market liquidity than groundnut or maize."
+      - "Bird damage during grain filling is a common local constraint."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: major
+
+  - id: pearl_millet
+    name_en: Pearl millet (Kambu)
+    local_names: { ta: "கம்பு" }
+    category: millet
+    water_need_level: 1
+    water_mm: [250, 400]
+    rainfed_suitable: true
+    assured_irrigation_required: false
+    duration_days: [85, 95]
+    seasons:
+      - { id: kharif, name: "Kharif (Jun-Jul)", months: [6, 7] }
+      - { id: rabi, name: "Rabi (Sep-Oct)", months: [9, 10] }
+    soil:
+      textures: [red, sandy, loam]
+      ph_range: [6.0, 8.2]
+      drainage: well_drained
+      ec_tolerance_ds_m: 4.0
+    cost_level: 1
+    labour_level: 1
+    objective_scores:
+      water_conservation: 0.95
+      lower_input_cost: 0.9
+      timing_flexibility: 0.7
+      household_food: 0.75
+      market_sale: 0.35
+      risk_reduction: 0.9
+      fodder: 0.75
+    objective_notes:
+      water_conservation: "Short duration and low water demand make it a low-water option."
+    key_risks:
+      - "Thin local market channels compared with groundnut or maize."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: notable
+
+  - id: green_gram
+    name_en: Green gram
+    local_names: { ta: "பச்சைப்பயறு" }
+    category: pulse
+    water_need_level: 2
+    water_mm: [250, 350]
+    rainfed_suitable: true
+    assured_irrigation_required: false
+    duration_days: [60, 70]
+    seasons:
+      - { id: kharif, name: "Kharif (Jun-Jul)", months: [6, 7] }
+      - { id: rice_fallow, name: "Rice fallow (Sep-Oct)", months: [9, 10] }
+    soil:
+      textures: [red, black, loam]
+      ph_range: [6.0, 7.5]
+      drainage: well_drained
+      ec_tolerance_ds_m: 1.5
+    cost_level: 1
+    labour_level: 2
+    objective_scores:
+      water_conservation: 0.8
+      lower_input_cost: 0.85
+      timing_flexibility: 0.85
+      household_food: 0.7
+      market_sale: 0.55
+      risk_reduction: 0.75
+      fodder: 0.4
+    objective_notes:
+      timing_flexibility: "Short duration allows a catch crop between main-season crops."
+    key_risks:
+      - "Yellow mosaic and mungbean yellow mosaic virus pressure; not diagnosable here."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: major
+
+  - id: black_gram
+    name_en: Black gram
+    local_names: { ta: "உளுந்து" }
+    category: pulse
+    water_need_level: 2
+    water_mm: [250, 350]
+    rainfed_suitable: true
+    assured_irrigation_required: false
+    duration_days: [65, 75]
+    seasons:
+      - { id: kharif, name: "Kharif (Jun-Jul)", months: [6, 7] }
+      - { id: rice_fallow, name: "Rice fallow (Sep-Oct)", months: [9, 10] }
+    soil:
+      textures: [red, black, loam]
+      ph_range: [5.5, 7.5]
+      drainage: well_drained
+      ec_tolerance_ds_m: 1.5
+    cost_level: 1
+    labour_level: 2
+    objective_scores:
+      water_conservation: 0.8
+      lower_input_cost: 0.85
+      timing_flexibility: 0.85
+      household_food: 0.7
+      market_sale: 0.5
+      risk_reduction: 0.7
+      fodder: 0.35
+    objective_notes:
+      timing_flexibility: "Short duration fits a rice-fallow window."
+    key_risks:
+      - "Sensitive to waterlogging in poorly drained red soils."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: major
+
+  - id: cowpea
+    name_en: Cowpea
+    local_names: { ta: "காராமணி" }
+    category: pulse
+    water_need_level: 2
+    water_mm: [250, 350]
+    rainfed_suitable: true
+    assured_irrigation_required: false
+    duration_days: [60, 75]
+    seasons:
+      - { id: kharif, name: "Kharif (Jun-Jul)", months: [6, 7] }
+      - { id: rabi, name: "Rabi (Sep-Oct)", months: [9, 10] }
+    soil:
+      textures: [red, sandy, loam]
+      ph_range: [6.0, 7.5]
+      drainage: well_drained
+      ec_tolerance_ds_m: 1.5
+    cost_level: 1
+    labour_level: 1
+    objective_scores:
+      water_conservation: 0.85
+      lower_input_cost: 0.9
+      timing_flexibility: 0.8
+      household_food: 0.8
+      market_sale: 0.4
+      risk_reduction: 0.8
+      fodder: 0.7
+    objective_notes:
+      household_food: "Dual-purpose grain and vegetable use at household level."
+    key_risks:
+      - "Limited structured market demand; mainly local sale."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: notable
+
+  - id: cotton
+    name_en: Cotton
+    local_names: { ta: "பருத்தி" }
+    category: fibre
+    water_need_level: 4
+    water_mm: [700, 900]
+    rainfed_suitable: true
+    assured_irrigation_required: false
+    duration_days: [160, 180]
+    seasons:
+      - { id: summer, name: "Summer (Apr-May)", months: [4, 5] }
+      - { id: winter, name: "Winter (Aug-Sep)", months: [8, 9] }
+    soil:
+      textures: [black, red]
+      ph_range: [6.0, 8.5]
+      drainage: moderate
+      ec_tolerance_ds_m: 5.0
+    cost_level: 4
+    labour_level: 4
+    objective_scores:
+      water_conservation: 0.25
+      lower_input_cost: 0.2
+      timing_flexibility: 0.2
+      household_food: 0.05
+      market_sale: 0.8
+      risk_reduction: 0.3
+      fodder: 0.1
+    objective_notes:
+      market_sale: "Long-standing local cash crop with a dedicated cultivation mission."
+    key_risks:
+      - "Pink bollworm and other pest pressure needs scouting and advisory support."
+      - "Long duration ties up land and labour for five to six months."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: major
+
+  - id: paddy
+    name_en: Paddy
+    local_names: { ta: "நெல்" }
+    category: cereal
+    water_need_level: 5
+    water_mm: [1100, 1400]
+    rainfed_suitable: false
+    assured_irrigation_required: true
+    duration_days: [105, 135]
+    seasons:
+      - { id: samba, name: "Samba (Jun-Jul)", months: [6, 7] }
+      - { id: thaladi, name: "Thaladi (Sep-Oct)", months: [9, 10] }
+      - { id: navarai, name: "Navarai (Dec-Jan)", months: [12, 1] }
+    soil:
+      textures: [clay, loam]
+      ph_range: [5.5, 8.0]
+      drainage: tolerates_waterlogging
+      ec_tolerance_ds_m: 1.5
+    cost_level: 4
+    labour_level: 4
+    objective_scores:
+      water_conservation: 0.1
+      lower_input_cost: 0.25
+      timing_flexibility: 0.3
+      household_food: 0.9
+      market_sale: 0.75
+      risk_reduction: 0.4
+      fodder: 0.6
+    objective_notes:
+      household_food: "Staple food crop; strong household food relevance."
+    key_risks:
+      - "Requires assured standing water; not viable on rainfed or uncertain water."
+      - "Sensitive to salinity and to waterlogging in non-puddled soils."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: major
+
+  - id: sugarcane
+    name_en: Sugarcane
+    local_names: { ta: "கரும்பு" }
+    category: commercial
+    water_need_level: 5
+    water_mm: [1500, 2000]
+    rainfed_suitable: false
+    assured_irrigation_required: true
+    duration_days: [300, 365]
+    seasons:
+      - { id: adi, name: "Adi (Jan-Feb)", months: [1, 2] }
+      - { id: puratasi, name: "Puratasi (Jun-Jul)", months: [6, 7] }
+    soil:
+      textures: [loam, clay, red]
+      ph_range: [6.0, 8.0]
+      drainage: moderate
+      ec_tolerance_ds_m: 1.7
+    cost_level: 5
+    labour_level: 5
+    objective_scores:
+      water_conservation: 0.05
+      lower_input_cost: 0.1
+      timing_flexibility: 0.05
+      household_food: 0.05
+      market_sale: 0.7
+      risk_reduction: 0.25
+      fodder: 0.2
+    objective_notes:
+      market_sale: "Cane is tied to mill supply arrangements and payment timing."
+    key_risks:
+      - "Ten to twelve month duration; very high water and labour demand."
+      - "Mill payment timing is a commercial risk the engine cannot assess."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: notable
+
+  - id: tapioca
+    name_en: Tapioca (Cassava)
+    local_names: { ta: "மரவள்ளிக்கிழங்கு" }
+    category: tuber
+    water_need_level: 2
+    water_mm: [400, 600]
+    rainfed_suitable: true
+    assured_irrigation_required: false
+    duration_days: [270, 300]
+    seasons:
+      - { id: adi, name: "Adi (Jun-Jul)", months: [6, 7] }
+      - { id: puratasi, name: "Puratasi (Sep-Oct)", months: [9, 10] }
+    soil:
+      textures: [red, sandy, loam]
+      ph_range: [5.5, 7.0]
+      drainage: well_drained
+      ec_tolerance_ds_m: 1.0
+    cost_level: 2
+    labour_level: 3
+    objective_scores:
+      water_conservation: 0.7
+      lower_input_cost: 0.75
+      timing_flexibility: 0.5
+      household_food: 0.5
+      market_sale: 0.65
+      risk_reduction: 0.7
+      fodder: 0.2
+    objective_notes:
+      risk_reduction: "Drought-tolerant tuber that can be harvested across a wide window."
+    key_risks:
+      - "Nine to ten month duration; harvest timing is flexible but land is tied up."
+      - "Low salinity tolerance."
+    guidance_reference: tnau_crop_production_guide
+    prevalence_namakkal: notable

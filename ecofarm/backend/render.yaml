@@ -1,0 +1,19 @@
+# Render blueprint. Also works as a reference for any Docker host.
+services:
+  - type: web
+    name: ecofarm-api
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: ECOFARM_ENVIRONMENT
+        value: production
+      - key: ECOFARM_DATABASE_PATH
+        value: /data/decisions.db
+      - key: ECOFARM_ALLOWED_ORIGINS
+        sync: false   # set to your deployed PWA origin
+    disk:
+      name: records
+      mountPath: /data
+      sizeGB: 1

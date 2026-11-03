@@ -1,0 +1,126 @@
+# EcoFarm source register
+# ---------------------------------------------------------------------------
+# Mirrors the status decisions recorded in the EcoFarm archive:
+#   EF-DAT-005  P0 Feasibility Decision Memo
+#   EF-DAT-007  P0 Operational Test Results Memo
+#   EF-DAT-011  Source Register
+#
+# status values and what the engine is allowed to do with them:
+#   approved            source passed access, rights, freshness, locality,
+#                       provenance, semantics and failure tests -> may inform output
+#   manual_reference    may be shown as a citation/reference, but must not be
+#                       transformed into a computed rule
+#   blocked_permission  credentials / owner permission not established
+#   rejected_locality   failed target-locality test (e.g. Namakkal not covered)
+#   rejected_rights     reuse / storage / redistribution not permitted
+#   not_tested          no decision-relevant test has been executed
+#
+# NOTHING in this file is currently approved for automated use. That is the
+# archive's own conclusion as of the 2026-08-13 operational test memo, and the
+# engine does not quietly overrule it.
+
+register_version: "source-register-2026.11.0"
+archive_decision_date: "2026-08-13"
+
+sources:
+  - id: tnau_agromet_district
+    name: "TNAU District Agro-Met Advisory Bulletin"
+    publisher: "Tamil Nadu Agricultural University"
+    url: "https://agritech.tnau.ac.in/agrometeorologicaladvisory/agro_meteorological_advisory_tnau_district.html"
+    kind: weather_advisory
+    status: rejected_locality
+    locality_exclusions: ["Namakkal", "Krishnagiri", "Dharmapuri", "Salem", "Kanyakumari"]
+    status_detail: >-
+      The bulletin explicitly states that Namakkal district weather details are
+      not available. The retrieved page also carries an All Rights notice
+      without an identified automated reuse or redistribution permission.
+    farmer_facing_state: "not_available_for_your_area"
+    note_reference: "EF-DAT-007"
+
+  - id: imd_api
+    name: "IMD API Management Platform"
+    publisher: "India Meteorological Department"
+    url: "https://api.imd.gov.in/"
+    kind: weather
+    status: blocked_permission
+    status_detail: >-
+      API access requires credentials, endpoint field documentation, terms,
+      rate limits and target-geography verification, none of which are
+      established. Unauthorized responses are classified permission-dependent
+      with no retry loop.
+    farmer_facing_state: "source_not_available_for_this_packet"
+    note_reference: "EF-DAT-005"
+
+  - id: tnau_crop_production_guide
+    name: "TNAU Crop Production Guide"
+    publisher: "Tamil Nadu Agricultural University"
+    url: "https://tnau.ac.in/site/research/crop-production-guide/"
+    kind: agronomy_reference
+    status: manual_reference
+    status_detail: >-
+      Usable as a human-reviewed citation with title, version and attribution.
+      Reuse and transformation rights for machine-derived rules are not
+      confirmed, so the engine never parses it into a computed recommendation.
+    farmer_facing_state: "reference_only_not_a_recommendation"
+    note_reference: "EF-DAT-006"
+
+  - id: agmarknet_market
+    name: "Agmarknet / data.gov.in daily mandi prices"
+    publisher: "Directorate of Marketing and Inspection; data.gov.in"
+    url: "https://www.data.gov.in/resource/current-daily-price-various-commodities-various-markets-mandi"
+    kind: market
+    status: not_tested
+    status_detail: >-
+      No decision-relevant crop, market, variety, grade or unit semantic test
+      has been executed. Excluded from P0.
+    farmer_facing_state: "outside_tested_scope"
+    note_reference: "EF-DAT-005"
+
+  - id: namakkal_agri_directory
+    name: "Namakkal District Agriculture Department public directory"
+    publisher: "Namakkal District, Government of Tamil Nadu"
+    url: "https://namakkal.nic.in/departments/agriculture/"
+    kind: referral_directory
+    status: manual_reference
+    status_detail: >-
+      Public page retrieved successfully and block office contacts verified on
+      2026-08-13. Display is limited to neutral public-reference wording; no
+      partnership, endorsement or response commitment is implied.
+    farmer_facing_state: "public_contact_for_independent_verification"
+    note_reference: "EF-DAT-007"
+
+  - id: kvk_namakkal_directory
+    name: "ICAR-KVK Namakkal public directory"
+    publisher: "Tamil Nadu Agricultural University / TANUVAS"
+    url: "https://agritech.tnau.ac.in/kvk/kvk_namakal.html"
+    kind: referral_directory
+    status: manual_reference
+    status_detail: >-
+      Public page retrieved successfully and contact details verified on
+      2026-08-13. Same neutral-directory limitation as above.
+    farmer_facing_state: "public_contact_for_independent_verification"
+    note_reference: "EF-DAT-007"
+
+  - id: ecofarm_working_thresholds
+    name: "EcoFarm working crop suitability thresholds"
+    publisher: "EcoFarm pilot engineering"
+    url: "internal:crop-catalogue"
+    kind: engine_input
+    status: manual_reference
+    status_detail: >-
+      Working thresholds compiled for the pilot decisions engine. Not TNAU
+      recommendations, not plot-calibrated, awaiting agronomist review.
+    farmer_facing_state: "working_thresholds_unreviewed"
+    note_reference: "crop-catalogue-2026.11.0"
+
+  - id: farmer_input
+    name: "Farmer-entered decision context"
+    publisher: "Farmer, via EcoFarm decision intake"
+    url: "internal:farmer-input"
+    kind: farmer_input
+    status: approved
+    status_detail: >-
+      Collectable with purpose-specific consent. Missing critical fields fail
+      closed; the engine never invents a value the farmer did not give.
+    farmer_facing_state: "provided_by_you"
+    note_reference: "EF-DAT-003"

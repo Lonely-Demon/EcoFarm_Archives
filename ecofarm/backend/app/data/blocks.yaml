@@ -1,0 +1,115 @@
+# Namakkal district agricultural blocks
+# ---------------------------------------------------------------------------
+# Source: Namakkal District Agriculture Department, block office contact table.
+# https://namakkal.nic.in/departments/agriculture/
+# Verified: 2026-08-13 (per EF-DAT-015 / EF-DAT-017 in the EcoFarm archive)
+#
+# Neutral-wording rule: these are PUBLIC DIRECTORY contacts for independent
+# verification. EcoFarm does not claim partnership, endorsement, case
+# acceptance, or a response-time commitment for any entry.
+#
+# Contacts are deliberately stored with the [at]/[dot] obfuscation used by the
+# source page. They are NOT displayed as call-now hotlines; they are shown as
+# text for the farmer to verify.
+
+directory_version: "namakkal-directory-2026.11.0"
+publisher: "Namakkal District Agriculture Department"
+publisher_url: "https://namakkal.nic.in/departments/agriculture/"
+verified_on: "2026-08-13"
+recheck_after_days: 180
+neutral_notice: >-
+  EcoFarm is providing publicly available contact information for independent
+  verification. EcoFarm is not claiming that this institution has partnered
+  with, reviewed, endorsed, or agreed to respond to EcoFarm users.
+
+district:
+  id: namakkal
+  name: Namakkal
+  state: Tamil Nadu
+  agro_climatic_zones:
+    - "North Western Zone"
+    - "Western Zone"
+  normal_annual_rainfall_mm: 716.54
+  soil_summary: >-
+    Predominantly red soil (about 77% of the district), pH range 5.2 to 8.7,
+    EC range 0.1 to 1.0 dS/m, per the district agriculture department page.
+  rainfall_note: "The district receives most of its rainfall from the North East monsoon."
+  source_url: "https://namakkal.nic.in/departments/agriculture/"
+
+blocks:
+  - id: namakkal
+    name: Namakkal
+    office: "Assistant Director of Agriculture, Panchayat union office complex, Mohanur Road, Namakkal 637001"
+    phone: "04286 233698"
+  - id: puduchatram
+    name: Puduchatram
+    office: "Agriculture Extension Center, near BSNL office, Sendamangalam Road, Puduchatram 637018"
+    phone: "04286 243333"
+  - id: sendamangalam
+    name: Sendamangalam
+    office: "Panchayat union office complex, Sendamangalam 637409"
+    phone: "04286 270027"
+  - id: erumapatty
+    name: Erumapatty
+    office: "Agriculture Extension Center, Ponneri Kaikatty, Erumapatty 637013"
+    phone: "04286 252225"
+  - id: mohanur
+    name: Mohanur
+    office: "Panchayat union office complex, Mohanur 637015"
+    phone: "04286 255555"
+  - id: kolli_hills
+    name: Kolli Hills
+    office: "Semmedu Post, Kolli Hills 637411"
+    phone: "04286 247585"
+  - id: rasipuram
+    name: Rasipuram
+    office: "Anaippalaiyam Post, Rasipuram 637408"
+    phone: "04287 224678"
+  - id: vennandur
+    name: Vennandur
+    office: "Panchayat union office complex, Vennandhur 637505"
+    phone: "04287 264109"
+  - id: namagiripettai
+    name: Namagiripettai
+    office: "Panchayat union office complex, Namagiripet 637406"
+    phone: "04287 240526"
+  - id: tiruchengode
+    name: Tiruchengode
+    office: "Panchayat union office complex, Tiruchengode 637211"
+    phone: "04288 252609"
+  - id: pallipalayam
+    name: Pallipalayam
+    office: "Panchayat union office complex, Pallipalayam 638006"
+    phone: "04288 242996"
+  - id: elachipalayam
+    name: Elachipalayam
+    office: "Panchayat union office complex, Elachipalayam 637202"
+    phone: "04288 231242"
+  - id: mallasamudram
+    name: Mallasamudram
+    office: "Agriculture Extension Center, Sembampalaiyam, Karumanur Post, Mallasamudram 637503"
+    phone: "04288 238800"
+  - id: paramathi_velur
+    name: Paramathi Velur
+    office: "Panchayat union office complex, Paramathy 637207"
+    phone: "04268 251220"
+  - id: kabilarmalai
+    name: Kabilarmalai
+    office: "Panchayat union office complex, Kabilarmalai 637204"
+    phone: "04268 254244"
+
+district_office:
+  id: namakkal_jda
+  name: "Joint Director of Agriculture, Namakkal"
+  office: "Collectorate Complex, Annexe Building I Floor, Siluvampatty Post, Namakkal 637001"
+  phone: "04286 280465"
+  source_url: "https://namakkal.nic.in/departments/agriculture/"
+  verified_on: "2026-08-13"
+
+kvk:
+  id: kvk_namakkal
+  name: "ICAR-KVK Namakkal (TANUVAS)"
+  office: "Veterinary College and Research Institute Campus, Namakkal 637002"
+  phone: "04286-266345, 266244"
+  source_url: "https://agritech.tnau.ac.in/kvk/kvk_namakal.html"
+  verified_on: "2026-08-13"

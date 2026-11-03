@@ -1,0 +1,21 @@
+{
+  "name": "EcoFarm Decision Support",
+  "short_name": "EcoFarm",
+  "description": "Crop decision support for Namakkal blocks. Shows its sources, and shows what it cannot answer.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#eef3ea",
+  "theme_color": "#4f7351",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "New decision", "url": "/decide", "description": "Start a crop decision" },
+    { "name": "Sources", "url": "/sources", "description": "See which sources are used or blocked" }
+  ]
+}
